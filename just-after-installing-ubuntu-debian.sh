@@ -32,7 +32,7 @@ sudo apt-get install -y network-manager-openvpn transmission-gtk
 sudo apt-get install -y default-jdk
 
 # Sound:
-sudo apt-get install -y audacity
+sudo apt-get install -y pavucontrol audacity
 
 # Video:
 sudo apt-get install -y libav-tools vlc
