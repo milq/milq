@@ -23,4 +23,10 @@ sudo apt-get install -y git subversion
 sudo apt-get install -y network-manager-openvpn transmission-gtk
 
 # Java:
-sudo apt-get install -y default-jdk
+# sudo apt-get install -y default-jdk
+
+# Sound:
+sudo apt-get install audacity
+
+# Video:
+sudo apt-get install libav-tools vlc
