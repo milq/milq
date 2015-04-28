@@ -12,3 +12,6 @@ sudo apt-get install -y htop lshw p7zip pdftk screen
 
 # VCS:
 sudo apt-get install -y git subversion
+
+# Net:
+sudo apt-get install -y network-manager-openvpn transmission-gtk
