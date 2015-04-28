@@ -17,4 +17,4 @@ sudo apt-get install -y git subversion
 sudo apt-get install -y network-manager-openvpn transmission-gtk
 
 # Java:
-sudo apt-get install default-jdk
+sudo apt-get install -y default-jdk
