@@ -1,3 +1,9 @@
+# Keep Ubuntu or Debian up to date
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+
 # Development tools:
 sudo apt-get install -y gdebi
 
