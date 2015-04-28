@@ -10,6 +10,9 @@ sudo apt-get install -y qt5-default qtcreator qtdeclarative5-qtquick2-plugin
 # GNOME:
 sudo apt-get install -y gparted pitivi
 
+# Graphics:
+sudo apt-get install blender gimp imagemagick inkscape
+
 # Useful terminal utilities:
 sudo apt-get install -y htop lshw p7zip pdftk screen
 
