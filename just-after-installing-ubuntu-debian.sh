@@ -5,7 +5,7 @@ sudo apt-get install -y gdebi
 sudo apt-get install -y build-essential cmake geany 
 
 # Qt 5:
-qt5-default qtcreator -y qtdeclarative5-qtquick2-plugin
+sudo apt-get install -y qt5-default qtcreator qtdeclarative5-qtquick2-plugin
 
 # Useful terminal utilities:
 sudo apt-get install -y htop lshw p7zip pdftk
