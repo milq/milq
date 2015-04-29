@@ -1,1 +1,2 @@
-# installation-scripts
+Installation scripts for Ubuntu or Debian
+=========================================
