@@ -16,9 +16,6 @@ sudo apt-get install -y qt5-default qtcreator qtdeclarative5-qtquick2-plugin
 # GNOME:
 sudo apt-get install -y gparted pitivi
 
-# Graphics:
-sudo apt-get install -y blender gimp imagemagick inkscape
-
 # Useful terminal utilities:
 sudo apt-get install -y htop lshw p7zip pdftk screen
 
@@ -31,8 +28,16 @@ sudo apt-get install -y network-manager-openvpn transmission-gtk
 # Java:
 sudo apt-get install -y default-jdk
 
+# Graphics:
+sudo apt-get install -y blender gimp imagemagick inkscape
+
 # Sound:
 sudo apt-get install -y pavucontrol audacity
 
 # Video:
 sudo apt-get install -y libav-tools vlc
+
+# LaTeX (uncomment next line to install LaTeX, it might take time)
+sudo apt-get install -y texlive-full texmaker
+
+
