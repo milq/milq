@@ -38,6 +38,6 @@ sudo apt-get install -y pavucontrol audacity
 sudo apt-get install -y libav-tools vlc
 
 # LaTeX (uncomment next line to install LaTeX, it might take time)
-sudo apt-get install -y texlive-full texmaker
+# sudo apt-get install -y texlive-full texmaker
 
 
