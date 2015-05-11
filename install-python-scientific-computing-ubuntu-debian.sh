@@ -24,4 +24,8 @@ sudo apt-get install -y python3-pyqt5 python3-pyqt5.qtopengl python3-pyqt5.qtqui
 # Data storage:
 sudo apt-get install -y python3-h5py
 
+# Computer Vision
+sudo apt-get install -y python3-skimage
 
+# GUI Development
+sudo apt-get install -y spyder3
