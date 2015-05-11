@@ -25,6 +25,9 @@ sudo apt-get install -y git subversion
 # Net:
 sudo apt-get install -y network-manager-openvpn transmission-gtk
 
+# Office:
+sudo apt-get install -y libreoffice
+
 # Java:
 sudo apt-get install -y default-jdk
 
