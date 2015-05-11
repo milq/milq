@@ -18,6 +18,9 @@ sudo apt-get install -y ipython3 ipython3-notebook
 # OpenGL:
 sudo apt-get install -y python3-opengl
 
+# Testing tools
+sudo apt-get install -y python3-pytest
+
 # GUI development:
 sudo apt-get install -y python3-pyqt5 python3-pyqt5.qtopengl python3-pyqt5.qtquick
 
