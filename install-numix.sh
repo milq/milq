@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Prerequisite
+sudo apt-get install murrine-themes
+
 cd /usr/share/themes/
 sudo rm -rf Numix
 sudo git clone https://github.com/shimmerproject/Numix.git
