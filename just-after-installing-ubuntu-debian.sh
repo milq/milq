@@ -11,7 +11,7 @@ sudo apt-get install -y gdebi
 sudo apt-get install -y build-essential cmake geany 
 
 # Qt 5:
-sudo apt-get install -y qt5-default qtcreator qtdeclarative5-qtquick2-plugin
+sudo apt-get install -y qt5-default qtcreator qml-module-qtquick2
 
 # GNOME:
 sudo apt-get install -y gparted pitivi
