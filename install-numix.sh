@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Prerequisite
-sudo apt-get install murrine-themes
+sudo apt-get install -y murrine-themes
 
 cd /usr/share/themes/
 sudo rm -rf Numix
