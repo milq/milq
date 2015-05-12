@@ -44,4 +44,4 @@ sudo apt-get install -y libav-tools vlc
 # sudo apt-get install -y texlive-full texmaker
 
 # If you use Xfce, it is recommended to install this application launcher 
-# sudo apt-get install -y xfce4-whiskermenu-plugin
+# sudo apt-get install -y xfce4-whiskermenu-plugin gtk-theme-config
