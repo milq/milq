@@ -29,7 +29,9 @@ sudo apt-get install -y python3-h5py
 
 # Computer Vision
 sudo apt-get install -y python3-skimage
-sudo apt-get install libatlas-dev libatlas3gf-base
+
+# Install Scikit-learn (http://scikit-learn.org/stable/install.html)
+sudo apt-get install -y libopenblas-dev
 sudo pip3 install scikit-learn
 
 # Installing Theano (http://www.deeplearning.net/software/theano/install_ubuntu.html)
