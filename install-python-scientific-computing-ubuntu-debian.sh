@@ -32,6 +32,11 @@ sudo apt-get install -y python3-skimage
 sudo apt-get install libatlas-dev libatlas3gf-base
 sudo pip3 install scikit-learn
 
+# Installing Theano (http://www.deeplearning.net/software/theano/install_ubuntu.html)
+sudo apt-get install -y g++ git
+sudo apt-get install -y python3-nose2 python3-nose libopenblas-dev 
+sudo pip3 install Theano
+
 # GUI Development
 sudo apt-get install -y spyder3
 sudo pip3 install rope_py3k # If you want to enjoy the autocomplete in the IDE
