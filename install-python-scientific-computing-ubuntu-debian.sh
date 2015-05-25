@@ -7,7 +7,7 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 
 # Interpreter and the package manager:
-sudo apt-get install -y python3 python3-pip
+sudo apt-get install -y python3 python3-dev python3-pip
 
 # Essential scientific libraries:
 sudo apt-get install -y python3-numpy python3-matplotlib python3-scipy python3-pandas python3-simpy
@@ -35,8 +35,8 @@ sudo apt-get install -y libopenblas-dev
 sudo pip3 install scikit-learn
 
 # Installing Theano (http://www.deeplearning.net/software/theano/install_ubuntu.html)
-sudo apt-get install -y g++ git
-sudo apt-get install -y python3-nose2 python3-nose libopenblas-dev 
+sudo apt-get install -y build-essential libopenblas-dev git
+sudo apt-get install -y python3-nose python3-nose2
 sudo pip3 install Theano
 
 # GUI Development
