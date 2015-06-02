@@ -23,7 +23,7 @@ sudo apt-get install -y htop lshw p7zip pdftk screen
 sudo apt-get install -y git subversion
 
 # Net:
-sudo apt-get install -y network-manager-openvpn transmission-gtk
+sudo apt-get install -y network-manager-openvpn network-manager-openvpn-gnome transmission-gtk
 
 # Office:
 sudo apt-get install -y libreoffice
