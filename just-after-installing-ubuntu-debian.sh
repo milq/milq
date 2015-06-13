@@ -45,3 +45,5 @@ sudo apt-get install -y libav-tools vlc
 
 # If you use Xfce, it is recommended to install this application launcher 
 # sudo apt-get install -y xfce4-whiskermenu-plugin gtk-theme-config
+
+# sudo apt-get install -y gvfs-backends // Use Samba and SFTP in Thunar and MTP (Android Devices)
