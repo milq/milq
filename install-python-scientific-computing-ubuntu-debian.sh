@@ -18,9 +18,6 @@ sudo apt-get install -y ipython3 ipython3-notebook
 # OpenGL:
 sudo apt-get install -y python3-opengl
 
-# OpenGL:
-sudo apt-get install -y python3-yaml
-
 # Testing tools
 sudo apt-get install -y python3-pytest
 
@@ -42,6 +39,19 @@ sudo apt-get install -y build-essential libopenblas-dev git
 sudo apt-get install -y python3-nose python3-nose2
 sudo pip3 install Theano
 
+# Installing Pylearn2
+# sudo apt-get install -y python3-pil python3-yaml cython3
+
+# Installing Neon
+# sudo apt-get install -y python3-pil cython3
+# sudo apt-get install -y python3 python3-numpy python3-yaml libyaml-cpp-dev
+# In ~/Local/Libraries:
+# git clone https://github.com/NervanaSystems/neon.git
+# cd neon
+# sudo python3 setup.py install
+
 # GUI Development
 sudo apt-get install -y spyder3
 sudo pip3 install rope_py3k # If you want to enjoy the autocomplete in the IDE
+
+
