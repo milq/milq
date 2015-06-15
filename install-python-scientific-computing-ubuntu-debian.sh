@@ -50,6 +50,14 @@ sudo pip3 install Theano
 # cd neon
 # sudo python3 setup.py install
 
+# Installing Neon (Python 2)
+# sudo apt-get install -y python3-pil cython3
+# sudo apt-get install -y python python-numpy python-yaml libyaml-cpp-dev
+# In ~/Local/Libraries:
+# git clone https://github.com/NervanaSystems/neon.git
+# cd neon
+# sudo python setup.py install
+
 # GUI Development
 sudo apt-get install -y spyder3
 sudo pip3 install rope_py3k # If you want to enjoy the autocomplete in the IDE
