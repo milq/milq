@@ -52,7 +52,7 @@ sudo pip3 install Theano
 
 # Installing Neon (Python 2)
 # sudo apt-get install -y python3-pil cython3
-# sudo apt-get install -y python python-numpy python-yaml libyaml-cpp-dev
+# sudo apt-get install -y python python-numpy python-yaml libyaml-cpp-dev libyaml-dev
 # In ~/Local/Libraries:
 # git clone https://github.com/NervanaSystems/neon.git
 # cd neon
