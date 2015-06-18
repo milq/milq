@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # CAFFE INSTALLATION: http://caffe.berkeleyvision.org/installation.html
+# TUTORIAL FOR UBUNTU 14.04: https://jblkacademic.wordpress.com/2014/10/11/caffe_ubuntu1404/
 
 # Keep Ubuntu or Debian up to date
 sudo apt-get -y update
