@@ -39,10 +39,12 @@ cd caffe
 # mkdir build
 # cd build
 # cmake -DCPU_ONLY=ON -DUSE_CUDNN=OFF ..
+# make -j8
+# make install
 
-
-# If you see during the CMake this: 'pthread_create - not found' do the following:
-# sudo nano /usr/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
-# In the line: "${CMAKE_CONFIGURABLE_FILE_CONTENT}\n\nint main(){return 0;}\n")
-# Change int main() to int main(void).
-# URL: http://stackoverflow.com/questions/24813827/cmake-failing-to-detect-pthreads-due-to-warnings/25130590
+# 'CV_BGR2GRAY' errors In 'caffe/examples/cpp_classification/'
+# 'It seems, you are (accidentally) using the OpenCV 3.0(master) opencv branch.
+# A lot of constants have changed there, like most of the CV_ prefixes were changed to
+# cv:: namespace, CV_BGR2GRAY is now cv::COLOR_BGR2GRAY, etc.
+# TODO: Go to 'caffe/examples/cpp_classification/classification.cpp' and fix the errors.
+# URL: http://stackoverflow.com/questions/23922620/open-cv-not-loading-correctly.
