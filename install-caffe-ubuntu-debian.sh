@@ -31,8 +31,10 @@ git clone https://github.com/BVLC/caffe.git
 
 cd caffe
 
-# In 'caffe/cmake/Dependencies.cmake' set BLAS to "Open".
 # In 'caffe/CMakeLists.txt' set 'python_version' to "3".
+# In 'caffe/cmake/Dependencies.cmake' set BLAS to "Open".
+# In 'caffe/cmake/Dependencies.cmake' add 'set(Python_ADDITIONAL_VERSIONS 3.4)'
+# before 'find_package(PythonLibs 3.0). URL: http://askubuntu.com/questions/479260/cmake-can-not-find-pythonlibs.
 
 # mkdir build
 # cd build
