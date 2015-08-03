@@ -3,11 +3,19 @@
 # Prerequisite
 sudo apt-get install -y murrine-themes
 
-cd /usr/share/themes/
+if [ ! -d '/usr/local/share/themes' ]; then
+    sudo mkdir '/usr/local/share/themes'
+fi
+
+cd /usr/local/share/themes/
 sudo rm -rf Numix
 sudo git clone https://github.com/shimmerproject/Numix.git
 
-cd /usr/share/icons/
+if [ ! -d '/usr/local/share/icons' ]; then
+    sudo mkdir '/usr/local/share/icons'
+fi
+
+cd /usr/local/share/icons/
 sudo rm -rf numix-icon-theme numix-icon-theme-circle Numix Numix-Light Numix-Circle Numix-Circle-Light
 
 sudo git clone https://github.com/numixproject/numix-icon-theme.git
