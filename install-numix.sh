@@ -3,11 +3,12 @@
 # Prerequisite
 sudo apt-get install -y murrine-themes
 
-if [ ! -d '/usr/local/share/themes' ]; then
-    sudo mkdir '/usr/local/share/themes'
-fi
+# I do not use 'local' because it does not work properly (uncomment when it is fixed)
+# if [ ! -d '/usr/local/share/themes' ]; then
+#     sudo mkdir '/usr/local/share/themes'
+# fi
 
-cd /usr/local/share/themes/
+cd /usr/share/themes/
 sudo rm -rf Numix
 sudo git clone https://github.com/shimmerproject/Numix.git
 
