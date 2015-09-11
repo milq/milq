@@ -31,7 +31,7 @@ sudo apt-get install -y python-dev python-tk python-numpy python3-dev python3-tk
 sudo apt-get install -y ant default-jdk
 
 # Documentation:
-sudo apt-get install -y doxygen sphinx-common texlive-latex-extra
+sudo apt-get install -y doxygen
 
 wget https://github.com/Itseez/opencv/archive/3.0.0.zip
 unzip 3.0.0.zip -d OpenCV
