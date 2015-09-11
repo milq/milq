@@ -1,8 +1,10 @@
-# Keep Ubuntu or Debian up to date
+# KEEP UBUNTU OR DEBIAN UP TO DATE
+
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
+
 
 # INSTALL THE DEPENDENCIES
 
@@ -30,6 +32,9 @@ sudo apt-get install -y ant default-jdk
 # Documentation:
 sudo apt-get install -y doxygen
 
+
+# INSTALL THE LIBRARY
+
 wget https://github.com/Itseez/opencv/archive/3.0.0.zip
 unzip 3.0.0.zip -d OpenCV
 cd OpenCV
@@ -39,3 +44,9 @@ cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DWITH_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -
 make -j4
 sudo make install
 sudo ldconfig
+
+
+# EXECUTE AN EXAMPLE
+
+cd bin
+./cpp-example-edge ../../samples/data/fruits.jpg
