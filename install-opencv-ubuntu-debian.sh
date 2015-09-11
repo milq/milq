@@ -48,7 +48,7 @@ sudo make install
 sudo ldconfig
 
 
-# EXECUTE AN EXAMPLE
+# EXECUTE AN EXAMPLE (OPTIONAL)
 
-cd bin
-./cpp-example-edge ../../samples/data/fruits.jpg
+# cd bin
+# ./cpp-example-edge ../../samples/data/fruits.jpg
