@@ -33,7 +33,7 @@ sudo apt-get install -y ant default-jdk
 sudo apt-get install -y doxygen
 
 
-# INSTALL THE LIBRARY
+# INSTALL THE LIBRARY (YOU CAN CHANGE '3.0.0' FOR THE LAST STABLE VERSION)
 
 wget https://github.com/Itseez/opencv/archive/3.0.0.zip
 unzip 3.0.0.zip
