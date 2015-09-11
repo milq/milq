@@ -18,9 +18,6 @@ sudo apt-get install -y zlib1g-dev libjpeg-dev libwebp-dev libpng-dev libtiff5-d
 # Video I/O:
 sudo apt-get install -y libdc1394-22-dev libavcodec-dev libavformat-dev libswscale-dev libtheora-dev libvorbis-dev libxvidcore-dev libx264-dev yasm libopencore-amrnb-dev libopencore-amrwb-dev libv4l-dev libxine2-dev
 
-# Optional video I/O non-free library (uncomment next line to install it):
-# sudo apt-get install -y libfaac-dev
-
 # Parallelism and linear algebra libraries:
 sudo apt-get install -y libtbb-dev libeigen3-dev
 
