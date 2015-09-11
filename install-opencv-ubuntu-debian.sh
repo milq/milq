@@ -48,7 +48,6 @@ sudo make install
 sudo ldconfig
 
 
-# EXECUTE AN EXAMPLE (OPTIONAL)
+# EXECUTE SOME OPENCV EXAMPLES AND COMPILE A DEMONSTRATION
 
-# cd bin
-# ./cpp-example-edge ../../samples/data/fruits.jpg
+# To execute some OpenCV examples and compile a demonstration, please visit 'http://milq.github.io/install-opencv-ubuntu-debian/'.
