@@ -1,2 +1,2 @@
-Scripts for Ubuntu or Debian
-============================
+Scripts for Ubuntu/Debian
+=========================
