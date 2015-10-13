@@ -1,5 +1,3 @@
-#!/bin/sh
-
 # Prerequisite
 sudo apt-get install -y murrine-themes
 
