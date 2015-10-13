@@ -1,5 +1,3 @@
-#!/bin/sh
-
 # Keep Ubuntu or Debian up to date
 sudo apt-get -y update
 sudo apt-get -y upgrade
