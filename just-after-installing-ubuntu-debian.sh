@@ -17,7 +17,7 @@ sudo apt-get install -y qt5-default qtcreator qml-module-qtquick2 libqt5webkit5-
 sudo apt-get install -y gparted pitivi
 
 # Useful terminal utilities:
-sudo apt-get install -y faketime htop lshw p7zip pdftk screen unrar-free unzip wget
+sudo apt-get install -y faketime htop lshw p7zip p7zip-full pdftk screen unrar-free unzip wget
 
 # VCS:
 sudo apt-get install -y git subversion
