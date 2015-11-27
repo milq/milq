@@ -36,3 +36,11 @@ cd caffe
 # make all matcaffe
 # make mattest
 # 
+# PERSONAL NOTES AND PERSONAL CONFIGURATION
+# CPU_ONLY := 1
+# OPENCV_VERSION := 3
+# BLAS := open
+# BLAS_LIB := /usr/lib/openblas-base
+# MATLAB_DIR := /opt/MATLAB/R2015a
+
+# INSTALL OPENCV 3 with -DWITH_GDAL=OFF!!! Error OpenCV 3 with GDAL.
