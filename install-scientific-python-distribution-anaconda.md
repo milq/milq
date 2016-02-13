@@ -4,6 +4,7 @@
 2. In a terminal console, execute: ```bash name_of_the_installer.sh``` to install Anaconda.
 3. Specify one location to install Anaconda. E.g.: ```/home/user/Local/Software/Anaconda```.
 
+```/home/user/Local/Software/Anaconda/bin/spyder --reset```
 
 ## Uninstall Anaconda for Linux
 
