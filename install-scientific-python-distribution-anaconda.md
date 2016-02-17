@@ -5,7 +5,9 @@
 3. Specify one location to install Anaconda. E.g.: ```/home/user/Local/Software/Anaconda```.
 4. Optionally, you can let the installer prepend the path of your Anaconda install location in ```/home/user/.bashrc```.
 
-```/home/user/Local/Software/Anaconda/bin/spyder --reset```
+## Running Anaconda for Linux
+
+1. ```/home/user/Local/Software/Anaconda/bin/spyder --reset```
 
 ## Uninstall Anaconda for Linux
 
