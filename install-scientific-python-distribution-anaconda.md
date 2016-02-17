@@ -10,5 +10,4 @@
 ## Uninstall Anaconda for Linux
 
 1. To uninstall: ```rm -rf /home/user/Local/Software/Anaconda```.
-2. Open the file ```/home/user/.bashrc``` and delete de lines added by Anaconda installer.
-3. Also delete: ```rm /home/user/.bashrc-anaconda.bak```.
+2. If the installer prepended the path of your Anaconda install location, delete ```/home/user/.bashrc-anaconda.bak```, open the file ```/home/user/.bashrc``` and delete de lines added by Anaconda installer.
