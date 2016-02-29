@@ -12,8 +12,8 @@
 
 ## Expand Anaconda with Theano and Keras.
 
-1. ```sudo ./pip install git+git://github.com/Theano/Theano.git```.
-2. ```sudo ./pip install keras```.
+1. ```./pip install git+git://github.com/Theano/Theano.git```.
+2. ```./pip install keras```.
 
 ## Uninstall Anaconda for Linux
 
