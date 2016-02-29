@@ -10,6 +10,11 @@
 1. ```/home/user/Local/Software/Anaconda/bin/spyder --reset``` (only first time to reset previous possibly configurations).
 2. ```spyder``` or if you did not prepend the path: ```/home/user/Local/Software/Anaconda/bin/spyder &```.
 
+## Expand Anaconda with Theano and Keras.
+
+1. ```sudo ./pip install git+git://github.com/Theano/Theano.git```.
+2. ```sudo ./pip install keras```.
+
 ## Uninstall Anaconda for Linux
 
 1. To uninstall: ```rm -rf /home/user/Local/Software/Anaconda```.
