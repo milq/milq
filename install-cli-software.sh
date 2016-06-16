@@ -6,6 +6,9 @@ sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 
+# Development tools:
+sudo apt-get install -y build-essential cmake
+
 # Useful terminal utilities:
 sudo apt-get install -y faketime pdftk wget
 
