@@ -12,4 +12,7 @@ bash name_of_the_script.sh
 
 ### Order of execution
 
-1. Install command-line interface (CLI) software ([link](https://github.com/milq/scripts-ubuntu-debian/blob/master/install-cli-software.sh)).
+
+
+1. Install command-line interface (CLI) software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/install-cli-software.sh)).
+1. Install additional software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/install-cli-software.sh)).
