@@ -10,7 +10,7 @@ To run the scripts, open a terminal console and execute:
 bash name_of_the_script.sh
 ```
 
-### Order of execution
+### Order of execution to set up Ubuntu or Debian
 
 When I have just installed Ubuntu or Debian I execute a serie of scripts to set up my GNU/Linux OS. The order is the following:
 
