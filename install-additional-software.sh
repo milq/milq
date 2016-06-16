@@ -16,9 +16,6 @@ sudo apt-get install -y qt5-default qtcreator qml-module-qtquick2 libqt5webkit5-
 # GNOME:
 sudo apt-get install -y gparted pitivi
 
-# VCS:
-sudo apt-get install -y git subversion
-
 # Net:
 sudo apt-get install -y network-manager-openvpn network-manager-openvpn-gnome transmission-gtk
 
