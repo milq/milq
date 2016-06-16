@@ -22,7 +22,7 @@ sudo apt-get install -y faketime htop lshw pdftk wget
 sudo apt-get install -y screen
 
 # Text editors:
-sudo apt-get install -y nano
+sudo apt-get install -y nano vim
 
 # VCS:
 sudo apt-get install -y git subversion
