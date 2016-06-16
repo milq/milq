@@ -24,5 +24,8 @@ sudo apt-get install -y p7zip p7zip-full unrar-free unzip
 # Terminal multiplexer
 sudo apt-get install -y screen
 
+# Text editors:
+sudo apt-get install -y nano
+
 # VCS:
 sudo apt-get install -y git subversion
