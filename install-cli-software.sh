@@ -1,4 +1,4 @@
-# Script that installs command-line interface (CLI) applications for Ubuntu/Debian
+# Script that installs command-line interface (CLI) software for Ubuntu/Debian
 
 # Keep Ubuntu or Debian up to date
 sudo apt-get -y update
