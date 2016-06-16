@@ -1,8 +1,8 @@
 # Scripts for Ubuntu/Debian
 
-This is a compilation of my scripts in Ubuntu or Debian I consider useful. 
+This is a compilation of my scripts in Ubuntu or Debian that I consider useful. 
 
-## How to run the scripts
+### How to run the scripts
 
 To run the scripts, open a terminal console and execute:
 
