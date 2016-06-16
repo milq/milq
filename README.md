@@ -12,7 +12,8 @@ bash name_of_the_script.sh
 
 ### Order of execution
 
-When I have just installed Ubuntu or Debian I execute a serie of scripts to 
+When I have just installed Ubuntu or Debian I execute a serie of scripts to set up my GNU/Linux OS. The order is the following:
 
 1. Install command-line interface (CLI) software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/install-cli-software.sh)).
-1. Install additional software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/install-additional-software.sh)).
+2. Install additional software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/install-additional-software.sh)).
+
