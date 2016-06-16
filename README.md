@@ -10,3 +10,5 @@ To run the scripts, open a terminal console and execute:
 bash name_of_the_script.sh
 ```
 
+
+1. Install command-line interface (CLI) software: https://github.com/milq/scripts-ubuntu-debian/blob/master/install-cli-software.sh.
