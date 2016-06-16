@@ -7,9 +7,6 @@ sudo apt-get -y autoremove
 # Development tools:
 sudo apt-get install -y gdebi
 
-# Development tools:
-sudo apt-get install -y build-essential cmake geany 
-
 # Qt 5:
 sudo apt-get install -y qt5-default qtcreator qml-module-qtquick2 libqt5webkit5-dev libqt5svg5-dev
 
@@ -30,6 +27,9 @@ sudo apt-get install -y blender gimp imagemagick inkscape
 
 # Sound:
 sudo apt-get install -y pavucontrol audacity
+
+# Text editors:
+sudo apt-get install -y geany 
 
 # Video:
 sudo apt-get install -y libav-tools vlc
