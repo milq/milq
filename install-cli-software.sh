@@ -9,17 +9,14 @@ sudo apt-get -y autoremove
 # Development tools:
 sudo apt-get install -y build-essential cmake
 
-# Useful terminal utilities:
-sudo apt-get install -y faketime pdftk wget
-
-# Htop (interactive process viewer):
-sudo apt-get install -y htop
-
 # Hardware Lister (list hardware):
-sudo apt-get install -y lshw
+sudo apt-get install -y 
 
 # File archivers
 sudo apt-get install -y p7zip p7zip-full unrar-free unzip
+
+# Others (need to be categorized):
+sudo apt-get install -y faketime htop lshw pdftk wget
 
 # Terminal multiplexer
 sudo apt-get install -y screen
