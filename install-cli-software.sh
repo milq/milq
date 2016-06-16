@@ -14,3 +14,6 @@ sudo apt-get install -y htop
 
 # Hardware Lister (list hardware):
 sudo apt-get install -y lshw
+
+# VCS:
+sudo apt-get install -y git subversion
