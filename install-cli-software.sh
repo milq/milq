@@ -9,9 +9,6 @@ sudo apt-get -y autoremove
 # Development tools:
 sudo apt-get install -y build-essential cmake
 
-# Hardware Lister (list hardware):
-sudo apt-get install -y 
-
 # File archivers
 sudo apt-get install -y p7zip p7zip-full unrar-free unzip
 
