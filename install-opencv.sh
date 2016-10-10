@@ -39,7 +39,7 @@ sudo apt-get install -y unzip wget
 wget https://github.com/Itseez/opencv/archive/3.1.0.zip
 unzip 3.1.0.zip
 rm 3.1.0.zip
-mv opencv-3.1.0 OpenCV
+mv ./opencv-3.1.0 ./OpenCV
 cd OpenCV
 mkdir build
 cd build
