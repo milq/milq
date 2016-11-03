@@ -1,5 +1,5 @@
-# Prerequisite
-sudo apt-get install -y murrine-themes
+# Prerequisites
+sudo apt-get install -y murrine-themes git
 
 # I do not use 'local' because it does not work properly (uncomment when it is fixed)
 # if [ ! -d '/usr/local/share/themes' ]; then
@@ -9,6 +9,9 @@ sudo apt-get install -y murrine-themes
 cd /usr/share/themes/
 sudo rm -rf Numix
 sudo git clone https://github.com/shimmerproject/Numix.git
+sudo mv Numix Numix_aux
+sudo mv Numix_aux/src ./Numix
+sudo rm -rf Numix_aux
 
 if [ ! -d '/usr/local/share/icons' ]; then
     sudo mkdir '/usr/local/share/icons'
