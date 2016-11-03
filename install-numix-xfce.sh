@@ -30,7 +30,7 @@ sudo mv numix-icon-theme-circle/Numix-Circle-Light ./
 
 sudo rm -rf numix-icon-theme numix-icon-theme-circle
 
-# Activate Numix's theme, WM, and icons in Xfce (uncomment these lines if you use Xfce):
-# xfconf-query -c xsettings -p /Net/ThemeName -s "Numix"
-# xfconf-query -c xfwm4 -p /general/theme -s "Numix"
-# xfconf-query -c xsettings -p /Net/IconThemeName -s "Numix-Circle"
+# Activate Numix's theme, WM, and icons in Xfce (comment these lines if you do not use Xfce):
+xfconf-query -c xsettings -p /Net/ThemeName -s "Numix"
+xfconf-query -c xfwm4 -p /general/theme -s "Numix"
+xfconf-query -c xsettings -p /Net/IconThemeName -s "Numix-Circle"
