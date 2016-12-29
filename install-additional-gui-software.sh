@@ -1,3 +1,5 @@
+# Script that installs additional graphical user interface (GUI) software for Ubuntu/Debian
+
 # Keep Ubuntu or Debian up to date
 sudo apt-get -y update
 sudo apt-get -y upgrade
