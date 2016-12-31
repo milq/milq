@@ -19,4 +19,4 @@
 
 1. To uninstall: ```rm -rf /home/user/Local/Software/Anaconda```.
 2. If the installer prepended the path of your Anaconda install location, delete ```/home/user/.bashrc-anaconda.bak```, open the file ```/home/user/.bashrc``` and delete de lines added by Anaconda installer.
-3. Optionally, delete with `rm -rf`: ```~/.conda/```, ```~/.continuum/```, ```~/.spyderworkspace```, ```~/.spyder2-py3/```.
+3. Optionally, delete with `rm -rf`: ```~/.conda/```, ```~/.continuum/```, ```~/.spyderworkspace```, ```~/.config/spyder2-py3/```.
