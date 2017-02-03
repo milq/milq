@@ -14,6 +14,6 @@ bash name_of_the_script.sh
 
 When I have just installed Ubuntu or Debian I execute a serie of scripts to set up my GNU/Linux OS. The order is the following:
 
-1. Install additional command-line interface (CLI) software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/install-additional-cli-software.sh)).
-2. Install additional graphical user interface (GUI) software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/install-additional-gui-software.sh)).
+1. Install additional command-line interface (CLI) software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/scripts/debian/install-additional-cli-software.sh)).
+2. Install additional graphical user interface (GUI) software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/scripts/debian/install-additional-gui-software.sh)).
 
