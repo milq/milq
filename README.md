@@ -11,4 +11,4 @@ The same line of code but in different languages.
 
 ### Scripts
 
-You can find my personal scripts, including the popular [_install-opencv.sh_](scripts/bash/install-opencv.sh), [here](scripts).
+You can find [here](scripts) my personal scripts, including the popular [_install-opencv.sh_](scripts/bash/install-opencv.sh).
