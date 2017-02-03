@@ -49,7 +49,7 @@ z = 2 * z + 3;                // The symbol = assigns a value to the variable
 
 // PRINT VARIABLES ON CONSOLE
 
-console.log('Hello, world!');           // Imprime on console: Hello, world!
+console.log('Hello, world!');           // Prints on console: Hello, world!
 console.log(x);                         // Prints the variable x
 
 // You can print on console strings and variables
