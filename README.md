@@ -8,6 +8,7 @@ The same line of code but in different languages.
 
 1. **Variables** (**[PHP](learn/01/01.php)**, **[JavaScript](learn/01/01.js)**, **[Python](learn/01/01.py)**).
 
+I use it only for didactic purposes, it does not cover all the characteristics of each language.
 
 ### Scripts
 
