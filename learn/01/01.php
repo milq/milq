@@ -60,7 +60,7 @@ echo '<p>I have bought ' . $x . ' oranges and ' . $y . ' lemons.</p>';
 // DATA TYPE CONVERSION
 
 $height = '95.4';
-echo '<p>' . gettype($height) . '</p>';           // Prints the current data type
+echo '<p>' . gettype($height) . '</p>';     // Prints the current data type
 $height = (float) $height;                  // Convert a string to a real number
 echo '<p>' . gettype($height) . '</p>';
 
