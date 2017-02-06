@@ -49,24 +49,24 @@ $z = 2 * $z + 3;              // The symbol = assigns a value to the variable
 
 // PRINT VARIABLES ON SCREEN
 
-echo 'Hello, world!<br />';             // Prints on screen: Hello, world!
-echo $x . '<br />';                     // Prints the variable x
+echo '<p>Hello, world!</p>';             // Prints on screen: Hello, world!
+echo '<p>' . $x . '</p>';                // Prints the variable x
 
 // You can print on screen strings and variables
-echo 'I have bought ' . $x . ' oranges and ' . $y . ' lemons.<br />';
+echo '<p>I have bought ' . $x . ' oranges and ' . $y . ' lemons.</p>';
 
 
 
 // DATA TYPE CONVERSION
 
 $height = '95.4';
-echo gettype($height) . '<br />';           // Prints the current data type
+echo '<p>' . gettype($height) . '</p>';           // Prints the current data type
 $height = (float) $height;                  // Convert a string to a real number
-echo gettype($height) . '<br />';
+echo '<p>' . gettype($height) . '</p>';
 
 $altitude = -544.432;
-echo gettype($altitude) . '<br />';
+echo '<p>' . gettype($altitude) . '</p>';
 $altitude = (string) $altitude;             // Convert a real number to string
-echo gettype($altitude) . '<br />';
+echo '<p>' . gettype($altitude) . '</p>';
 
 ?>
