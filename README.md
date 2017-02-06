@@ -6,8 +6,8 @@
 
 The same line of code but in different languages.
 
-0. **Hello, world!** (**[PHP](learn/00/00.php)**, **[JavaScript](learn/00/00.js)**, **[Python](learn/00/00.py)**).
-1. **Variables** (**[PHP](learn/01/01.php)**, **[JavaScript](learn/01/01.js)**, **[Python](learn/01/01.py)**).
+0. **Hello, world!** (**[PHP](https://github.com/milq/code/blob/master/learn/00/00.php)**, **[JavaScript](https://github.com/milq/code/blob/master/learn/00/00.js)**, **[Python](https://github.com/milq/code/blob/master/learn/00/00.py)**).
+1. **Variables** (**[PHP](https://github.com/milq/code/blob/master/learn/00/01.php)**, **[JavaScript](https://github.com/milq/code/blob/master/learn/00/01.js)**, **[Python](https://github.com/milq/code/blob/master/learn/00/01.py)**).
 
 I use it only for didactic purposes, it does not cover all the characteristics of each language.
 
