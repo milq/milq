@@ -22,18 +22,6 @@ console.log(num_fruits);
 
 
 
-// ADD AN ELEMENT TO AN ARRAY
-
-var names = ['Nacho', 'Lola', 'David']
-
-names.splice(2, 0, 'Alba');      // Add 'Alba' at index 2.         Result: ['Nacho', 'Lola', 'Alba', 'David']
-names.unshift('Álvaro');         // Add 'Álvaro' at the beginning. Result: ['Álvaro', 'Nacho', 'Lola', 'Alba', 'David']
-names.push('Marta');             // Add 'Marta' at the end.        Result: ['Álvaro', 'Nacho', 'Lola', 'Alba', 'David', 'Marta']
-
-console.log(names);
-
-
-
 // MODIFY AN ARRAY ELEMENT
 
 var ages = [43, 72, 32, 22, 65];
@@ -46,6 +34,18 @@ console.log(ages);
 
 
 
+// ADD AN ELEMENT TO AN ARRAY
+
+var names = ['Nacho', 'Lola', 'David']
+
+names.splice(2, 0, 'Alba');      // Add 'Alba' at index 2.         Result: ['Nacho', 'Lola', 'Alba', 'David']
+names.unshift('Álvaro');         // Add 'Álvaro' at the beginning. Result: ['Álvaro', 'Nacho', 'Lola', 'Alba', 'David']
+names.push('Marta');             // Add 'Marta' at the end.        Result: ['Álvaro', 'Nacho', 'Lola', 'Alba', 'David', 'Marta']
+
+console.log(names);
+
+
+
 // REMOVE AN ARRAY ELEMENT
 
 var colours = ['Blue', 'Orange', 'Green', 'Yellow', 'White'];
@@ -55,6 +55,17 @@ colours.shift();               // Remove the first element.      Result: ['Orang
 colours.pop();                 // Remove the last element.       Result: ['Orange', 'Yellow']
 
 console.log(colours);
+
+
+
+// SUBARRAYS: the 'slice(start, end)' method returns the selected elements in an array, as a new array object.
+
+var vegetables = ['Onions', 'Tomatoes', 'Spinach', 'Eggplants', 'Radishes'];
+
+var veg1 = vegetables.slice();              // Result: ['Onions', 'Tomatoes', 'Spinach', 'Eggplants', 'Radishes']
+var veg2 = vegetables.slice(2);             // Result: ['Spinach', 'Eggplants', 'Radishes']
+var veg3 = vegetables.slice(2, 4);          // Result: ['Spinach', 'Eggplants']
+var veg4 = vegetables.slice(-3, -2);        // Result: ['Spinach']
 
 
 
@@ -86,10 +97,26 @@ console.log(animals_sorted);
 
 var a = [8, 1];
 var b = [3, 5, 7, 6];
-var c = [4, 9, 2];
+var c = [4, [10, 9], 2];
 
 var multi = [a, b, c];
 
+var d = multi[1][3];                        // Get the element at [1][3]. Variable 'd' is 6
+multi[2][1][0] = -1;                        // Modify the element at index [2][1][0]
 console.log(multi);
-console.log(multi[1][3]);             // Prints the number 6
+
+
+
+// STRINGS AS ARRAYS OF CHARACTERS - SUBSTRINGS
+
+var phrase = 'Oranges are round, and oranges are juicy.';
+
+var num_chars = phrase.length;              // The number of characters of the string 'phrase'. Result: 41.
+
+var p1 = phrase.slice(23);                  // Result: 'oranges are juicy.'
+var p2 = phrase.slice(12, 17);              // Result: 'round'
+var p3 = phrase.slice(-6, -1);              // Result: 'juicy'
+var p4 = phrase.slice(17, 18);              // Result: ','
+var p5 = phrase.slice(-1);                  // Result: '.'
+
 

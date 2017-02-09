@@ -22,18 +22,6 @@ print(num_fruits)
 
 
 
-# ADD AN ELEMENT TO A LIST
-
-names = ['Nacho', 'Lola', 'David']
-
-names.insert(2, 'Alba')     # Add 'Alba' at index 2.    Result: ['Nacho', 'David', 'Alba', 'Lola']
-names.insert(0, 'Álvaro')   # Add 'Álvaro' at the beginning. Result: ['Álvaro', 'Nacho', 'David', 'Alba', 'Lola']
-names.append('Marta')       # Add 'Marta' at the end.      Result: ['Álvaro', 'Nacho', 'David', 'Alba', 'Lola', 'Marta']
-
-print(names);
-
-
-
 # MODIFY A LIST ELEMENT
 
 ages = [43, 72, 32, 22, 65]
@@ -46,6 +34,18 @@ print(ages)
 
 
 
+# ADD AN ELEMENT TO A LIST
+
+names = ['Nacho', 'Lola', 'David']
+
+names.insert(2, 'Alba')     # Add 'Alba' at index 2.    Result: ['Nacho', 'David', 'Alba', 'Lola']
+names.insert(0, 'Álvaro')   # Add 'Álvaro' at the beginning. Result: ['Álvaro', 'Nacho', 'David', 'Alba', 'Lola']
+names.append('Marta')       # Add 'Marta' at the end.      Result: ['Álvaro', 'Nacho', 'David', 'Alba', 'Lola', 'Marta']
+
+print(names);
+
+
+
 # REMOVE A LIST ELEMENT
 
 colours = ['Blue', 'Orange', 'Green', 'Yellow', 'White']
@@ -55,6 +55,17 @@ colours.pop(0)                  # Remove the first element.      Result: ['Orang
 colours.pop()                   # Remove the last element.       Result: ['Orange', 'Yellow']
 
 print(colours)
+
+
+
+# SUBARRAYS [start:end]
+
+vegetables = ['Onions', 'Tomatoes', 'Spinach', 'Eggplants', 'Radishes']
+
+veg1 = vegetables[:]                         # Result: ['Onions', 'Tomatoes', 'Spinach', 'Eggplants', 'Radishes']
+veg2 = vegetables[2:]                        # Result: ['Spinach', 'Eggplants', 'Radishes']
+veg3 = vegetables[2:4]                       # Result: ['Spinach', 'Eggplants']
+veg4 = vegetables[-3:-2]                     # Result: ['Spinach']
 
 
 
@@ -86,10 +97,26 @@ print(animals_sorted);
 
 a = [8, 1]
 b = [3, 5, 7, 6]
-c = [4, 9, 2]
+c = [4, [10, 9], 2];
 
 multi = [a, b, c]
 
-print(multi);
-print(multi[1][3])             # Prints the number 6
+d = multi[1][3]                              # Get the element at [1][3]. Variable 'd' is 6
+multi[2][1][0] = -1                          # Modify the element at index [2][1][0]
+print(multi)
+
+
+
+# STRINGS AS ARRAYS OF CHARACTERS - SUBSTRINGS
+
+phrase = 'Oranges are round, and oranges are juicy.'
+
+num_chars = len(phrase)                      # The number of characters of the string 'phrase'. Result: 41.
+
+p1 = phrase[23:]                             # Result: 'oranges are juicy.'
+p2 = phrase[12:17]                           # Result: 'round'
+p3 = phrase[-6:-1]                           # Result: 'juicy'
+p4 = phrase[17:18]                           # Result: ','
+p5 = phrase[-1:]                             # Result: '.'
+
 

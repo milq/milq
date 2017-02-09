@@ -22,18 +22,6 @@ echo '<p>' . $num_fruits . '</p>';
 
 
 
-// ADD AN ELEMENT TO AN ARRAY
-
-$names = ['Nacho', 'Lola', 'David'];
-
-array_splice($names, 2, 0, 'Alba');  // Add 'Alba' at index 2.         Result: ['Nacho', 'David', 'Alba', 'Lola']
-array_unshift($names, 'Álvaro');     // Add 'Álvaro' at the beginning. Result: ['Álvaro', 'Nacho', 'David', 'Alba', 'Lola']
-array_push($names, 'Marta');         // Add 'Marta' at the end.        Result: ['Álvaro', 'Nacho', 'David', 'Alba', 'Lola', 'Marta']
-
-print_r($names);
-echo '<br />';
-
-
 // MODIFY AN ARRAY ELEMENT
 
 $ages = [43, 72, 32, 22, 65];
@@ -43,6 +31,18 @@ $ages[0] = 6;                  // Modify the first element.      Result: [6, 72,
 $ages[count($ages) - 1] = 12;  // Modify the last element.       Result: [6, 72, 32, 57, 12]
 
 print_r($ages);
+echo '<br />';
+
+
+// ADD AN ELEMENT TO AN ARRAY
+
+$names = ['Nacho', 'Lola', 'David'];
+
+array_splice($names, 2, 0, 'Alba');  // Add 'Alba' at index 2.         Result: ['Nacho', 'David', 'Alba', 'Lola']
+array_unshift($names, 'Álvaro');     // Add 'Álvaro' at the beginning. Result: ['Álvaro', 'Nacho', 'David', 'Alba', 'Lola']
+array_push($names, 'Marta');         // Add 'Marta' at the end.        Result: ['Álvaro', 'Nacho', 'David', 'Alba', 'Lola', 'Marta']
+
+print_r($names);
 echo '<br />';
 
 
@@ -56,6 +56,17 @@ array_pop($colours);           // Remove the last element.       Result: ['Orang
 
 print_r($colours);
 echo '<br />';
+
+
+// SUBARRAYS: the 'array_slice(array, offset, length)' method returns the selected elements in an array, as a new array object.
+
+$vegetables = ['Onions', 'Tomatoes', 'Spinach', 'Eggplants', 'Radishes'];
+
+$veg1 = array_slice($vegetables, 0);        // Result: ['Onions', 'Tomatoes', 'Spinach', 'Eggplants', 'Radishes']
+$veg2 = array_slice($vegetables, 2);        // Result: ['Spinach', 'Eggplants', 'Radishes']
+$veg3 = array_slice($vegetables, 2, 2);     // Result: ['Spinach', 'Eggplants']
+$veg4 = array_slice($vegetables, -3, -2);   // Result: ['Spinach']
+
 
 
 // REVERSE ELEMENTS IN AN ARRAY
@@ -86,11 +97,26 @@ print_r($animals_sorted); echo '<br />';
 
 $a = [8, 1];
 $b = [3, 5, 7, 6];
-$c = [4, 9, 2];
+$c = [4, [10, 9], 2];
 
 $multi = [$a, $b, $c];
 
+$d = $multi[1][3];                          // Get the element at [1][3]. Variable 'd' is 6
+$multi[2][1][0] = -1;                       // Modify the element at index [2][1][0]
 print_r($multi); echo '<br />';
-echo $multi[1][3];            // Prints the number 6
+
+
+
+// STRINGS AS ARRAYS OF CHARACTERS - SUBSTRINGS
+
+$phrase = 'Oranges are round, and oranges are juicy.';
+
+$num_chars = strlen($phrase);               // The number of characters of the string 'phrase'. Result: 41.
+
+$p1 = substr($phrase, 23);                  // Result: 'oranges are juicy.' substr(string, start, length)
+$p2 = substr($phrase, 12, 5);               // Result: 'round'
+$p3 = substr($phrase, -6, -1);              // Result: 'juicy'
+$p4 = substr($phrase, 17, 1);               // Result: ','
+$p5 = substr($phrase, -1);                  // Result: '.'
 
 ?>

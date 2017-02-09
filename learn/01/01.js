@@ -25,12 +25,11 @@ var has_car = true;                      // Boolean (only two values: true or fa
 
 
 
-// ARITHMETIC OPERATIONS
+// ARITHMETIC OPERATIONS WITH NUMBERS
 var x = 5;
 var y = 2;
-var z;
 
-z = x + y;       // Addition.                                     Result: 7.
+var z = x + y;   // Addition.                                     Result: 7.
 z = x - y;       // Subtraction.                                  Result: 3.
 z = x * y;       // Multiplication.                               Result: 10.
 z = x / y;       // Division.                                     Result: 2.5.
@@ -43,7 +42,15 @@ z = 50 - x * 6 / -0.5;        //
 z = (50 - x) * 6 / -0.5;      // The order of operations is as in mathematics
 z = (50 - x * 6) / -0.5;      //
 
-z = 2 * z + 3;                // The symbol = assigns a value to the variable
+z = 2 * z + 3;                // Remember: the symbol = assigns a value to the variable
+
+
+
+// BASIC OPERATIONS WITH STRINGS
+var a = 'GNU/';
+var b = 'Linux';
+var c = a + b;          // Concatenation                          Result: 'GNU/Linux'.
+c = a.repeat(3);        // Repetition                             Result: 'GNU/GNU/GNU/'.
 
 
 

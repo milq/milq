@@ -25,10 +25,9 @@ has_car = True                            # Boolean (only two values: True or Fa
 
 
 
-#  ARITHMETIC OPERATIONS
+#  ARITHMETIC OPERATIONS WITH NUMBERS
 x = 5
 y = 2
-z = 0
 
 z = x + y         # Addition.                                     Result: 7.
 z = x - y         # Subtraction.                                  Result: 3.
@@ -43,7 +42,15 @@ z = 50 - x * 6 / -0.5          #
 z = (50 - x) * 6 / -0.5        # The order of operations is as in mathematics
 z = (50 - x * 6) / -0.5        #
 
-z = 2 * z + 3                  # The symbol = assigns a value to the variable
+z = 2 * z + 3                  # Remember: the symbol = assigns a value to the variable
+
+
+
+#  BASIC OPERATIONS WITH STRINGS
+a = 'GNU/'
+b = 'Linux'
+c = a + b                # Concatenation                          Result: 'GNU/Linux'.
+c = a * 3                # Repetition                             Result: 'GNU/GNU/GNU/'.
 
 
 
