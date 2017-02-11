@@ -2,6 +2,7 @@
 
 
 # COMPARISON OPERATORS
+
 a = 5
 b = 3
 
@@ -17,22 +18,23 @@ z = a <= b     # Less than or equal to              Result: False
 
 
 # LOGICAL OPERATORS
+
 f = False
 t = True
 
-# AND (and) operator
+# Operator AND (and)
 z = f and f        # Result: False          (False and False) --> False
 z = f and t        # Result: False          (False and True)  --> False
 z = t and f        # Result: False          (True  and False) --> False
 z = t and t        # Result: True           (True  and True)  --> True
 
-# OR (or) operator
+# Operator OR (or)
 z = f or f         # Result: False          (False or False) --> False
 z = f or t         # Result: True           (False or True)  --> True
 z = t or f         # Result: True           (True  or False) --> True
 z = t or t         # Result: True           (True  or True)  --> True
 
-# NOT (!) operator
+# Operator NOT (not)
 z = not(f)         # Result: True           !(False) --> True
 z = not(t)         # Result: False          !(True)  --> False
 
@@ -80,6 +82,23 @@ else:
 
 
 
+
+# DATA TYPE IDENTIFICATION
+
+i = -4
+j = 6.37
+k = 'Hello'
+l = True
+m = [3.3, 'World', -1.3, False]
+
+is_int = isinstance(i, int)         # Check if variable 'i' is an integer.      Result: True
+is_float = isinstance(j, float)     # Check if variable 'j' is a real number.   Result: True
+is_str = isinstance(k, str)         # Check if variable 'k' is a string.        Result: True
+is_bool = isinstance(l, bool)       # Check if variable 'l' is a Boolean.       Result: True
+is_list = isinstance(m, list)       # Check if variable 'm' is a list.          Result: True
+
+
+
 # EXAMPLE 1 (NESTED IFS): program to check if the input year is a leap year or not
 
 year = 2000
@@ -112,5 +131,7 @@ if unit == 'C' or unit == 'c':
 if unit == 'F' or unit == 'f':
     celcius = (value - 32) / 1.8
     print(str(celcius) + ' ºC')
+
+
 
 

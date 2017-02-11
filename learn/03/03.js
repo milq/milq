@@ -2,6 +2,7 @@
 'use strict';
 
 // COMPARISON OPERATORS
+
 var a = 5;
 var b = 3;
 
@@ -17,22 +18,23 @@ z = a <= b;      // Less than or equal to (type conversion)     Result: False
 
 
 // LOGICAL OPERATORS
+
 var f = false;
 var t = true;
 
-// AND (&&) operator
+// Operator AND (&&)
 z = f && f;         // Result: False            (false && false) --> false
 z = f && t;         // Result: False            (false && true)  --> false
 z = t && f;         // Result: False            (true  && false) --> false
 z = t && t;         // Result: True             (true  && true)  --> true
 
-// OR (||) operator
+// Operator OR (||)
 z = f || f;         // Result: False            (false || false) --> false
 z = f || t;         // Result: True             (false || true)  --> true
 z = t || f;         // Result: True             (true  || false) --> true
 z = t || t;         // Result: True             (true  || true)  --> true
 
-// NOT (!) operator
+// Operator NOT (!)
 z = !f;             // Result: True             !(false) --> true
 z = !t;             // Result: False            !(true)  --> false
 
@@ -80,6 +82,23 @@ if (mark < 5) {                                        // If-else-if statament
 }
 
 
+
+// DATA TYPE IDENTIFICATION
+
+var i = -4;
+var j = 6.37;
+var k = 'Hello';
+var l = true;
+var m = [3.3, 'World', -1.3, false];
+
+var is_int = Number.isSafeInteger(i);   // Check if variable 'i' is an integer.     Result: True
+var is_float = Number.isFinite(j);      // Check if variable 'j' is a real number.  Result: True
+var is_str = typeof(k) === 'string';    // Check if variable 'k' is a string.       Result: True (False with Objects)
+var is_bool = typeof(l) === 'boolean'   // Check if variable 'l' is a boolean.      Result: True (False with Objects)
+var is_array = Array.isArray(m);        // Check if variable 'm' is an array.       Result: True
+
+
+
 // EXAMPLE 1 (NESTED IFS): program to check if the input year is a leap year or not
 
 var year = 2000;
@@ -114,3 +133,5 @@ if (unit == 'F' || unit == 'f') {
     var celcius = (value - 32) / 1.8;
     console.log(String(celcius) + ' ºC');
 }
+
+

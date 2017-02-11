@@ -18,7 +18,7 @@ var age = 25;  // The value 25 is assigned to variable age
 
 
 // BASIC DATA TYPES
-var age = 25                             // Integer
+var age = 25;                            // Integer
 var temperature = -3.82;                 // Real number
 var name = 'Nacho López';                // String
 var has_car = true;                      // Boolean (only two values: true or false)
