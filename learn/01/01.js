@@ -68,12 +68,12 @@ console.log('I have bought', x, 'oranges and', y, 'lemons.');
 
 var height = '95.4';
 console.log(typeof(height));                // Prints the current data type
-height = Number(height);                    // Convert a string to a number
+height = Number(height);                    // Convert a string to number
 console.log(typeof(height));
 
 var altitude = -544.432;
 console.log(typeof(altitude));
-altitude = String(altitude);                // Convert a number to a string
+altitude = String(altitude);                // Convert a number to string
 console.log(typeof(altitude));
 
 
