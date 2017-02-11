@@ -85,14 +85,14 @@ if (mark < 5) {                                        // If-else-if statament
 
 // DATA TYPE IDENTIFICATION
 
-var i = -4;
+
 var j = 6.37;
 var k = 'Hello';
 var l = true;
 var m = [3.3, 'World', -1.3, false];
 
-var is_int = Number.isSafeInteger(i);   // Check if variable 'i' is an integer.     Result: True
-var is_float = Number.isFinite(j);      // Check if variable 'j' is a real number.  Result: True
+
+var is_number = typeof(j) === 'number'; // Check if variable 'j' is a number.       Result: True (False with Objects)
 var is_str = typeof(k) === 'string';    // Check if variable 'k' is a string.       Result: True (False with Objects)
 var is_bool = typeof(l) === 'boolean'   // Check if variable 'l' is a boolean.      Result: True (False with Objects)
 var is_array = Array.isArray(m);        // Check if variable 'm' is an array.       Result: True
