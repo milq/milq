@@ -9,11 +9,11 @@ for (var i = 0; i < 10; i++) {
 
 
 
-console.log('CLASSICAL LOOP WITH ARRAYS') // CLASSICAL LOOP WITH ARRAYS
+console.log('\nCLASSICAL LOOP WITH ARRAYS') // CLASSICAL LOOP WITH ARRAYS
 
 var numbers = [-3.2, 5.3, 3, 1]
 
-for (var i = 0; i < numbers.length; ++i) {
+for (var i = 0; i < numbers.length; i++) {
     console.log(numbers[i])
 }
 
@@ -68,5 +68,31 @@ do {
     i++
     console.log('Bye', i)
 } while(i <= 3)
+
+
+
+console.log('\nEXAMPLE 1 (SUMMATION): sum up all the elements of an array') // EXAMPLE 1
+
+var my_array = [-4.3, 2, -0.7, 1.5, 3.5]
+var sum = 0
+
+for (var i = 0; i < my_array.length; i++) {
+    sum = sum + my_array[i]
+}
+
+console.log('The sum of all the elements of the array is', sum, '\n')
+
+
+
+console.log('\nEXAMPLE 2 (PRODUCT): multiply all the elements of an array') // EXAMPLE 2
+
+var my_array = [3, 2, -1, 1, 4]
+var prod = 1
+
+for (var i = 0; i < my_array.length; i++) {
+    prod = prod * my_array[i]
+}
+
+console.log('The multiplication of all the elements of the array is', prod, '\n')
 
 

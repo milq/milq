@@ -9,7 +9,7 @@ for i in range(10):
 
 
 
-print('CLASSICAL LOOP WITH ARRAYS')  # CLASSICAL LOOP WITH ARRAYS
+print('\nCLASSICAL LOOP WITH ARRAYS')  # CLASSICAL LOOP WITH ARRAYS
 
 numbers = [-3.2, 5.3, 3, 1]
 
@@ -19,7 +19,7 @@ for i in range(len(numbers)):
 
 
 
-print('REVERSE LOOP')  # REVERSE LOOP
+print('\nREVERSE LOOP')  # REVERSE LOOP
 
 for i in range(5, -1, -1):
     print('i:', i)
@@ -27,7 +27,7 @@ for i in range(5, -1, -1):
 
 
 
-print('NESTED LOOP')  # NESTED LOOP
+print('\nNESTED LOOP')  # NESTED LOOP
 
 for i in range(3):
     print('i:', i)
@@ -41,7 +41,7 @@ for i in range(3):
 
 
 
-print('ITERATOR LOOP')  # ITERATOR LOOP
+print('\nITERATOR LOOP')  # ITERATOR LOOP
 
 colors = ['red', 'green', 'blue', 'yellow']
 
@@ -51,7 +51,7 @@ for color in colors:
 
 
 
-print('WHILE LOOP')  # WHILE LOOP
+print('\nWHILE LOOP')  # WHILE LOOP
 
 i = 0
 while i <= 3:
@@ -68,5 +68,31 @@ while i <= 3:
 
 
 
+
+
+
+print('\nEXAMPLE 1 (SUMMATION): sum up all the elements of an array') # EXAMPLE 1
+
+my_array = [-4.3, 2, -0.7, 1.5, 3.5]
+total_sum = 0
+
+for i in range(len(my_array)):
+    total_sum = total_sum + my_array[i]
+
+
+print('The sum of all the elements of the array is', total_sum, '\n')
+
+
+
+print('\nEXAMPLE 2 (PRODUCT): multiply all the elements of an array') # EXAMPLE 2
+
+my_array = [3, 2, -1, 1, 4]
+prod = 1
+
+for i in range(len(my_array)):
+    prod = prod * my_array[i]
+
+
+print('The multiplication of all the elements of the array is', prod, '\n')
 
 
