@@ -107,6 +107,21 @@ print(multi)
 
 
 
+# CREATE EMPTY LISTS
+
+empty_1d_list = []                      # Create an empty list
+empty_2d_list = [[]]                    # Create an empty two-dimensional list
+empty_3d_list = [[[]]]                  # Create an empty three-dimensional list
+
+my_list = [[], []]
+my_list[0].append(2)
+my_list[0].append('Marta')
+my_list[1].append('Hi!')
+my_list[1].append(3.4)
+print(my_list)                          # Prints [[2, 'Marta'], ['Hi!', 3.4]]
+
+
+
 # STRINGS AS ARRAYS OF CHARACTERS - SUBSTRINGS
 
 phrase = 'Oranges are round, and oranges are juicy.'

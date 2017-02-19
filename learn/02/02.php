@@ -107,6 +107,21 @@ print_r($multi); echo '<br />';
 
 
 
+// CREATE EMPTY ARRAYS
+
+$empty_1d_list = [];                    // Create an empty array
+$empty_2d_list = [[]];                  // Create an empty two-dimensional array
+$empty_3d_list = [[[]]];                // Create an empty three-dimensional array
+
+$my_list = [[], []];
+array_push($my_list[0], 2);
+array_push($my_list[0], 'Marta');
+array_push($my_list[1], 'Hi!');
+array_push($my_list[1], 3.4);
+print_r($my_list); echo '<br />';                       // Prints [[2, 'Marta'], ['Hi!', 3.4]]
+
+
+
 // STRINGS AS ARRAYS OF CHARACTERS - SUBSTRINGS
 
 $phrase = 'Oranges are round, and oranges are juicy.';
