@@ -13,7 +13,7 @@ z = a >= b;      // Greater than or equal to (type conversion)  Result: True
 z = a <  b;      // Less than (type conversion)                 Result: False
 z = a <= b;      // Less than or equal to (type conversion)     Result: False
 
-// You can compare two strings too. For example, check: 'Pedro' === 'Patricia'
+// You can compare two strings too. For example, check: 'Patricia' == 'Patricia'  --> True
 
 
 

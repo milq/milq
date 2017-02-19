@@ -13,7 +13,7 @@ z = a >= b     # Greater than or equal to           Result: True
 z = a <  b     # Less than                          Result: False
 z = a <= b     # Less than or equal to              Result: False
 
-# You can compare two strings too. For example, check: 'Pedro' == 'Patricia'
+# You can compare two strings too. For example, check: 'Patricia' == 'Patricia'  --> True
 
 
 
