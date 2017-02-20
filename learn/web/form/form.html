@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Formulario básico en PHP</title>
+    <script type='text/javascript' src='preprocess.js'></script>
+  </head>
+
+  <body>
+    <h1>Formulario básico - Entrada de datos</h1>
+
+    <form action='process.php' method='post'>
+      Nombre: <input type='text' id='nombreUsuario' name='nombre' title='Nombre completo' /><br />
+      Edad: <input type='number' name='edad' title='Edad de la persona' /><br />
+      <fieldset>
+        <legend>Género</legend>
+        <input type='radio' name='genero' value='varon' title='Varón' checked='checked' />Varón
+        <input type='radio' name='genero' value='mujer' title='Mujer' />Mujer
+      </fieldset><br />
+      <input type='submit' id='registrar' value='Registrar' />
+    </form>
+  </body>
+</html>
