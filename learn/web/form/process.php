@@ -6,15 +6,15 @@
   </head>
 
   <body>
-    <h1>Formulario básico - Salida de datos</h1>
+    <h1>Basic form - Output data</h1>
     <?php
-      $nombre = $_POST['nombre'];
-      $edad = $_POST['edad'];
-      $genero = $_POST['genero'];
+      $name = $_POST['name'];
+      $age = $_POST['age'];
+      $gender = $_POST['gender'];
 
-      echo '<p>Tu nombre es ' . $nombre . '.</p>';
-      echo '<p>Tienes ' . $edad . ' años.</p>';
-      echo '<p>Tu género es ' . $genero . '.</p>';
+      echo '<p>Your name is ' . $name . '.</p>';
+      echo '<p>You are ' . $age . ' years old.</p>';
+      echo '<p>Your gender is ' . $gender . '.</p>';
     ?>
   </body>
 </html>

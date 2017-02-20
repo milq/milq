@@ -1,13 +1,13 @@
-'use strict';
+'use strict'
 
-document.addEventListener('DOMContentLoaded', htmlCargado, false);
+document.addEventListener('DOMContentLoaded', ready, false);
 
-function htmlCargado() {
-  var registrar = document.getElementById('registrar');
-  registrar.addEventListener('click', saludar, false);
+function ready() {
+  var register = document.getElementById('register')
+  register.addEventListener('click', welcome, false)
 }
 
-function saludar() {
-  var nombre = document.getElementById('nombreUsuario');
-  alert('¡Bienvenido, ' + nombre.value + '!');
+function welcome() {
+  var name = document.getElementById('username')
+  alert('Welcome, ' + name.value + '!')
 }
