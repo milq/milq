@@ -1,6 +1,8 @@
-## My code
+## Personal useful code
 
+This is a compilation of my personal code I consider useful.
 
+Feel free (as in freedom and as in free of charge) to use, change and share my code. Thanks for using it!
 
 ### Learn to code in different programming languages
 
