@@ -19,4 +19,4 @@ I use it only for didactic purposes, it does not cover all the characteristics o
 
 ### Scripts
 
-You can find [here](scripts) my personal scripts, including the popular [_install-opencv.sh_](scripts/bash/install-opencv.sh).
+You can find **[here](scripts)** my personal scripts, including the popular **[_install-opencv.sh_](scripts/bash/install-opencv.sh)**.
