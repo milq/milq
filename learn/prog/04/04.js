@@ -1,4 +1,4 @@
-'use strict';    //  LOOPS
+'use strict'     //  LOOPS
 
 
 console.log('CLASSICAL LOOP') // CLASSICAL LOOP
