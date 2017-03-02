@@ -32,8 +32,8 @@ def square(x):
    @returns {Number} sum - Sum of a and b
 '''
 def my_sum(a, b):
-    my_sum = a + b;
-    return my_sum;
+    my_sum = a + b
+    return my_sum
 
 
 
@@ -65,18 +65,18 @@ def product(a, b, retArr):
 def mean_square_sort(nmbs, n, strs):
     aux = 0
     for i in nmbs:
-        aux = aux + i;
+        aux = aux + i
 
-    mean = aux / len(nmbs);
+    mean = aux / len(nmbs)
 
-    squared = square(n);
+    squared = square(n)
 
     #  Clone and sort
     list_sorted = sorted(strs)
 
-    result = [mean, squared, list_sorted];
+    result = [mean, squared, list_sorted]
 
-    return result;
+    return result
 
 
 
