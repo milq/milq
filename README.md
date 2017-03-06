@@ -14,6 +14,7 @@ The same line of code but in different languages.
 4. **Loops** (**[PHP](https://github.com/milq/milq/blob/master/learn/prog/04/04.php)**, **[JavaScript](https://github.com/milq/milq/blob/master/learn/prog/04/04.js)**, **[Python](https://github.com/milq/milq/blob/master/learn/prog/04/04.py)**).
 5. **Functions** (**[PHP](https://github.com/milq/milq/blob/master/learn/prog/05/05.php)**, **[JavaScript](https://github.com/milq/milq/blob/master/learn/prog/05/05.js)**, **[Python](https://github.com/milq/milq/blob/master/learn/prog/05/05.py)**).
 6. **Classes** (**[PHP](https://github.com/milq/milq/blob/master/learn/prog/06/06.php)**, **[JavaScript](https://github.com/milq/milq/blob/master/learn/prog/06/06.js)**, **[Python](https://github.com/milq/milq/blob/master/learn/prog/06/06.py)**).
+6. **Libraries** (**[PHP](https://github.com/milq/milq/blob/master/learn/prog/07/07.php)**, **[JavaScript](https://github.com/milq/milq/blob/master/learn/prog/07/07.js)**, **[Python](https://github.com/milq/milq/blob/master/learn/prog/07/07.py)**) - **Geometry - Custom library** (**[PHP](https://github.com/milq/milq/blob/master/learn/prog/07/geometry.php)**, **[JavaScript](https://github.com/milq/milq/blob/master/learn/prog/07/geometry.js)**, **[Python](https://github.com/milq/milq/blob/master/learn/prog/07/geometry.py)**).
 
 I use it only for didactic purposes, it does not cover all the characteristics of each language.
 
