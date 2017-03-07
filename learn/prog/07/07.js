@@ -1,8 +1,8 @@
 'use strict'
 // A library/module/package is a collection of implementations
 //
-// 1. INTERNAL LIBRARY (STANDARD LIBRARY)       Included in the
-// 2. EXTERNAL LIBRARY (THIRD-PARTY LIBRARY)        Included in the
+// 1. INTERNAL LIBRARY (STANDARD LIBRARY)      
+// 2. EXTERNAL LIBRARY (THIRD-PARTY LIBRARY)        
 // 3. OWN LIBRARY
 
 var fs = require('fs')              // Importing internal Node.js library
