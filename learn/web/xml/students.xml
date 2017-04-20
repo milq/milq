@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='students.xsl'?>
 <students>
-  <student id='032'>
+  <student id='32'>
     <first_name>Matthias</first_name>
     <last_name>Jones</last_name>
     <nickname>Matty</nickname>
