@@ -24,9 +24,11 @@ I use it only for didactic purposes, it does not cover all the characteristics o
 
 ### Y
 
-## Templates
+## Project blank templates
 
-### XHTML 5.2 + CSS 3
+* XHTML 5.2, CSS 3 and JavaScript.
+* C++.
+* Python.
 
 ### Scripts
 
