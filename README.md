@@ -22,5 +22,5 @@ You can find **[here](scripts)** my personal scripts, including the popular **[_
 
 ## Examples
 
-* [OpenCV Viz](cpp/opencv/viz): a basic OpenCV Viz application with an axis widget and a cube widget.
-* [PHP Form](php/form): a basic PHP form.
+* [OpenCV Viz](examples/cpp/opencv/viz): a basic OpenCV Viz application with an axis widget and a cube widget.
+* [PHP Form](examples/php/form): a basic PHP form.
