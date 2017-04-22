@@ -1,4 +1,4 @@
-# C++ Project template
+# C++ project template
 
 If you want to install the project in a different directory:
 
