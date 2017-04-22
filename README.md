@@ -7,8 +7,8 @@ Feel free (as in freedom and as in free of charge) to use, change and share my c
 ## Learn
 
 * **[Programming languages](learn/prog):** learn to program. The same line of code but in different programming languages.
-* **[CRUD](learn/crud):** .
-* **[XML](learn/xml)**.
+* [CRUD](learn/crud).
+* [XML](learn/xml).
 
 ## Project blank templates
 
