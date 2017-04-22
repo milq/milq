@@ -6,7 +6,7 @@ Feel free (as in freedom and as in free of charge) to use, change and share my c
 
 ## Learn
 
-* **[Programming languages](learn/prog):** learn to code in different programming languages. The same line of code but in different languages.
+* **[Programming languages](learn/prog):** learn to program. The same line of code but in different programming languages.
 
 ### X
 
