@@ -26,9 +26,9 @@ I use it only for didactic purposes, it does not cover all the characteristics o
 
 ## Project blank templates
 
-* XHTML 5.2, CSS 3 and JavaScript.
-* C++.
-* Python.
+* [XHTML 5.2, CSS 3 and JavaScript](templates/html).
+* [C++](templates/html).
+* [Python](templates/html).
 
 ### Scripts
 
