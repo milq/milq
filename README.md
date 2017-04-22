@@ -4,9 +4,11 @@ This is a compilation of my personal code I consider useful.
 
 Feel free (as in freedom and as in free of charge) to use, change and share my code. Thanks for using it!
 
-### Learn to code in different programming languages
+## Learn
 
-The same line of code but in different languages.
+### Programming languages
+
+Learn to code in different programming languages. The same line of code but in different languages:
 
 1. **Variables** (**[PHP](https://github.com/milq/milq/blob/master/learn/prog/01/01.php)**, **[JavaScript](https://github.com/milq/milq/blob/master/learn/prog/01/01.js)**, **[Python](https://github.com/milq/milq/blob/master/learn/prog/01/01.py)**).
 2. **Collections - Arrays/Lists** (**[PHP](https://github.com/milq/milq/blob/master/learn/prog/02/02.php)**, **[JavaScript](https://github.com/milq/milq/blob/master/learn/prog/02/02.js)**, **[Python](https://github.com/milq/milq/blob/master/learn/prog/02/02.py)**).
@@ -17,6 +19,14 @@ The same line of code but in different languages.
 6. **Libraries** (**[PHP](https://github.com/milq/milq/blob/master/learn/prog/07/07.php)**, **[JavaScript](https://github.com/milq/milq/blob/master/learn/prog/07/07.js)**, **[Python](https://github.com/milq/milq/blob/master/learn/prog/07/07.py)**) - **Geometry - Custom library** (**[PHP](https://github.com/milq/milq/blob/master/learn/prog/07/geometry.php)**, **[JavaScript](https://github.com/milq/milq/blob/master/learn/prog/07/geometry.js)**, **[Python](https://github.com/milq/milq/blob/master/learn/prog/07/geometry.py)**).
 
 I use it only for didactic purposes, it does not cover all the characteristics of each language.
+
+### X
+
+### Y
+
+## Templates
+
+### XHTML 5.2 + CSS 3
 
 ### Scripts
 
