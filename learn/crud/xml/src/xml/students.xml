@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<students>
+  <student id='32'>
+    <first_name>Matthias</first_name>
+    <last_name>Jones</last_name>
+    <nickname>Matty</nickname>
+    <date_of_birth>1990-10-27</date_of_birth>
+    <mark>7</mark>
+  </student>
+  <student id='174'>
+    <first_name>Lucian</first_name>
+    <last_name>Quinn</last_name>
+    <nickname>Luke</nickname>
+    <date_of_birth>1985-02-22</date_of_birth>
+    <mark>5</mark>
+  </student>
+    <student id='233'>
+    <first_name>Elizabeth</first_name>
+    <last_name>Smith</last_name>
+    <nickname>Liz</nickname>
+    <date_of_birth>1987-05-10</date_of_birth>
+    <mark>9</mark>
+  </student>
+  <student id='421'>
+    <first_name>Alice</first_name>
+    <last_name>Mason</last_name>
+    <nickname>Ali</nickname>
+    <date_of_birth>1994-04-03</date_of_birth>
+    <mark>6</mark>
+  </student>
+</students>
