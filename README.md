@@ -19,3 +19,8 @@ Feel free (as in freedom and as in free of charge) to use, change and share my c
 ## Scripts
 
 You can find **[here](scripts)** my personal scripts, including the popular **[_install-opencv.sh_](scripts/bash/install-opencv.sh)**.
+
+## Examples
+
+* [OpenCV Viz](cpp/opencv/viz): a basic OpenCV Viz application with an axis widget and a cube widget.
+* [PHP Forms](php/form): a basic PHP form.
