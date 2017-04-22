@@ -30,6 +30,6 @@ I use it only for didactic purposes, it does not cover all the characteristics o
 * [C++](templates/cpp).
 * [Python](templates/python).
 
-### Scripts
+## Scripts
 
 You can find **[here](scripts)** my personal scripts, including the popular **[_install-opencv.sh_](scripts/bash/install-opencv.sh)**.
