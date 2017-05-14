@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8' />
     <title>Classroom</title>
-    <link rel='stylesheet' href='src/css/style.css' />
+    <link rel='stylesheet' type='text/css' href='src/css/style.css' />
     <script type='text/javascript' src='src/js/app.js'></script>
   </head>
 
