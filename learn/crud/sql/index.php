@@ -8,9 +8,9 @@
   </head>
 
   <body>
-	<h1>Students</h1>
+    <h1>Students</h1>
 	
-	<a href='form.php'>Insert a new student</a><br /><br />
+    <a href='form.php'>Insert a new student</a><br /><br />
 	
     <?php
     require_once('connect_db.php');
@@ -44,6 +44,8 @@
       echo '<td><a href=\'process.php?delete=yes&id=' . $row['id'] . '\'>Delete</a></td>';
       echo '</tr>';
     }
+
+    echo '</table>';
     ?>
   </body>
 </html>
