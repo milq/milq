@@ -40,6 +40,8 @@
       echo '<td><a href=\'process.php?delete=yes&id=' . $student['id'] . '\'>Delete</a></td>';
       echo '</tr>';
     }
+
+    echo '</table>';
     ?>
   </body>
 </html>
