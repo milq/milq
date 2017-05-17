@@ -42,8 +42,8 @@
         echo '<td>' . $row['nickname'] . '</td>';
         echo '<td>' . $row['date_of_birth'] . '</td>';
         echo '<td>' . $row['mark'] . '</td>';
-        echo '<td><a href=\'form.php?id=' . $row['id'] . '\'>Edit</a></td>';
-        echo '<td><a href=\'process.php?delete=yes&id=' . $row['id'] . '\'>Delete</a></td>';
+        echo "<td><a title='edit_" . $row['id'] . "' href='form.php?id=" . $row['id'] . "'>Edit</a></td>";
+        echo "<td><a title='delete_" . $row['id'] . "' href='process.php?delete=yes&id=" . $row['id'] . "'>Delete</a></td>";
         echo '</tr>';
       }
       ?>
