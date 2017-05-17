@@ -36,8 +36,8 @@
       echo '<td>' . $student->nickname . '</td>';
       echo '<td>' . $student->date_of_birth . '</td>';
       echo '<td>' . $student->mark . '</td>';
-      echo '<td><a href=\'form.php?id=' . $student['id'] . '\'>Edit</a></td>';
-      echo '<td><a href=\'process.php?delete=yes&id=' . $student['id'] . '\'>Delete</a></td>';
+      echo '<td><a title=\'edit_' . $student['id'] . '\' href=\'form.php?id=' . $student['id'] . '\'>Edit</a></td>';
+      echo '<td><a title=\'delete_' . $student['id'] . '\' href=\'process.php?delete=yes&id=' . $student['id'] . '\'>Delete</a></td>';
       echo '</tr>';
     }
 
