@@ -17,6 +17,7 @@
     require_once('load_xml.php');
 
     echo '<table>';
+    echo '<tbody>';
     echo '<tr>';
     echo '<th>ID</th>';
     echo '<th>First name</th>';
@@ -27,6 +28,7 @@
     echo '<th>Edit</th>';
     echo '<th>Delete</th>';
     echo '</tr>';
+    echo '</tbody>';
 
 	foreach($xml->children() as $student) { 
 	  echo '<tr>';
