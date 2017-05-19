@@ -1,4 +1,15 @@
-# KEEP UBUNTU OR DEBIAN UP TO DATE
+######################################
+# INSTALL OPENCV ON UBUNTU OR DEBIAN #
+######################################
+
+#       SCRIPT TESTED CORRECTLY ON
+#    | OS             | OpenCV       |
+#    |----------------|--------------|
+#    | Ubuntu 16.04.2 | OpenCV 3.2.0 |
+#    | Debian 8.8     | OpenCV 3.2.0 |
+
+
+# 1. KEEP UBUNTU OR DEBIAN UP TO DATE
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
@@ -6,7 +17,7 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 
 
-# INSTALL THE DEPENDENCIES
+# 2. INSTALL THE DEPENDENCIES
 
 # Build tools:
 sudo apt-get install -y build-essential cmake
@@ -33,7 +44,7 @@ sudo apt-get install -y ant default-jdk
 sudo apt-get install -y doxygen
 
 
-# INSTALL THE LIBRARY (YOU CAN CHANGE '3.2.0' FOR THE LAST STABLE VERSION)
+# 3. INSTALL THE LIBRARY (YOU CAN CHANGE '3.2.0' FOR THE LAST STABLE VERSION)
 
 sudo apt-get install -y unzip wget
 wget https://github.com/opencv/opencv/archive/3.2.0.zip
@@ -49,6 +60,6 @@ sudo make install
 sudo ldconfig
 
 
-# EXECUTE SOME OPENCV EXAMPLES AND COMPILE A DEMONSTRATION
+# 4. EXECUTE SOME OPENCV EXAMPLES AND COMPILE A DEMONSTRATION
 
 # To complete this step, please visit 'http://milq.github.io/install-opencv-ubuntu-debian'.
