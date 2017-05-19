@@ -2,11 +2,12 @@
 # INSTALL OPENCV ON UBUNTU OR DEBIAN #
 ######################################
 
-#       SCRIPT TESTED CORRECTLY ON
-#    | OS             | OpenCV       |
-#    |----------------|--------------|
-#    | Ubuntu 16.04.2 | OpenCV 3.2.0 |
-#    | Debian 8.8     | OpenCV 3.2.0 |
+# |         THIS SCRIPT IS TESTED CORRECTLY ON         |
+# |----------------------------------------------------|
+# | OS             | OpenCV       | Test | Last test   |
+# |----------------|--------------|------|-------------|
+# | Ubuntu 16.04.2 | OpenCV 3.2.0 | OK   | 20 May 2017 |
+# | Debian 8.8     | OpenCV 3.2.0 | OK   | 20 May 2017 |
 
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
