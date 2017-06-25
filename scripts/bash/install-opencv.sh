@@ -8,7 +8,7 @@
 # |----------------|--------------|------|-------------|
 # | Ubuntu 16.04.2 | OpenCV 3.2.0 | OK   | 20 May 2017 |
 # | Debian 8.8     | OpenCV 3.2.0 | OK   | 20 May 2017 |
-
+# | Debian 9.0     | OpenCV 3.2.0 | OK   | 25 Jun 2017 |
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
 
