@@ -22,6 +22,7 @@ sudo apt-get -y autoremove
 sudo apt-get install -y numix-gtk-theme
 sudo apt-get install -y numix-icon-theme
 
+sudo git clone https://github.com/numixproject/numix-icon-theme.git
 
 # 3. ACTIVATE NUMIX'S THEME, WM, AND ICONS IN XFCE
 
