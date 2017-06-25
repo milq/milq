@@ -31,6 +31,7 @@ xfconf-query -c xfwm4 -p /general/theme -s 'Numix'
 xfconf-query -c xsettings -p /Net/IconThemeName -s 'Numix-Circle'
 
 xfconf-query -c xfwm4 -p /general/button_layout -s 'O|HMC'
+xfconf-query -c xfwm4 -p /general/workspace_count -s 1
 
 xfconf-query -c xsettings -p /Xft/Antialias -s 1
 xfconf-query -c xsettings -p /Xft/DPI -s -1
