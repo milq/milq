@@ -17,6 +17,7 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 
 
+
 # 2. INSTALL NUMIX THEME AND NUMIX ICONS
 
 sudo apt-get install -y numix-gtk-theme
@@ -31,6 +32,7 @@ sudo git clone https://github.com/numixproject/numix-icon-theme-circle.git
 sudo mv numix-icon-theme-circle/Numix-Circle .
 sudo mv numix-icon-theme-circle/Numix-Circle-Light .
 sudo rm -rf numix-icon-theme-circle
+
 
 
 # 3. DOWNLOAD GOOGLE FONTS
@@ -50,7 +52,7 @@ sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Se
 
 
 
-# 3. ACTIVATE NUMIX'S THEME, WM, AND ICONS IN XFCE
+# 4. ACTIVATE NUMIX'S THEME, WM, AND ICONS IN XFCE
 
 xfconf-query -c xsettings -p /Net/ThemeName -s 'Numix'
 xfconf-query -c xfwm4 -p /general/theme -s 'Numix'
