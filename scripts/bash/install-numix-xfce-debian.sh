@@ -63,7 +63,7 @@ xfconf-query -c xfwm4 -p /general/workspace_count -s 1
 xfconf-query -c xsettings -p /Gtk/FontName -s 'Open Sans 12'
 
 xfconf-query -c xsettings -p /Xft/Antialias -s 1
-xfconf-query -c xsettings -p /Xft/DPI -s -1
+# xfconf-query -c xsettings -p /Xft/DPI -s -1
 xfconf-query -c xsettings -p /Xft/Hinting -s 1
 xfconf-query -c xsettings -p /Xft/HintStyle -s 'hintfull'
 xfconf-query -c xsettings -p /Xft/RGBA -s 'rgb'
