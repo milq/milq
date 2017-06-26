@@ -13,9 +13,9 @@
       $gender = $_POST['gender'];
     ?>
 
-    <p>Your name is <?php echo $name; ?>.</p>
-    <p>You are <?php echo $age; ?> years old.</p>';
-    <p>Your gender is <?php echo $gender; ?>.</p>
+    <p>Your name is <?php echo $name ?>.</p>
+    <p>You are <?php echo $age ?> years old.</p>
+    <p>Your gender is <?php echo $gender ?>.</p>
 
   </body>
 </html>
