@@ -11,10 +11,11 @@
       $name = $_POST['name'];
       $age = $_POST['age'];
       $gender = $_POST['gender'];
-
-      echo '<p>Your name is ' . $name . '.</p>';
-      echo '<p>You are ' . $age . ' years old.</p>';
-      echo '<p>Your gender is ' . $gender . '.</p>';
     ?>
+
+    <p>Your name is <?php echo $name; ?>.</p>
+    <p>You are <?php echo $age; ?> years old.</p>';
+    <p>Your gender is <?php echo $gender; ?>.</p>
+
   </body>
 </html>
