@@ -21,8 +21,16 @@ sudo apt-get -y autoremove
 
 sudo apt-get install -y numix-gtk-theme
 sudo apt-get install -y numix-icon-theme
+sudo apt-get install -y git
 
-sudo git clone https://github.com/numixproject/numix-icon-theme.git
+# 2.1. Install Numix Circle Icons
+sudo mkdir -p /usr/local/share/icons
+cd /usr/local/share/icons
+sudo rm -rf numix-icon-theme-circle Numix-Circle Numix-Circle-Light
+sudo git clone https://github.com/numixproject/numix-icon-theme-circle.git
+sudo mv numix-icon-theme-circle/Numix-Circle .
+sudo mv numix-icon-theme-circle/Numix-Circle-Light .
+sudo rm -rf numix-icon-theme-circle
 
 
 # 3. DOWNLOAD GOOGLE FONTS
