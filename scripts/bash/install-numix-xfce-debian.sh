@@ -24,6 +24,24 @@ sudo apt-get install -y numix-icon-theme
 
 sudo git clone https://github.com/numixproject/numix-icon-theme.git
 
+
+# 3. DOWNLOAD GOOGLE FONTS
+
+# 3.1. Open Sans
+cd /usr/local/share/fonts
+sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Bold.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-BoldItalic.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-ExtraBold.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-ExtraBoldItalic.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Italic.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Light.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-LightItalic.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Regular.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-SemiBold.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-SemiBoldItalic.ttf
+
+
+
 # 3. ACTIVATE NUMIX'S THEME, WM, AND ICONS IN XFCE
 
 xfconf-query -c xsettings -p /Net/ThemeName -s 'Numix'
