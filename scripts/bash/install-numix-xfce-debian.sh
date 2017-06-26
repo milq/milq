@@ -32,6 +32,7 @@ sudo mv numix-icon-theme-circle/Numix-Circle .
 sudo rm -rf numix-icon-theme-circle
 sudo gtk-update-icon-cache /usr/local/share/icons/Numix-Circle
 
+
 # 3. DOWNLOAD GOOGLE FONTS
 
 # 3.1. Open Sans
