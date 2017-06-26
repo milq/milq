@@ -49,7 +49,7 @@ sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Se
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-SemiBoldItalic.ttf
 
 
-# 4. ACTIVATE NUMIX'S THEME, WM, AND ICONS IN XFCE
+# 4. CONFIG NUMIX'S THEME, WM, AND ICONS IN XFCE
 
 xfconf-query -c xsettings -p /Net/ThemeName -s 'Numix'
 xfconf-query -c xfwm4 -p /general/theme -s 'Numix'
