@@ -6,7 +6,7 @@
 # |-------------------------------------|
 # | OS             | Test | Last test   |
 # |----------------|------|-------------|
-# | Debian 9.0     | OK   | 25 Jun 2017 |
+# | Debian 9.1     | OK   | 4  Sep 2017 |
 
 
 # 1. KEEP DEBIAN UP TO DATE
@@ -90,6 +90,5 @@ xfconf-query -c xsettings -p /Xft/RGBA -s 'rgb'
 
 xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
 
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s '/usr/local/share/images/debian_background.png'
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-show -s true
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-style -s 0
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s '/usr/local/share/images/debian_background.png'
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/image-style -s 5
