@@ -2,11 +2,11 @@
 # SET UP NUMIX ON DEBIAN WITH XFCE #
 ####################################
 
-# | THIS SCRIPT IS TESTED CORRECTLY ON  |
-# |-------------------------------------|
-# | OS             | Test | Last test   |
-# |----------------|------|-------------|
-# | Debian 9.1     | OK   | 4  Sep 2017 |
+# | THIS SCRIPT IS TESTED CORRECTLY ON |
+# |------------------------------------|
+# | OS             | Test | Last test  |
+# |----------------|------|------------|
+# | Debian 9.1     | OK   | 4 Sep 2017 |
 
 
 # 1. KEEP DEBIAN UP TO DATE
@@ -66,7 +66,7 @@ sudo gtk-update-icon-cache /usr/local/share/icons/Numix-Circle
 
 sudo mkdir -p /usr/local/share/images
 cd /usr/local/share/images
-sudo wget http://wallpapercave.com/wp/uB1CL6W.png -O debian_background.png
+sudo wget http://wallpapercave.com/wp/uB1CL6W.png -O debian_bg.png
 
 
 # 5. CONFIG NUMIX'S THEME, WM, AND ICONS IN XFCE
@@ -90,5 +90,5 @@ xfconf-query -c xsettings -p /Xft/RGBA -s 'rgb'
 
 xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
 
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s '/usr/local/share/images/debian_background.png'
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s '/usr/local/share/images/debian_bg.png'
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/image-style -s 5
