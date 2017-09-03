@@ -74,6 +74,8 @@ xfconf-query -c xfwm4 -p /general/workspace_count -s 1
 
 xfconf-query -c xsettings -p /Gtk/FontName -s 'Open Sans 12'
 
+xfconf-query -n -c xsettings -p /Gtk/ColorScheme -t string -s 'selected_bg_color:#204a87;selected_fg_color:#eeeeee;'
+
 xfconf-query -c xsettings -p /Xft/Antialias -s 1
 xfconf-query -c xsettings -p /Xft/Hinting -s 1
 xfconf-query -c xsettings -p /Xft/HintStyle -s 'hintfull'
