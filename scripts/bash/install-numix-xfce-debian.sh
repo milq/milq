@@ -90,4 +90,4 @@ xfconf-query -c xsettings -p /Xft/RGBA -s 'rgb'
 
 xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
 
-
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s '/usr/local/share/images/debian_desktop_background.png'
