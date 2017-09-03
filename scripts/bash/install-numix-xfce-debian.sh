@@ -82,3 +82,9 @@ xfconf-query -c xsettings -p /Xft/HintStyle -s 'hintfull'
 xfconf-query -c xsettings -p /Xft/RGBA -s 'rgb'
 
 xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
+
+
+# 5. SET A DESKTOP BACKGROUND
+sudo mkdir -p /usr/local/share/images
+cd /usr/local/share/images
+sudo wget http://wallpapercave.com/wp/uB1CL6W.png -O debian_desktop_background.png
