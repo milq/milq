@@ -66,7 +66,7 @@ sudo gtk-update-icon-cache /usr/local/share/icons/Numix-Circle
 
 sudo mkdir -p /usr/local/share/images
 cd /usr/local/share/images
-sudo wget http://wallpapercave.com/wp/uB1CL6W.png -O debian_desktop_background.png
+sudo wget http://wallpapercave.com/wp/uB1CL6W.png -O debian_background.png
 
 
 # 5. CONFIG NUMIX'S THEME, WM, AND ICONS IN XFCE
@@ -90,4 +90,4 @@ xfconf-query -c xsettings -p /Xft/RGBA -s 'rgb'
 
 xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
 
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s '/usr/local/share/images/debian_desktop_background.png'
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s '/usr/local/share/images/debian_background.png'
