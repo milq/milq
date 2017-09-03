@@ -35,8 +35,9 @@ sudo gtk-update-icon-cache /usr/local/share/icons/Numix-Circle
 
 # 3. DOWNLOAD GOOGLE FONTS
 
-# 3.1. Open Sans
 cd /usr/local/share/fonts
+
+# 3.1. Open Sans
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Bold.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-BoldItalic.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-ExtraBold.ttf
@@ -47,6 +48,18 @@ sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Li
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Regular.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-SemiBold.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-SemiBoldItalic.ttf
+
+# 3.2. Arimo
+sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Bold.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-BoldItalic.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Italic.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Regular.ttf
+
+# 3.3. Cousine
+sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Bold.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-BoldItalic.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Italic.ttf
+sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Regular.ttf
 
 
 # 4. CONFIG NUMIX'S THEME, WM, AND ICONS IN XFCE
