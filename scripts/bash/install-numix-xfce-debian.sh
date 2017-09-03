@@ -90,5 +90,9 @@ xfconf-query -c xsettings -p /Xft/RGBA -s 'rgb'
 
 xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
 
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s '/usr/local/share/images/debian_bg.png'
+# xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s '/usr/local/share/images/debian_bg.png'
+# xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-show -s true
+# xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/last-image -s '/usr/local/share/images/debian_bg.png'
+# xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/last-single-image -s '/usr/local/share/images/debian_bg.png'
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/image-style -s 5
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s '/usr/local/share/images/debian_bg.png'
