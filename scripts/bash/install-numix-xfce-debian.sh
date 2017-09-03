@@ -17,27 +17,11 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 
 
-# 2. INSTALL NUMIX THEME AND NUMIX ICONS
-
-sudo apt-get install -y numix-gtk-theme
-sudo apt-get install -y numix-icon-theme
-sudo apt-get install -y git
-
-# 2.1. Install Numix Circle Icons
-sudo mkdir -p /usr/local/share/icons
-cd /usr/local/share/icons
-sudo rm -rf numix-icon-theme-circle Numix-Circle
-sudo git clone https://github.com/numixproject/numix-icon-theme-circle.git
-sudo mv numix-icon-theme-circle/Numix-Circle .
-sudo rm -rf numix-icon-theme-circle
-sudo gtk-update-icon-cache /usr/local/share/icons/Numix-Circle
-
-
-# 3. DOWNLOAD GOOGLE FONTS
+# 2. DOWNLOAD GOOGLE FONTS
 
 cd /usr/local/share/fonts
 
-# 3.1. Open Sans
+# 2.1. Open Sans
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Bold.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-BoldItalic.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-ExtraBold.ttf
@@ -49,17 +33,33 @@ sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Re
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-SemiBold.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-SemiBoldItalic.ttf
 
-# 3.2. Arimo
+# 2.2. Arimo
 sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Bold.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-BoldItalic.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Italic.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Regular.ttf
 
-# 3.3. Cousine
+# 2.3. Cousine
 sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Bold.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-BoldItalic.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Italic.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Regular.ttf
+
+
+# 3. INSTALL NUMIX THEME AND NUMIX ICONS
+
+sudo apt-get install -y numix-gtk-theme
+sudo apt-get install -y numix-icon-theme
+sudo apt-get install -y git
+
+# 3.1. Install Numix Circle Icons
+sudo mkdir -p /usr/local/share/icons
+cd /usr/local/share/icons
+sudo rm -rf numix-icon-theme-circle Numix-Circle
+sudo git clone https://github.com/numixproject/numix-icon-theme-circle.git
+sudo mv numix-icon-theme-circle/Numix-Circle .
+sudo rm -rf numix-icon-theme-circle
+sudo gtk-update-icon-cache /usr/local/share/icons/Numix-Circle
 
 
 # 4. CONFIG NUMIX'S THEME, WM, AND ICONS IN XFCE
