@@ -17,7 +17,7 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 
 
-# 2. DOWNLOAD GOOGLE FONTS
+# 2. DOWNLOAD FONTS
 
 cd /usr/local/share/fonts
 
@@ -45,6 +45,8 @@ sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Bold
 sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Italic.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Regular.ttf
 
+# 2.4. Fira Mono Regular
+sudo wget https://github.com/mozilla/fira/raw/master/ttf/FiraMono-Regular.ttf
 
 # 3. INSTALL NUMIX THEME AND NUMIX ICONS
 
