@@ -98,3 +98,14 @@ xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
 # xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/last-single-image -s '/usr/local/share/images/debian_bg.png'
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/image-style -s 5
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s '/usr/local/share/images/debian_bg.png'
+
+
+# 6. CONFIG TERMINAL APPEARANCE
+
+echo '[Configuration]' > ~/.config/xfce4/terminal/terminalrc
+echo 'FontName=Fira Mono Regular 12' >> ~/.config/xfce4/terminal/terminalrc
+echo 'ColorBackground=#002b36' >> ~/.config/xfce4/terminal/terminalrc
+echo 'ColorForeground=#d4e1e2' >> ~/.config/xfce4/terminal/terminalrc
+echo 'ColorCursor=#93a1a1' >> ~/.config/xfce4/terminal/terminalrc
+echo 'TabActivityColor=#dc322f' >> ~/.config/xfce4/terminal/terminalrc
+echo 'ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8d5;#002b36;#cb4b16;#586e75;#657b83;#5e858b;#6c71c4;#93a1a1;#fdf6e3' >> ~/.config/xfce4/terminal/terminalrc
