@@ -46,6 +46,8 @@ sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Ital
 sudo wget https://github.com/google/fonts/raw/master/apache/cousine/Cousine-Regular.ttf
 
 # 2.4. Fira Mono Regular
+sudo wget https://github.com/mozilla/fira/raw/master/ttf/FiraMono-Bold.ttf
+sudo wget https://github.com/mozilla/fira/raw/master/ttf/FiraMono-Medium.ttf
 sudo wget https://github.com/mozilla/fira/raw/master/ttf/FiraMono-Regular.ttf
 
 # 3. INSTALL NUMIX THEME AND NUMIX ICONS
