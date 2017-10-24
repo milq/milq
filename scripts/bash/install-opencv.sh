@@ -1,3 +1,4 @@
+#!/bin/bash
 ######################################
 # INSTALL OPENCV ON UBUNTU OR DEBIAN #
 ######################################
@@ -46,12 +47,13 @@ sudo apt-get install -y doxygen
 
 
 # 3. INSTALL THE LIBRARY (YOU CAN CHANGE '3.2.0' FOR THE LAST STABLE VERSION)
+VERSION=3.3.0
 
 sudo apt-get install -y unzip wget
-wget https://github.com/opencv/opencv/archive/3.2.0.zip
-unzip 3.2.0.zip
-rm 3.2.0.zip
-mv opencv-3.2.0 OpenCV
+wget https://github.com/Itseez/opencv/archive/$VERSION.zip
+unzip $VERSION.zip
+rm $VERSION.zip
+mv opencv-$VERSION OpenCV
 cd OpenCV
 mkdir build
 cd build
