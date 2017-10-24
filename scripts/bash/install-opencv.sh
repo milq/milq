@@ -50,7 +50,7 @@ sudo apt-get install -y doxygen
 VERSION=3.3.0
 
 sudo apt-get install -y unzip wget
-wget https://github.com/Itseez/opencv/archive/$VERSION.zip
+wget https://github.com/opencv/opencv/archive/$VERSION.zip
 unzip $VERSION.zip
 rm $VERSION.zip
 mv opencv-$VERSION OpenCV
