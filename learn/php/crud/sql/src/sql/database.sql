@@ -7,12 +7,12 @@ USE db_example;
 DROP TABLE IF EXISTS students;
 
 CREATE TABLE students (
-  id INT(11) NOT NULL AUTO_INCREMENT,
+  id SERIAL,
   first_name VARCHAR(100) NOT NULL,
   last_name VARCHAR(100) NOT NULL,
   nickname VARCHAR(100) NOT NULL,
   date_of_birth DATE NOT NULL,
-  mark INT(1) NOT NULL,
+  mark INT NOT NULL,
   PRIMARY KEY (id)
 );
 
