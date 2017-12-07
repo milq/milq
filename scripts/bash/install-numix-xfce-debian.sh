@@ -113,3 +113,8 @@ echo 'TabActivityColor=#dc322f' >> ~/.config/xfce4/terminal/terminalrc
 echo 'ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8d5;#002b36;#cb4b16;#586e75;#657b83;#5e858b;#6c71c4;#93a1a1;#fdf6e3' >> ~/.config/xfce4/terminal/terminalrc
 
 
+# 7. INSTALL ADDITIONAL SOFTWARE (OPTIONAL)
+
+sudo apt-get -y install xfce4-whiskermenu-plugin
+sudo apt-get -y install chromium
+sudo apt-get -y install geany
