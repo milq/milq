@@ -1,5 +1,5 @@
 <?php
 
-echo '<p>Hello, world!</p>';
+echo 'Hello, world!' . PHP_EOL;
 
 ?>
