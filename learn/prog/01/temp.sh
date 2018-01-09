@@ -1,17 +1,25 @@
+#!/bin/bash
+
+# This is a comment
+
+: '
+   This is a comment
+   on multiple lines
+'
+
+#  VARIABLES
+#
+#  A variable is a symbol that represents a quantity that may vary.
+#
+#  let identifier=value;
+
+let age=25      # The value 25 is assigned to variable age
+
+
+
 #  BASIC DATA TYPES
-age=25                                    # Integer
-temperature=-3.82                         # Real number
-name='Nacho López'                        # String
-has_car=true                              # Boolean (only two values: true or false)
+let age=25                                # Integer
+let temperature=-3.82                     # Real number
 
-
-
-#  ARITHMETIC OPERATIONS WITH NUMBERS
-x=5
-y=2
-
-z=x+y         # Addition.                                     Result: 7.
-z=x-y         # Subtraction.                                  Result: 3.
-z=x * y         # Multiplication.                               Result: 10.
-z=x / y         # Division.                                     Result: 2.5.
-z=x % y         # Modulo (remainder of the integer division).   Result: 1.
+let z=$temperature+1
+echo $z

@@ -29,14 +29,14 @@ var has_car = true                       // Boolean (only two values: true or fa
 var x = 5
 var y = 2
 
-var z = x + y    // Addition.                                     Result: 7.
-z = x - y        // Subtraction.                                  Result: 3.
-z = x * y        // Multiplication.                               Result: 10.
-z = x / y        // Division.                                     Result: 2.5.
-z = x % y        // Modulo (remainder of the integer division).   Result: 1.
+var z = x + y     // Addition.                                     Result: 7.
+z = x - y         // Subtraction.                                  Result: 3.
+z = x * y         // Multiplication.                               Result: 10.
+z = x / y         // Division.                                     Result: 2.5.
+z = x % y         // Modulo (remainder of the integer division).   Result: 1.
 
-z++              // Increase the value of z by 1.                 Result: 2.
-z--              // Decrease the value of z by 1.                 Result: 1.
+z++               // Increase the value of z by 1.                 Result: 2.
+z--               // Decrease the value of z by 1.                 Result: 1.
 
 z = 50 - x * 6 / -0.5         //
 z = (50 - x) * 6 / -0.5       // The order of operations is as in mathematics
@@ -49,8 +49,8 @@ z = 2 * z + 3                 // Remember: the symbol = assigns a value to the v
 // BASIC OPERATIONS WITH STRINGS
 var a = 'GNU/'
 var b = 'Linux'
-var c = a + b           // Concatenation                          Result: 'GNU/Linux'.
-c = a.repeat(3)         // Repetition                             Result: 'GNU/GNU/GNU/'.
+var c = a + b                                 // Concatenation     Result: 'GNU/Linux'.
+c = a.repeat(3)                               // Repetition        Result: 'GNU/GNU/GNU/'.
 
 
 
