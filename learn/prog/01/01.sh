@@ -17,13 +17,13 @@ age=25          # The value 25 is assigned to variable age
 
 
 
-#  BASIC DATA (Bash variables are untyped)
+#  BASIC DATA (Bash does not segregate its variables by type, all variables are character strings)
 age=25                                    # Integer
 temperature=-3.82                         # Real number
 name="Nacho López"                        # String
 has_car=true                              # Boolean (only two values: true or false)
 
-# NOTE: Bash variables are character strings, but, depending on context, Bash permits arithmetic operations and comparisons on variables.
+# NOTE: Depending on context, Bash permits arithmetic operations and comparisons on variables.
 
 #  ARITHMETIC OPERATIONS WITH NUMBERS
 x=5
