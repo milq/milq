@@ -11,7 +11,7 @@ public static void main(String[] args) {
 //
 // A variable is a symbol that represents a quantity that may vary.
 //
-// identifier = value;
+// data_type identifier = value; 
 
 int age = 25;  // The value 25 is assigned to variable age
 

@@ -4,6 +4,17 @@ This is a compilation of my personal code I consider useful.
 
 Feel free (as in freedom and as in free of charge) to use, change and share my code. Thanks for using it!
 
+## Learn - Programming languages
+
+Learn to code in different programming languages. The same line of code but in different languages:
+
+| Topic     | Python | PHP | Java | Bash | Powershell |
+|-----------|--------|-----|------|------|------------|
+| Variables | **[Python](learn/prog/01/01.py)** | **[PHP](learn/prog/01/01.php)** | **[Java](learn/prog/01/Java01.java)** | **[Bash](learn/prog/01/01.sh)** | Powershell |
+|           |        |     |      |      |            |
+
+I use it only for didactic purposes, it does not cover all the characteristics of each language.
+
 ## Learn
 
 * **[Programming languages](learn/prog):** learn to program. The same line of code but in different programming languages.
