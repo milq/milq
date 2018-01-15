@@ -36,7 +36,7 @@ print(ages)
 
 # ADD AN ELEMENT TO A LIST
 
-names = ['Nacho', 'Lola', 'David']
+names = ['Nacho', 'David', 'Lola']
 
 names.insert(2, 'Alba')          # Add 'Alba' at index 2.         Result: ['Nacho', 'David', 'Alba', 'Lola']
 names.insert(0, 'Álvaro')        # Add 'Álvaro' at the beginning. Result: ['Álvaro', 'Nacho', 'David', 'Alba', 'Lola']
