@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ######################################
 # INSTALL OPENCV ON UBUNTU OR DEBIAN #
 ######################################
@@ -9,6 +11,21 @@
 # | Ubuntu 16.04.2 | OpenCV 3.2.0 | OK   | 20 May 2017 |
 # | Debian 8.8     | OpenCV 3.2.0 | OK   | 20 May 2017 |
 # | Debian 9.0     | OpenCV 3.2.0 | OK   | 25 Jun 2017 |
+
+# Exit on error
+set -e
+
+# Possibly tinker the installation directory
+install_dir="/usr/local/"
+if [[ "$#" == 0 ]]; then
+    echo "Did not specify an installation directory. Installing it systemwide!"
+    sleep 0.5
+elif [[ "$#" == 1  ]]; then
+    install_dir="$1"
+else
+    echo "Usage: ${BASH_SOURCE[*]} <installation-directory [/usr/local] >"
+    exit 1
+fi
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
 
@@ -55,12 +72,14 @@ mv opencv-3.2.0 OpenCV
 cd OpenCV
 mkdir build
 cd build
-cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF ..
-make -j4
+cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON \
+    -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON \
+    -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF .. \
+    -DCMAKE_INSTALL_PREFIX="${install_dir}"
+
+
+make -j
 sudo make install
 sudo ldconfig
 
 
-# 4. EXECUTE SOME OPENCV EXAMPLES AND COMPILE A DEMONSTRATION
-
-# To complete this step, please visit 'http://milq.github.io/install-opencv-ubuntu-debian'.
