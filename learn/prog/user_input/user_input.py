@@ -6,6 +6,7 @@ a = sys.argv[0]
 b = sys.argv[1]
 c = sys.argv[2]
 d = sys.argv[3]
+e = sys.argv
 
 print('Script name:', a)
 print(' ')
@@ -15,9 +16,5 @@ print('Third argument:', d)
 print(' ')
 print('All arguments are string. E.g. type of first argument:', type(b))
 print(' ')
-
-total = len(sys.argv)
-print ('The total numbers of arguments passed to the script:', total)
-
-cmdargs = str(sys.argv)
-print ("Arguments list: %s " % cmdargs)
+print ('Arguments inside a list:', e)
+print ('The total numbers of arguments passed to the script:', len(e))
