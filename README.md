@@ -13,7 +13,7 @@ Learn to code in different programming languages. The same line of code but in d
 | Variables | **[Python](learn/prog/01/01.py)** | **[PHP](learn/prog/01/01.php)** | **[Java](learn/prog/01/Java01.java)** | **[Bash](learn/prog/01/01.sh)** | Powershell |
 |           |        |     |      |      |            |
 
-I use it only for didactic purposes, it does not cover the best characteristics of each language.
+I use it only for didactic purposes, it does not cover all the characteristics of each language.
 
 ## Learn
 
