@@ -10,6 +10,9 @@
 # | Debian 8.8     | OpenCV 3.2.0 | OK   | 20 May 2017 |
 # | Debian 9.0     | OpenCV 3.2.0 | OK   | 25 Jun 2017 |
 
+# Set the wanted opencv version
+opencv_version=3.3.0
+
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
 
 sudo apt-get -y update
@@ -48,10 +51,10 @@ sudo apt-get install -y doxygen
 # 3. INSTALL THE LIBRARY (YOU CAN CHANGE '3.2.0' FOR THE LAST STABLE VERSION)
 
 sudo apt-get install -y unzip wget
-wget https://github.com/opencv/opencv/archive/3.2.0.zip
-unzip 3.2.0.zip
-rm 3.2.0.zip
-mv opencv-3.2.0 OpenCV
+wget https://github.com/opencv/opencv/archive/${opencv_version}.zip
+unzip ${opencv_version}.zip
+rm ${opencv_version}.zip
+mv opencv-${opencv_version} OpenCV
 cd OpenCV
 mkdir build
 cd build
