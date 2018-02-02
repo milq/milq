@@ -45,13 +45,22 @@ sudo apt-get install -y ant default-jdk
 sudo apt-get install -y doxygen
 
 
-# 3. INSTALL THE LIBRARY (YOU CAN CHANGE '3.2.0' FOR THE LAST STABLE VERSION)
+# 3. INSTALL THE LIBRARY (YOU CAN CHANGE '3.3.1' FOR THE LAST STABLE VERSION)
+
+if [ ! -z $1 ] 
+then 
+    : # $1 was given
+    OPENCV_VERSION="$1"
+else
+    : # $1 was not given
+    OPENCV_VERSION="3.3.0"
+fi
 
 sudo apt-get install -y unzip wget
-wget https://github.com/opencv/opencv/archive/3.2.0.zip
-unzip 3.2.0.zip
-rm 3.2.0.zip
-mv opencv-3.2.0 OpenCV
+wget https://github.com/opencv/opencv/archive/$OPENCV_VERSION.zip
+unzip $OPENCV_VERSION.zip
+rm $OPENCV_VERSION.zip
+mv opencv-$OPENCV_VERSION OpenCV
 cd OpenCV
 mkdir build
 cd build
