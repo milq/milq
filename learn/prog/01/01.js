@@ -56,7 +56,7 @@ c = a.repeat(3)                               // Repetition        Result: 'GNU/
 
 // PRINT VARIABLES ON CONSOLE
 
-console.log('Hello, world!')            // Prints on console: Hello, world!
+console.log('Hello, world!')            // Prints on screen: Hello, world!
 console.log(x)                          // Prints the variable x
 
 // You can print on console strings and variables
@@ -66,14 +66,16 @@ console.log('I have bought', x, 'oranges and', y, 'lemons.')
 
 // DATA TYPE CONVERSION
 
-var height = '95.4'
-console.log(typeof(height))                 // Prints the current data type
-height = Number(height)                     // Convert a string to number
-console.log(typeof(height))
 
+var calories = '95.4'
 var altitude = -544.432
-console.log(typeof(altitude))
-altitude = String(altitude)                 // Convert a number to string
-console.log(typeof(altitude))
+
+
+var calories_flt = Number(calories)       // Convert to number.
+var altitude_str = String(altitude)       // Convert to string.
+
+
+var calories_type = typeof(calories_flt)  // Type: number.
+var altitude_type = typeof(altitude_str)  // Type: string.
 
 

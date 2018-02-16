@@ -56,24 +56,26 @@ $c = str_repeat($a, 3);                       // Repetition        Result: 'GNU/
 
 // PRINT VARIABLES ON SCREEN
 
-echo '<p>Hello, world!</p>';            // Prints on screen: Hello, world!
-echo '<p>' . $x . '</p>';               // Prints the variable x
+echo 'Hello, world!' . PHP_EOL;         // Prints on screen: Hello, world!
+echo $x . PHP_EOL;                      // Prints the variable x
 
 // You can print on screen strings and variables
-echo '<p>I have bought ' . $x . ' oranges and ' . $y . ' lemons.</p>';
+echo 'I have bought ' . $x . ' oranges and ' . $y . ' lemons.' . PHP_EOL;
 
 
 
 // DATA TYPE CONVERSION
 
-$height = '95.4';
-echo '<p>' . gettype($height) . '</p>';     // Prints the current data type
-$height = (float) $height;                  // Convert a string to a real number
-echo '<p>' . gettype($height) . '</p>';
-
+$position = '5';
+$calories = '95.4';
 $altitude = -544.432;
-echo '<p>' . gettype($altitude) . '</p>';
-$altitude = (string) $altitude;             // Convert a real number to string
-echo '<p>' . gettype($altitude) . '</p>';
+
+$position_int = (int) $position;          // Convert to integer.
+$calories_flt = (float) $calories;        // Convert to float.
+$altitude_str = (string) $altitude;       // Convert to string.
+
+$position_type = gettype($position_int);  // Type: integer.
+$calories_type = gettype($calories_flt);  // Type: float.
+$altitude_type = gettype($altitude_str);  // Type: string.
 
 ?>

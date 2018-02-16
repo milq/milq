@@ -66,14 +66,16 @@ print('I have bought', x, 'oranges and', y, 'lemons.')
 
 #  DATA TYPE CONVERSION
 
-height = '95.4'
-print(type(height))                          # Prints the current data type
-height = float(height)                       # Convert a string to a real number
-print(type(height))
-
+position = '5'
+calories = '95.4'
 altitude = -544.432
-print(type(altitude))
-altitude = str(altitude)                     # Convert a real number to string
-print(type(altitude))
+
+position_int = int(position)               # Convert to integer.
+calories_flt = float(calories)             # Convert to float.
+altitude_str = str(altitude)               # Convert to string.
+
+position_type = type(position_int)         # Type: integer.
+calories_type = type(calories_flt)         # Type: float.
+altitude_type = type(altitude_str)         # Type: string.
 
 

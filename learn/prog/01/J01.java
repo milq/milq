@@ -1,4 +1,4 @@
-public class Java01 {
+public class J01 {
 public static void main(String[] args) {
 // This is a comment
 
