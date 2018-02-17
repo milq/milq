@@ -2,6 +2,7 @@
 # INSTALL OPENCV ON UBUNTU OR DEBIAN #
 ######################################
 
+
 # |         THIS SCRIPT IS TESTED CORRECTLY ON         |
 # |----------------------------------------------------|
 # | OS             | OpenCV       | Test | Last test   |
@@ -10,7 +11,11 @@
 # | Debian 8.8     | OpenCV 3.2.0 | OK   | 20 May 2017 |
 # | Debian 9.0     | OpenCV 3.2.0 | OK   | 25 Jun 2017 |
 
-OPENCV_VERSION="3.3.0"
+
+# VERSION TO BE INSTALLED
+
+OPENCV_VERSION='3.4.0'
+
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
 
@@ -47,7 +52,7 @@ sudo apt-get install -y ant default-jdk
 sudo apt-get install -y doxygen
 
 
-# 3. INSTALL THE LIBRARY (YOU CAN CHANGE '3.2.0' FOR THE LAST STABLE VERSION)
+# 3. INSTALL THE LIBRARY
 
 sudo apt-get install -y unzip wget
 wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip
