@@ -18,7 +18,7 @@ print('I like', x, ', ', y, ', and', z)
 
 fruits = ['Apple', 'Banana', 'Watermelon', 'Peach', ' Nectarine']
 num_fruits = len(fruits)     # The variable 'num_fruits' is 5 (the number of elements of the array 'fruits')
-print(num_fruits)
+print('Number of fruits:', num_fruits)
 
 
 

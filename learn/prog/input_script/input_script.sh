@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Example of execution: bash script_input.sh -3.4 'Hello, world!' 6
+# Example of execution: bash input_script.sh -3.4 'Hello, world!' 6
 
 
 

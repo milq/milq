@@ -10,7 +10,7 @@ $x = $food[0];      // The first element is at index 0
 $y = $food[1];      // The second element is at index 1
 $z = $food[2];      // The third element is at index 2
 
-echo '<p>I like ' . $x . ', ' . $y . ', and ' . $z . '.</p>';
+echo 'I like ' . $x . ', ' . $y . ', and ' . $z . PHP_EOL;
 
 
 
@@ -18,7 +18,7 @@ echo '<p>I like ' . $x . ', ' . $y . ', and ' . $z . '.</p>';
 
 $fruits = ['Apple', 'Banana', 'Watermelon', 'Peach', ' Nectarine'];
 $num_fruits = count($fruits);     // The variable 'num_fruits' is 5 (the number of elements of the array 'fruits')
-echo '<p>' . $num_fruits . '</p>';
+echo 'Number of fruits: ' . $num_fruits . PHP_EOL;
 
 
 

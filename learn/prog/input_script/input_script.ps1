@@ -1,6 +1,6 @@
 
 
-# Example of execution: ./script_input.ps1 -3.4 'Hello, world!' 6
+# Example of execution: ./input_script.ps1 -3.4 'Hello, world!' 6
 
 
 

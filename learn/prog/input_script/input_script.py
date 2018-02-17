@@ -1,6 +1,6 @@
 
 
-# Example of execution: python3 script_input.py -3.4 'Hello, world!' 6
+# Example of execution: python3 input_script.py -3.4 'Hello, world!' 6
 
 import sys
 

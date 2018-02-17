@@ -8,12 +8,13 @@ Feel free (as in freedom and as in free of charge) to use, change and share my c
 
 Learn to code in different programming languages. The same line of code but in different languages:
 
-| Topic     | Python | PHP | Java | Bash | Powershell |
-|-----------|--------|-----|------|------|------------|
-| Variables | **[Python](learn/prog/01/01.py)** | **[PHP](learn/prog/01/01.php)** | **[Java](learn/prog/01/Java01.java)** | **[Bash](learn/prog/01/01.sh)** | Powershell |
-|           |        |     |      |      |            |
+| Topic        | Python | PHP | JavaScript | C++ | Java | Bash | Powershell |
+|--------------|--------|-----|------------|-----|------|------|------------|
+| Hello, world | **[Python](learn/prog/00/00.py)** | **[PHP](learn/prog/00/00.php)** | **[JavaScript](learn/prog/00/00.js)** | C++ | **[Java](learn/prog/00/J00.java)** | **[Bash](learn/prog/00/00.sh)** | **[Powershell](learn/prog/00/00.ps1)** |
+| Variables    | **[Python](learn/prog/01/01.py)** | **[PHP](learn/prog/01/01.php)** | **[JavaScript](learn/prog/01/01.js)** | C++ | **[Java](learn/prog/01/J01.java)** | **[Bash](learn/prog/01/01.sh)** | **[Powershell](learn/prog/01/01.ps1)** |
+|              |        |     |      |      |            |
 
-I use it only for didactic purposes, it does not cover all the characteristics of each language.
+I use it only for didactic purposes, it does not cover all the best characteristics and the code styles of each language.
 
 ## Learn
 

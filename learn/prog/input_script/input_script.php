@@ -1,6 +1,6 @@
 <?php
 
-// Example of execution: php script_input.ps1 -3.4 'Hello, world!' 6
+// Example of execution: php input_script.ps1 -3.4 'Hello, world!' 6
 
 
 

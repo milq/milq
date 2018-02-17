@@ -18,7 +18,7 @@ console.log('I like', x, ',', y, ', and', z)
 
 var fruits = ['apple', 'banana', 'watermelon', 'peach', ' nectarine']
 var num_fruits = fruits.length    // The variable 'num_fruits' is 5 (the number of elements of the array 'fruits')
-console.log(num_fruits)
+console.log('Number of fruits:', num_fruits)
 
 
 
