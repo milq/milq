@@ -13,21 +13,21 @@
 #
 #  identifier=value;
 
-age=25          # The value 25 is assigned to variable age
+age='25'        # The value 25 is assigned to variable age
 
 
 
 #  BASIC DATA (Bash does not segregate its variables by type, all variables are character strings)
-age=25                                    # Integer
-temperature=-3.82                         # Real number
-name="Nacho López"                        # String
-has_car=true                              # Boolean (only two values: true or false)
+age='25'                                  # Integer
+temperature='-3.82'                       # Real number
+name='Nacho López'                        # String
+has_car='true'                            # Boolean (only two values: true or false)
 
 # NOTE: Depending on context, Bash permits arithmetic operations and comparisons on variables.
 
 #  ARITHMETIC OPERATIONS WITH NUMBERS
-x=5
-y=2
+x='5'
+y='2'
 
 let z=x+y          # Addition.                                     Result: 7.
 let z=x-y          # Subtraction.                                  Result: 3.
@@ -47,20 +47,20 @@ z=$(bc -l <<< "(50 - $x * 6) / -0.5")  #
 # ADVICE: If you operate with integer numbers and the result is an integer number, use the 'let' tool.
 
 #  BASIC OPERATIONS WITH STRINGS
-a="GNU/"
-b="Linux"
-c=$a$b                                         # Concatenation     Result: 'GNU/Linux'.
-d=$(printf "%.s$a" {1..3})                     # Repetition        Result: 'GNU/GNU/GNU/'.
-
+a='GNU/'
+b='Linux'
+c=${a}${b}                                     # Concatenation     Result: 'GNU/Linux'.
+d=$(printf %.s${a} {1..3})                     # Repetition        Result: 'GNU/GNU/GNU/'.
+echo ${d}
 
 
 #  PRINT VARIABLES ON SCREEN
 
-echo "Hello, world!"                     # Prints on screen: Hello, world!
-echo "$x"                                # Prints the variable x
+echo 'Hello, world!'                     # Prints on screen: Hello, world!
+echo ${x}                                # Prints the variable x
 
 # You can print on screen strings and variables
-echo "I have bought $x oranges and $y lemons."
+echo 'I have bought' ${x} 'oranges and' ${y} 'lemons.'
 
 
 
