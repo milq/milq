@@ -2,7 +2,6 @@
 # INSTALL OPENCV ON UBUNTU OR DEBIAN #
 ######################################
 
-
 # |         THIS SCRIPT IS TESTED CORRECTLY ON         |
 # |----------------------------------------------------|
 # | OS             | OpenCV       | Test | Last test   |
@@ -11,9 +10,7 @@
 # | Debian 8.8     | OpenCV 3.2.0 | OK   | 20 May 2017 |
 # | Debian 9.0     | OpenCV 3.2.0 | OK   | 25 Jun 2017 |
 
-
 # VERSION TO BE INSTALLED
-
 OPENCV_VERSION='3.4.0'
 
 
