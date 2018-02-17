@@ -11,6 +11,7 @@
 # | Debian 9.0     | OpenCV 3.2.0 | OK   | 25 Jun 2017 |
 
 # VERSION TO BE INSTALLED
+
 OPENCV_VERSION='3.4.0'
 
 
