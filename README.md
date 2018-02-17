@@ -18,7 +18,6 @@ I use it only for didactic purposes, it does not cover all the best characterist
 
 ## Learn
 
-* **[Programming languages](learn/prog):** learn to program. The same line of code but in different programming languages.
 * PHP
     * [CRUD](learn/php/crud).
     * [Login and registration](learn/php/login).
