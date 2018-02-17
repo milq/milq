@@ -32,15 +32,15 @@ y='2'
 let z=x+y          # Addition.                                     Result: 7.
 let z=x-y          # Subtraction.                                  Result: 3.
 let z=x*y          # Multiplication.                               Result: 10.
-z=$(bc -l <<< "$x/$y")   # Division.                               Result: 2.5.
+z=$(bc -l <<< "${x}/${y}")   # Division.                           Result: 2.5.
 let z=x%y          # Modulo (remainder of the integer division).   Result: 1.
 
 let z=z+1          # Increase the value of z by 1.                 Result: 2.
 let z=z-1          # Decrease the value of z by 1.                 Result: 1.
 
-z=$(bc -l <<< "50 - $x * 6 / -0.5")    #
-z=$(bc -l <<< "(50 - $x) * 6 / -0.5")  # The order of operations is as in mathematics
-z=$(bc -l <<< "(50 - $x * 6) / -0.5")  #
+z=$(bc -l <<< "50 - ${x} * 6 / -0.5")    #
+z=$(bc -l <<< "(50 - ${x}) * 6 / -0.5")  # The order of operations is as in mathematics
+z=$(bc -l <<< "(50 - ${x} * 6) / -0.5")  #
 
 # NOTE: Bash does not support floating-point arithmetic, you must delegate to a tool.
 # ADVICE: If you operate with floating-point numbers or the result is a floating-point number, use the 'bc' tool.
