@@ -30,7 +30,7 @@ $ages[3] = 57                   # Modify the element at index 3. Result: [43, 72
 $ages[0] = 6                    # Modify the first element.      Result: [6, 72, 32, 57, 65]
 $ages[-1] = 12                  # Modify the last element.       Result: [6, 72, 32, 57, 12]
 
-Write-Output([String]::Join(' ', $ages))		# Join permits printing the elements in the same line
+Write-Output([String]::Join(' ', $ages))        # Join permits printing the elements in the same line
 
 
 
@@ -93,7 +93,7 @@ $animals_sorted = $animals | Sort-Object
 
 
 
-# MULTIDIMENSIONAL ARRAYS (this example is not a truly multidimensional array, you need to use the .Net Framework) 
+# MULTIDIMENSIONAL ARRAYS (this example is not a truly multidimensional array, you need to use the .Net Framework)
 
 $a = @(8, 1)
 $b = @(3, 5, 7, 6)
@@ -103,7 +103,7 @@ $multi = @($a, $b, $c)
 
 $d = $multi[1][3]                            # Get the element at [1][3]. Variable 'd' is 6
 $multi[2][1][0] = -1                         # Modify the element at index [2][1][0]
-ConvertTo-Json $multi                       
+ConvertTo-Json $multi
 
 
 
@@ -113,12 +113,12 @@ $empty_1d_list = @()                    # Create an empty array
 $empty_2d_list = @(@())                 # Create an empty two-dimensional array (not a truly multidimensional array)
 $empty_3d_list = @(@(@()))              # Create an empty three-dimensional array (not a truly multidimensional array)
 
-$my_list = @(@(), @()) 
+$my_list = @(@(), @())
 $my_list[0] = $my_list[0] + @(2)
 $my_list[0] = $my_list[0] + @('Marta')
 $my_list[1] = $my_list[1] + @('Hi!')
 $my_list[1] = $my_list[1] + @(3.4)
-ConvertTo-Json $my_list                 # Prints [[2, 'Marta'], ['Hi!', 3.4]]				    
+ConvertTo-Json $my_list                 # Prints [[2, 'Marta'], ['Hi!', 3.4]]
 
 
 

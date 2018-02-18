@@ -103,7 +103,7 @@ multi=([0,0]='8' [0,1]='1' [1,0]='3' [1,1]='5' [1,2]='7' [1,3]='6' [2,0]='4' [2,
 
 d=${multi[1,3]}                              # Get the element at key [1,3]. Variable 'd' is 6
 multi[2,1,0]='-1'                            # Modify the element at key [2,1,0]
-echo ${multi[@]}							 # Prints the elements in hash order. Check keys with echo ${!multi[@]}
+echo ${multi[@]}                             # Prints the elements in hash order. Check keys with echo ${!multi[@]}
 
 
 
