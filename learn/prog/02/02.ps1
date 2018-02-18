@@ -111,9 +111,9 @@ ConvertTo-Json $multi
 
 $empty_1d_list = @()                    # Create an empty array
 $empty_2d_list = @(@())                 # Create an empty two-dimensional array (not a truly multidimensional array)
-$empty_3d_list = @(@(@()));             # Create an empty three-dimensional array (not a truly multidimensional array)
+$empty_3d_list = @(@(@()))              # Create an empty three-dimensional array (not a truly multidimensional array)
 
-$my_list = @(@(), @());
+$my_list = @(@(), @()) 
 $my_list[0] = $my_list[0] + @(2)
 $my_list[0] = $my_list[0] + @('Marta')
 $my_list[1] = $my_list[1] + @('Hi!')
