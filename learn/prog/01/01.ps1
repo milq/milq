@@ -19,7 +19,7 @@ $age = 25       # The value 25 is assigned to variable age
 
 #  BASIC DATA TYPES
 $sea_level = 25                           # Integer
-$temperature = -3.82                      # Real number
+$temperature = -3.82                      # Real number (double)
 $name = 'Nacho López'                     # String
 $has_car = $true                          # Boolean (only two values: true or false)
 
@@ -71,11 +71,11 @@ $calories = '95.4'
 $altitude = -544.432
 
 $position_int = [int] $position            # Convert to integer.
-$calories_dbl = [double] $calories         # Convert to float.
+$calories_dbl = [double] $calories         # Convert to double.
 $altitude_str = [string] $altitude         # Convert to string.
 
 $position_type = $position_int.GetType().FullName    # Type: integer.
-$calories_type = $calories_dbl.GetType().FullName    # Type: float.
+$calories_type = $calories_dbl.GetType().FullName    # Type: double.
 $altitude_type = $altitude_str.GetType().FullName    # Type: string.
 
 
