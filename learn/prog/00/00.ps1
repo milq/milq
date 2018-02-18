@@ -1,5 +1,5 @@
 
 
-echo 'Hello, world!'
+Write-Output('Hello, world!')
 
 

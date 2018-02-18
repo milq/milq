@@ -1,8 +1,8 @@
 
 
-# LISTS
+# ARARYS
 #
-# A list is a data structure consisting of a collection of elements (values or variables)
+# An array is a data structure consisting of a collection of elements (values or variables)
 
 food = ['oranges', 'strawberries', 'lemons']
 
@@ -58,7 +58,7 @@ print(colours)
 
 
 
-# SUBLISTS [start:end]
+# SUBARRAYS [start:end]
 
 vegetables = ['Onions', 'Tomatoes', 'Spinach', 'Eggplants', 'Radishes']
 
@@ -97,7 +97,7 @@ print(animals_sorted);
 
 a = [8, 1]
 b = [3, 5, 7, 6]
-c = [4, [10, 9], 2]
+c = [4, [10, 9], 2];
 
 multi = [a, b, c]
 
