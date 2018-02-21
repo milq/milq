@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 int main() {
   // This is a comment
   
@@ -57,11 +58,11 @@ int main() {
   
   // PRINT VARIABLES ON SCREEN
   
-  //std::cout << "Hello, world!" << std::endl;     // Prints on screen: Hello, world!
-  //std::cout << x << std::endl;                   // Prints the variable x
+  printf("Hello, world!\n");     // Prints on screen: Hello, world!
+  printf("%d\n", x);             // Prints the variable x
   
   // You can print on screen strings and variables
-  //std::cout << "I have bought " << x << " oranges and " << y << " lemons.";
+  printf("I have bought %d oranges and %d lemons.\n", x, y); 
   
   
   
@@ -71,8 +72,8 @@ int main() {
   char calories[] = "95.4";
   double altitude = -544.432;
   
-  //int position_int = std::stoi(position);               // Convert to integer.
-  //double calories_dbl = std::stod(calories);          // Convert to double.
+  int position_int = atoi(position);                    // Convert to integer.
+  double calories_dbl = atof(calories);                 // Convert to double.
   //std::string altitude_str = std::to_string(altitude);              // Convert to string.
   
 //  String position_type = ((Object)position_int).getClass().getName();         // Type: integer.
