@@ -1,37 +1,28 @@
-#Prints 'Hello, world!'
+# FUNCIONES
 
-function hello {
-   echo "Hello, world"
+# requires -version 3.0
+
+function Escribe-Verde {
+	Param (
+	[string]$Texto
+	)
+	Write-Host -Foreground Green $Texto
 }
+# Con parámetros de entrada
+Param (
+       [Parameter(Mandatory=$True)] [string] $Par1
+       [string] $Par2,
+       [switch] $Par3
+)
 
-hello
+Write-Output "Los parámetros de entrada han sido: `nPar1`nPar2 -> $Par2`nPar3 -> $Par3`n"
 
+# De llamado
 
-# Returns the square of a number
-# @param {Number} x - Number to be squared.
-# @returns {Number} y - Square of x
-
-function square($x)
+Function Sumar ($x, $y)
 {
-    $y = $x * $x;
-    return $y;
+$sumar = $x + $y
+Write-Host “La respuesta es $sumar”
 }
 
-square 10
-
-
-# Returns the sum of a and b
-# @param {Number} a - First number.
-# @param {Number} b - Second number.
-# @returns {Number} sum - Sum of a and b
-
-function sum($a, $b)
-{
-    $sum = $a + $b;
-    return $sum;
-}
-
-sum 10 5
-
-
-# FUNCTIONS
+Sumar 2 8
