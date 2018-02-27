@@ -6,6 +6,7 @@
 # |----------------------------------------------------|
 # | OS             | OpenCV       | Test | Last test   |
 # |----------------|--------------|------|-------------|
+# | Ubuntu 17.10   | OpenCV 3.4.0 | OK   | 27 Feb 2018 |
 # | Debian 9.3     | OpenCV 3.4.0 | OK   | 17 Feb 2018 |
 # | Ubuntu 16.04.2 | OpenCV 3.2.0 | OK   | 20 May 2017 |
 # | Debian 8.8     | OpenCV 3.2.0 | OK   | 20 May 2017 |
@@ -32,6 +33,12 @@ sudo apt-get install -y build-essential cmake
 # GUI (if you want to use GTK instead of Qt, replace 'qt5-default' with 'libgtkglext1-dev' and remove '-DWITH_QT=ON' option in CMake):
 sudo apt-get install -y qt5-default libvtk6-dev
 
+
+if (cat /etc/*release | grep ^NAME | grep Ubuntu ) && ( cat /etc/*release | grep ^DISTRIB_RELEASE | grep 17.10 ); then
+  sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
+  sudo apt -y update
+  sudo apt install -y libjasper1 libjasper-dev
+fi
 # Media I/O:
 sudo apt-get install -y zlib1g-dev libjpeg-dev libwebp-dev libpng-dev libtiff5-dev libjasper-dev libopenexr-dev libgdal-dev
 
