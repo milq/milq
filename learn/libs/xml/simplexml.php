@@ -36,6 +36,8 @@ foreach($xml->children() as $student) {
 
 // OBTAINING THE LAST STUDENT ID USING XPATH
 
+// XPath tutorial: http://w3schools.com/xml/xpath_intro.asp
+
 $xpath = '/students/student[last()]';
 $nodes = $xml->xpath($xpath); // 'xpath()' returns an array of objects, even if only one element matches.
 $last_id = $nodes[0]['id']; // Result: 421.
