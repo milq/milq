@@ -36,7 +36,7 @@ echo '<br />';
 
 // ADD AN ELEMENT TO AN ARRAY
 
-$names = ['Nacho', 'Lola', 'David'];
+$names = ['Nacho', 'David', 'Lola'];
 
 array_splice($names, 2, 0, 'Alba');  // Add 'Alba' at index 2.         Result: ['Nacho', 'David', 'Alba', 'Lola']
 array_unshift($names, 'Álvaro');     // Add 'Álvaro' at the beginning. Result: ['Álvaro', 'Nacho', 'David', 'Alba', 'Lola']
