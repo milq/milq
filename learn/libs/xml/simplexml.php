@@ -82,13 +82,8 @@ $xpath = '/students/student[@id=\'' . $id . '\']';
 echo 'Deleting a node using XPath: ' . $xpath . PHP_EOL;
 
 $nodes = $xml->xpath($xpath);
-<<<<<<< HEAD
-unset($nodes[0]);
-print_r($xml); 
-=======
 unset($nodes[0][0]);  
 
->>>>>>> fded2808ee28bd882f18463e482a161b0e9ce68e
 
 
 // SAVE THE CHANGES
