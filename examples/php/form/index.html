@@ -1,0 +1,29 @@
+<html xmlns='http://www.w3.org/1999/xhtml' lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Basic form in PHP</title>
+  </head>
+
+  <body>
+    <h1>Basic form - Data entry</h1>
+
+    <form action='process.php' method='post'>
+      <fieldset><legend>Assignment</legend>
+        Name: <input type='text' name='name' title='Full name' /><br />
+
+        Age: <input type='number' name='age' title='Age of the person' /><br />
+
+        Gender: <input type='radio' name='gender' value='male' title='Male' checked='checked' />Male
+                <input type='radio' name='gender' value='female' title='Female' />Female<br />
+
+        Hobbies: <input type='checkbox' name='hobbies[]' value='sports' title='Sports' checked='checked' />Sports
+                   <input type='checkbox' name='hobbies[]' value='travel' title='Travel'/>Travel
+                   <input type='checkbox' name='hobbies[]' value='videogames' title='Videogames' />Videogames
+                   <input type='checkbox' name='hobbies[]' value='chess' title='Chess'/>Chess<br /><br />
+
+        <input type='submit' id='register' value='Submit' />
+      </fieldset>
+    </form>
+
+  </body>
+</html>
