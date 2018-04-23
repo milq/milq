@@ -5,21 +5,21 @@
 
 
 args=(${@})
-b=${argv[0]}
-c=${argv[1]}
-d=${argv[2]}
-e=${argv[3]}
+script_name=${args[0]}
+a=${args[1]}
+b=${args[2]}
+c=${args[3]}
 
 echo ' '
 echo 'Arguments obtained (array):' ${args[@]}
 echo ' '
 echo 'Number of arguments:' ${#args[@]}
 echo ' '
-echo 'Script name:' ${b}
+echo 'Script name:' ${script_name}
 echo ' '
-echo 'First argument:' ${c}
-echo 'Second argument:' ${d}
-echo 'Third argument:' ${e}
+echo 'First argument:' ${a}
+echo 'Second argument:' ${b}
+echo 'Third argument:' ${c}
 echo ' '
 echo 'All arguments are strings.'
 echo ' '
