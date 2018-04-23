@@ -4,7 +4,7 @@
 
 
 
-args=(${@})
+argv=(${@})
 b=${argv[0]}
 c=${argv[1]}
 d=${argv[2]}
@@ -13,7 +13,7 @@ e=${argv[3]}
 echo ' '
 echo 'Arguments obtained (array):' ${args[@]}
 echo ' '
-echo 'Number of arguments:' ${#args[@]}
+echo 'Number of arguments:' ${#}
 echo ' '
 echo 'Script name:' ${b}
 echo ' '
