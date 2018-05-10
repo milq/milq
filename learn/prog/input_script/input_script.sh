@@ -2,34 +2,18 @@
 
 # Example of execution: bash input_script.sh -3.4 'Hello, world!' 6
 
-
-
-<<<<<<< HEAD
-argv=(${@})
-b=${argv[0]}
-c=${argv[1]}
-d=${argv[2]}
-e=${argv[3]}
-=======
 args=(${@})
-script_name=${args[0]}
-a=${args[1]}
-b=${args[2]}
-c=${args[3]}
->>>>>>> 673a80cd7e3bf9b167448c721cf3bb437e672169
 
 echo ' '
-echo 'Arguments obtained (array):' ${args[@]}
+echo 'Array of arguments:' ${args[@]}
 echo ' '
 echo 'Number of arguments:' ${#}
 echo ' '
-echo 'Script name:' ${script_name}
+echo 'Script name:' ${0}
 echo ' '
-echo 'First argument:' ${a}
-echo 'Second argument:' ${b}
-echo 'Third argument:' ${c}
+echo 'First argument:' ${args[0]}
+echo 'Second argument:' ${args[1]}
+echo 'Third argument:' ${args[2]}
 echo ' '
 echo 'All arguments are strings.'
 echo ' '
-
-
