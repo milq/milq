@@ -13,7 +13,7 @@ sudo apt-get install -y build-essential cmake
 sudo apt-get install -y p7zip p7zip-full unrar-free unzip
 
 # Others (need to be categorized):
-sudo apt-get install -y faketime htop lshw pdftk wget
+sudo apt-get install -y faketime htop lshw wget
 
 # Terminal multiplexer
 sudo apt-get install -y screen
