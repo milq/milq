@@ -23,3 +23,12 @@ sudo apt-get install -y nano vim
 
 # VCS:
 sudo apt-get install -y git subversion
+
+
+# OPTIONAL (uncomment your favourite CLI software)
+
+# OCR:
+# sudo apt-get install -y tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa
+
+# PDF manipulation
+# sudo apt-get install -y pdftk
