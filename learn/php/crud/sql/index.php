@@ -9,7 +9,7 @@
 
   <body>
     <h1>Students</h1>
-	
+
     <a href='form.php'>Insert a new student</a><br /><br />
 
     <table title='student_table'>
@@ -25,28 +25,27 @@
           <th>Delete</th>
         </tr>
       </thead>
-      <tbody>  
+      <tbody>
       <?php
       require_once('connect_db.php');
-  
-      $sql = 'SELECT * FROM students';
+
+      $sql = 'SELECT * FROM students ORDER BY id';
       $sth = $dbh->prepare($sql);
-      $sth->execute();       			
+      $sth->execute();
       $rows = $sth->fetchAll();
 
-      foreach ($rows as &$row) {
-        echo '<tr>';
-        echo '<td>' . $row['id'] . '</td>';
-        echo '<td>' . $row['first_name'] . '</td>';
-        echo '<td>' . $row['last_name'] . '</td>';
-        echo '<td>' . $row['nickname'] . '</td>';
-        echo '<td>' . $row['date_of_birth'] . '</td>';
-        echo '<td>' . $row['mark'] . '</td>';
-        echo "<td><a title='edit_" . $row['id'] . "' href='form.php?id=" . $row['id'] . "'>Edit</a></td>";
-        echo "<td><a title='delete_" . $row['id'] . "' href='process.php?delete=yes&id=" . $row['id'] . "'>Delete</a></td>";
-        echo '</tr>';
-      }
-      ?>
+      foreach ($rows as &$row) { ?>
+        <tr>
+          <td><?php echo $row['id']; ?></td>
+          <td><?php echo $row['first_name']; ?></td>
+          <td><?php echo $row['last_name']; ?></td>
+          <td><?php echo $row['nickname']; ?></td>
+          <td><?php echo $row['date_of_birth']; ?></td>
+          <td><?php echo $row['mark']; ?></td>
+          <td><a title='edit_<?php echo $row['id']; ?>' href='form.php?id=<?php echo $row['id']; ?>'>Edit</a></td>
+          <td><a title='delete_<?php echo $row['id']; ?>' href='process.php?delete=yes&id=<?php echo $row['id']; ?>'>Delete</a></td>
+        </tr>
+      <?php } ?>
       </tbody>
     </table>
   </body>
