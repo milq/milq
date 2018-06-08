@@ -36,7 +36,6 @@
       Mark: <input type='number' name='mark' title='Mark' required='required' value='<?php echo $result['mark']; ?>'/><br />
       <input type='submit' />
     </form>
-
   </body>
 </html>
 
