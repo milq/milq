@@ -113,8 +113,36 @@ echo 'TabActivityColor=#dc322f' >> ~/.config/xfce4/terminal/terminalrc
 echo 'ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8d5;#002b36;#cb4b16;#586e75;#657b83;#5e858b;#6c71c4;#93a1a1;#fdf6e3' >> ~/.config/xfce4/terminal/terminalrc
 
 
-# 7. INSTALL ADDITIONAL SOFTWARE (OPTIONAL)
+# 7. INSTALL ADDITIONAL SOFTWARE
 
 sudo apt-get -y install xfce4-whiskermenu-plugin
 sudo apt-get -y install chromium
 sudo apt-get -y install geany
+
+
+# 8. CONFIG PANEL
+
+sudo apt-get -y install psmisc
+
+rm -rf ~/.config/xfce4/xfconf
+mkdir -p ~/.config/xfce4/xfconf/xfce-perchannel-xml
+
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/xfce4-panel.xml -P ~/.config/xfce4/xfconf/xfce-perchannel-xml
+
+rm -rf ~/.config/xfce4/panel
+mkdir ~/.config/xfce4/panel
+
+mkdir ~/.config/xfce4/panel/launcher-2
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/chromium.desktop -P ~/.config/xfce4/panel/launcher-2
+
+mkdir ~/.config/xfce4/panel/launcher-3
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/geany.desktop -P ~/.config/xfce4/panel/launcher-3
+
+mkdir ~/.config/xfce4/panel/launcher-4
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/terminal.desktop -P ~/.config/xfce4/panel/launcher-4
+
+mkdir ~/.config/xfce4/panel/launcher-5
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/file_manager.desktop -P ~/.config/xfce4/panel/launcher-5
+
+killall xfconfd
+xfce4-panel -r

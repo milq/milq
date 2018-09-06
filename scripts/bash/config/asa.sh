@@ -18,4 +18,5 @@ wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/term
 mkdir ~/.config/xfce4/panel/launcher-5
 wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/file_manager.desktop -P ~/.config/xfce4/panel/launcher-5
 
-
+killall xfconfd
+xfce4-panel -r
