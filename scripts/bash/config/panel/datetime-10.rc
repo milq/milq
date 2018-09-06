@@ -1,0 +1,5 @@
+layout=3
+date_font=Open Sans 12
+time_font=Open Sans 12
+date_format=%Y-%m-%d
+time_format=%H:%M
