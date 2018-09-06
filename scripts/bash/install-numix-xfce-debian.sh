@@ -124,9 +124,6 @@ sudo apt-get -y install geany
 
 sudo apt-get -y install psmisc
 
-rm -f ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
-wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/xfce4-panel.xml -P ~/.config/xfce4/xfconf/xfce-perchannel-xml
-
 rm -rf ~/.config/xfce4/panel
 mkdir ~/.config/xfce4/panel
 
@@ -141,6 +138,9 @@ wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/term
 
 mkdir ~/.config/xfce4/panel/launcher-5
 wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/file_manager.desktop -P ~/.config/xfce4/panel/launcher-5
+
+rm -f ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/xfce4-panel.xml -P ~/.config/xfce4/xfconf/xfce-perchannel-xml
 
 killall xfconfd
 xfce4-panel -r
