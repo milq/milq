@@ -127,17 +127,19 @@ sudo apt-get -y install psmisc
 rm -rf ~/.config/xfce4/panel
 mkdir ~/.config/xfce4/panel
 
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/panel/datetime-10.rc -P ~/.config/xfce4/panel
+
 mkdir ~/.config/xfce4/panel/launcher-2
-wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/chromium.desktop -P ~/.config/xfce4/panel/launcher-2
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/panel/chromium.desktop -P ~/.config/xfce4/panel/launcher-2
 
 mkdir ~/.config/xfce4/panel/launcher-3
-wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/geany.desktop -P ~/.config/xfce4/panel/launcher-3
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/panel/geany.desktop -P ~/.config/xfce4/panel/launcher-3
 
 mkdir ~/.config/xfce4/panel/launcher-4
-wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/terminal.desktop -P ~/.config/xfce4/panel/launcher-4
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/panel/terminal.desktop -P ~/.config/xfce4/panel/launcher-4
 
 mkdir ~/.config/xfce4/panel/launcher-5
-wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/file_manager.desktop -P ~/.config/xfce4/panel/launcher-5
+wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/panel/file_manager.desktop -P ~/.config/xfce4/panel/launcher-5
 
 rm -f ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/xfce4-panel.xml -P ~/.config/xfce4/xfconf/xfce-perchannel-xml
