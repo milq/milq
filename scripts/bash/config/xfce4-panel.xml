@@ -38,12 +38,12 @@
     </property>
     <property name='plugin-4' type='string' value='launcher'>
       <property name='items' type='array'>
-        <value type='string' value='terminal.desktop'/>
+        <value type='string' value='xfce4-terminal.desktop'/>
       </property>
     </property>
     <property name='plugin-5' type='string' value='launcher'>
       <property name='items' type='array'>
-        <value type='string' value='file_manager.desktop'/>
+        <value type='string' value='Thunar.desktop'/>
       </property>
     </property>
     <property name='plugin-6' type='string' value='tasklist'>
