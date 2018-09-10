@@ -11,3 +11,4 @@ sudo apt-get -y autoremove
 sudo apt-get install -y geogebra
 sudo apt-get install -y gperiodic
 sudo apt-get install -y scratch
+sudo apt-get install -y epoptes
