@@ -25,7 +25,7 @@ sudo apt-get install -y epoptes-client
 # sudo nano /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
 # sudo nano /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 
-# Change '<channel name="xfce4-panel" ...' to '<channel name="xfce4-panel" version="1.0" locked="*" unlocked="root">'
-# Change '<channel name="xfce4-desktop" ...' to '<channel name="xfce4-desktop" version="1.0" locked="*" unlocked="root">'
-# Change '<channel name="xfwm4" ...' to '<channel name="xfwm4" version="1.0" locked="*" unlocked="root">'
-# Change '<channel name="xsettings" ...' to '<channel name="xsettings" version="1.0" locked="*" unlocked="root">'
+# Change '<channel name="xfce4-panel" ver...' to '<channel name="xfce4-panel" version="1.0" locked="*" unlocked="root">'
+# Change '<channel name="xfce4-desktop" ver...' to '<channel name="xfce4-desktop" version="1.0" locked="*" unlocked="root">'
+# Change '<channel name="xfwm4" ver...' to '<channel name="xfwm4" version="1.0" locked="*" unlocked="root">'
+# Change '<channel name="xsettings" ver...' to '<channel name="xsettings" version="1.0" locked="*" unlocked="root">'
