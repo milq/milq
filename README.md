@@ -16,6 +16,8 @@ Learn to code in different programming languages. The same line of code but in d
 | Conditionals | **[Python](learn/prog/03/03.py)** | **[PHP](learn/prog/03/03.php)** | **[JavaScript](learn/prog/03/03.js)** | C | C++ | Java                               | Bash                            | **[PowerShell](learn/prog/03/03.ps1)** |
 | Loops        | **[Python](learn/prog/04/04.py)** | **[PHP](learn/prog/04/04.php)** | **[JavaScript](learn/prog/04/04.js)** | C | C++ | Java                               | Bash                            | **[PowerShell](learn/prog/04/04.ps1)** |
 | Functions    | **[Python](learn/prog/05/05.py)** | **[PHP](learn/prog/05/05.php)** | **[JavaScript](learn/prog/05/05.js)** | C | C++ | Java                               | **[Bash](learn/prog/05/05.sh)**                            | **[PowerShell](learn/prog/05/05.ps1)** |
+| Classes      | **[Python](learn/prog/06/06.py)** | **[PHP](learn/prog/06/06.php)** | **[JavaScript](learn/prog/06/06.js)** | C | C++ | Java                               | Bash                            | PowerShell |
+| Libraries    | **[Python](learn/prog/07/07.py)** | **[PHP](learn/prog/07/07.php)** | **[JavaScript](learn/prog/07/07.js)** | C | C++ | Java                               | Bash                            | PowerShell |
 
 I use it only for didactic purposes, it does not cover all the best characteristics and the code styles of each language.
 
