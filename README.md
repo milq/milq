@@ -15,7 +15,7 @@ Learn to code in different programming languages. The same line of code but in d
 | Arrays/Lists | **[Python](learn/prog/02/02.py)** | **[PHP](learn/prog/02/02.php)** | **[JavaScript](learn/prog/02/02.js)** | C | C++ | **[Java](learn/prog/02/J02.java)**                               | **[Bash](learn/prog/02/02.sh)** | **[PowerShell](learn/prog/02/02.ps1)** |
 | Conditionals | **[Python](learn/prog/03/03.py)** | **[PHP](learn/prog/03/03.php)** | **[JavaScript](learn/prog/03/03.js)** | C | C++ | Java                               | Bash                            | **[PowerShell](learn/prog/03/03.ps1)** |
 | Loops        | **[Python](learn/prog/04/04.py)** | **[PHP](learn/prog/04/04.php)** | **[JavaScript](learn/prog/04/04.js)** | C | C++ | Java                               | Bash                            | **[PowerShell](learn/prog/04/04.ps1)** |
-| Functions    | **[Python](learn/prog/05/05.py)** | **[PHP](learn/prog/05/05.php)** | **[JavaScript](learn/prog/05/05.js)** | C | C++ | Java                               | Bash                            | PowerShell |
+| Functions    | **[Python](learn/prog/05/05.py)** | **[PHP](learn/prog/05/05.php)** | **[JavaScript](learn/prog/05/05.js)** | C | C++ | Java                               | **[Bash](learn/prog/05/05.sh)**                            | **[PowerShell](learn/prog/05/05.ps1)** |
 
 I use it only for didactic purposes, it does not cover all the best characteristics and the code styles of each language.
 
