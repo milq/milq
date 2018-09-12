@@ -53,4 +53,7 @@ sudo apt-get install -y scratch
 
 # sudo apt-get purge transmission-gtk transmission-common
 
+# Disable 'sudo' on an user account on Debian: deluser username sudo
+
+
 # 5. CLONE WITH CLONEZILLA
