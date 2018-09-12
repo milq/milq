@@ -51,5 +51,6 @@ sudo apt-get install -y scratch
 # Set Ristretto to open JPG, PNG, GIF files by default.
 # Set Geany to open text files by default.
 
+# sudo apt-get purge transmission-gtk transmission-common
 
 # 5. CLONE WITH CLONEZILLA
