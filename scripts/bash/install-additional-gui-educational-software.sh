@@ -22,6 +22,11 @@ sudo apt-get install -y scratch
 
 # 3. LOCK PANEL, DESKTOP AND APPAREANCE
 
+# If you use Xfce, enable autologin: https://wiki.debian.org/LightDM#Enable_autologin
+# If you have enabled autologin, unlock keyring on startup on Chromium:
+#     -> sudo nano /usr/share/applications/chromium.desktop
+#     -> Exec=/usr/bin/chromium --password-store=basic %U
+
 # sudo cp ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml
 # sudo cp ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml
 # sudo cp ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml
@@ -40,20 +45,15 @@ sudo apt-get install -y scratch
 
 # 4. CONFIGURE AND SET UP
 
-# sudo chmod 555 ~./Desktop
-
-# Install last version of LibreOffice
-
-# Configure Geany as you wish.
-# Configure Gimp as you wish.
-
-# Set Chromium to open PDF files by default.
-# Set Ristretto to open JPG, PNG, GIF files by default.
-# Set Geany to open text files by default.
-
-# sudo apt-get purge transmission-gtk transmission-common
-
-# Disable 'sudo' on an user account on Debian: deluser username sudo
+# 4.1. sudo chmod 555 ~./Desktop
+# 4.2. Install last version of LibreOffice
+# 4.3. Configure Geany and Gimp as you wish.
+# 4.4. Set Chromium to open PDF files by default.
+# 4.5. Set Ristretto to open JPG, PNG, GIF files by default.
+# 4.6. Set Geany to open text files by default.
+# 4.7. sudo apt-get purge transmission-gtk transmission-common
+# 4.8. Block undesirable websites (https://github.com/StevenBlack/hosts plus your list of hosts)
+# 4.9. Disable 'sudo' on an user account on Debian: deluser username sudo
 
 
 # 5. CLONE WITH CLONEZILLA
