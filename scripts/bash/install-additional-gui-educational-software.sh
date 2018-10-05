@@ -56,4 +56,7 @@ sudo apt-get install -y scratch
 # 4.9. Disable 'sudo' on an user account on Debian: deluser username sudo
 
 
+# OPTIONAL: Install Oracle VM VirtualBox (with limited OS GB) and CmapTools.
+
 # 5. CLONE WITH CLONEZILLA
+
