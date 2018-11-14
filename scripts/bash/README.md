@@ -6,6 +6,8 @@ This is a compilation of my scripts in Ubuntu or Debian that I consider useful. 
 
 When I have just installed Ubuntu or Debian I execute a serie of scripts to set up my GNU/Linux OS. The order is the following:
 
-1\. Install additional CLI (command-line interface) and GUI (graphical user interface) software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/scripts/bash/install-additional-software.sh)).
+**1\.** Install additional CLI (command-line interface) and GUI (graphical user interface) software running this [script](https://github.com/milq/scripts-ubuntu-debian/blob/master/scripts/bash/install-additional-software.sh).
 
-2 (optional). If you use Debian with XFCE, install Numix.
+**2 (optional).** If you use Debian with XFCE and want [this](http://milq.github.io/things-to-do-just-after-installing-ubuntu-debian/milq-screenshot.png), run this [script](https://github.com/milq/milq/blob/master/scripts/bash/install-numix-xfce-debian.sh).
+
+**3 (optional).** If you use Debian with XFCE and want to install secondary school educational software, run this [script](https://github.com/milq/milq/blob/master/scripts/bash/install-additional-educational-software.sh).
