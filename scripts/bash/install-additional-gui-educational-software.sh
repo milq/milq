@@ -1,10 +1,10 @@
 # PREREQUISITES
 
-# Use a Xfce Debian-based distribution and:
+# Install an Xfce Debian-based distribution and:
 
-# a) Execute install-numix-xfce-debian.sh (optional: use your ~./debian_bg.png).
-# b) Execute install-additional-cli-software.sh.
-# c) Execute install-additional-gui-software.sh.
+# · Execute install-numix-xfce-debian.sh (optional: use your ~./debian_bg.png).
+# · Execute install-additional-cli-software.sh.
+# · Execute install-additional-gui-software.sh.
 
 # 1. KEEP DEBIAN UP TO DATE
 
