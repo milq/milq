@@ -1,36 +1,20 @@
 # PREREQUISITES
 
-# Install an Xfce Debian-based distribution and:
-
-# · Execute install-numix-xfce-debian.sh (optional: use your ~./debian_bg.png).
-# · Execute install-additional-cli-software.sh.
-# · Execute install-additional-gui-software.sh.
-
-# 1. KEEP DEBIAN UP TO DATE
-
-sudo apt-get -y update
-sudo apt-get -y upgrade
-sudo apt-get -y dist-upgrade
-sudo apt-get -y autoremove
-
-# 2. DOWNLOAD SOFTWARE
-
-sudo apt-get install -y geogebra   # Maths - Dynamic geometry program
-sudo apt-get install -y gperiodic  # Chemistry - Periodic table application
-sudo apt-get install -y wireshark  # Internet - Network traffic analyzer
-sudo apt-get install -y scratch    # Programming - Programming environment for ages 8 and up
-# sudo apt-get install -y epoptes-client
+# Install Debian with an Xfce and run 'install-numix-xfce-debian.sh' and 'install-additional-cli-software.sh'.
 
 
+# 1. INSTALL EDUCATIONAL SOFTWARE
 
-# network traffic analyzer
+sudo apt-get install -y carmetal geogebra   # MATHS - Dynamic geometry software
+sudo apt-get install -y gperiodic           # CHEMISTRY - Periodic table application
+sudo apt-get install -y scratch             # PROGRAMMING - Programming environment for ages 8 and up
+sudo apt-get install -y octave 				# Numerical computations
+sudo apt-get install -y oregano 			# Tool for electronic circuits
+# sudo apt-get install -y epoptes-client	# Computer lab management tool
+# sudo apt-get install -y wireshark         # Network traffic analyzer
 
-# 3. LOCK PANEL, DESKTOP AND APPAREANCE
 
-# If you use Xfce, enable autologin: https://wiki.debian.org/LightDM#Enable_autologin
-# If you have enabled autologin, unlock keyring on startup on Chromium:
-#     -> sudo nano /usr/share/applications/chromium.desktop
-#     -> Exec=/usr/bin/chromium --password-store=basic %U
+# 2. LOCK PANEL, DESKTOP AND APPAREANCE
 
 # sudo cp ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml
 # sudo cp ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml
@@ -48,7 +32,7 @@ sudo apt-get install -y scratch    # Programming - Programming environment for a
 # Change '<channel name="xsettings" ver...' to '<channel name="xsettings" version="1.0" locked="*" unlocked="root">'
 
 
-# 4. CONFIGURE AND SET UP
+# 3. CONFIGURE AND SET UP
 
 # 4.1. sudo chmod 555 ~./Desktop
 # 4.2. Install last version of LibreOffice
@@ -60,9 +44,19 @@ sudo apt-get install -y scratch    # Programming - Programming environment for a
 # 4.8. Block undesirable websites (https://github.com/StevenBlack/hosts plus your list of hosts)
 # 4.9. Disable 'sudo' on an user account on Debian: deluser username sudo
 
-# OPTIONAL:
+
+# 4. OTHER
+
+# If you use Xfce, enable autologin: https://wiki.debian.org/LightDM#Enable_autologin
+# If you have enabled autologin, unlock keyring on startup on Chromium:
+#     -> sudo nano /usr/share/applications/chromium.desktop
+#     -> Exec=/usr/bin/chromium --password-store=basic %U
+
+
+# 5. OPTIONAL SOFTWARE
+
 # 1. Install Oracle VM VirtualBox (with limited OS GB).
 # 2. Install CmapTools.
 
-# 5. CLONE WITH CLONEZILLA
 
+# 6. CLONE WITH CLONEZILLA
