@@ -6,5 +6,5 @@ This is a compilation of my scripts in Ubuntu or Debian that I consider useful. 
 
 When I have just installed Ubuntu or Debian I execute a serie of scripts to set up my GNU/Linux OS. The order is the following:
 
-\1. Install additional CLI (command-line interface) and GUI (graphical user interface) software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/scripts/bash/install-additional-software.sh)).
-\2 (optional). If you use Debian with XFCE, install Numix.
+1\. Install additional CLI (command-line interface) and GUI (graphical user interface) software ([script](https://github.com/milq/scripts-ubuntu-debian/blob/master/scripts/bash/install-additional-software.sh)).
+2 (optional). If you use Debian with XFCE, install Numix.
