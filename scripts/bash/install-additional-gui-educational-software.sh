@@ -15,10 +15,15 @@ sudo apt-get -y autoremove
 
 # 2. DOWNLOAD SOFTWARE
 
-sudo apt-get install -y geogebra
-sudo apt-get install -y gperiodic
-sudo apt-get install -y scratch
+sudo apt-get install -y geogebra   # Maths - Dynamic geometry program
+sudo apt-get install -y gperiodic  # Chemistry - Periodic table application
+sudo apt-get install -y wireshark  # Internet - Network traffic analyzer
+sudo apt-get install -y scratch    # Programming - Programming environment for ages 8 and up
 # sudo apt-get install -y epoptes-client
+
+
+
+# network traffic analyzer
 
 # 3. LOCK PANEL, DESKTOP AND APPAREANCE
 
@@ -55,8 +60,9 @@ sudo apt-get install -y scratch
 # 4.8. Block undesirable websites (https://github.com/StevenBlack/hosts plus your list of hosts)
 # 4.9. Disable 'sudo' on an user account on Debian: deluser username sudo
 
-
-# OPTIONAL: Install Oracle VM VirtualBox (with limited OS GB) and CmapTools.
+# OPTIONAL:
+# 1. Install Oracle VM VirtualBox (with limited OS GB).
+# 2. Install CmapTools.
 
 # 5. CLONE WITH CLONEZILLA
 
