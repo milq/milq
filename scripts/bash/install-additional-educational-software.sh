@@ -56,7 +56,7 @@ sudo apt-get install -y oregano 			# Tool for electronic circuits
 # 5. OPTIONAL SOFTWARE
 
 # 1. Install Oracle VM VirtualBox (use quota disk for user folders).
-# 2. Install CmapTools (install at /opt and create an direct access).
+# 2. Install CmapTools (install at /opt, create an direct access, and change the 'Save folder' in Preferences).
 
 
 # 6. CLONE WITH CLONEZILLA
