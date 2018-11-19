@@ -49,7 +49,7 @@ sudo apt-get install -y oregano 			# Tool for electronic circuits
 # If you have enabled autologin, unlock keyring on startup on Chromium:
 #     -> sudo nano /usr/share/applications/chromium.desktop
 #     -> Exec=/usr/bin/chromium --password-store=basic %U
-
+# Reset the computer, and open Chromium to set once the password.
 
 # 5. OPTIONAL SOFTWARE
 
