@@ -34,14 +34,14 @@ sudo apt-get install -y oregano 			# Tool for electronic circuits
 
 # 3. CONFIGURE AND SET UP
 
-# 4.1. sudo chmod 555 /home/user && sudo chmod 555 /home/user/Desktop
-# 4.2. Install last version of LibreOffice
-# 4.3. Configure Geany and Gimp as you wish.
-# 4.4. Set Chromium to open PDF files by default.
-# 4.5. Set Ristretto to open JPG, PNG, GIF files by default.
-# 4.6. Set Geany to open text files by default.
-# 4.7. sudo apt-get purge transmission-gtk transmission-common
-# 4.8. Block undesirable websites (https://github.com/StevenBlack/hosts plus your list of hosts)
+# 4.1. Install last version of LibreOffice
+# 4.2. Configure Geany and Gimp as you wish.
+# 4.3. Set Chromium to open PDF files by default.
+# 4.4. Set Ristretto to open JPG, PNG, GIF files by default.
+# 4.5. Set Geany to open text files (plain files, .txt, .sh, .py...) by default.
+# 4.6. sudo apt-get purge transmission-gtk transmission-common
+# 4.7. Block undesirable websites (https://github.com/StevenBlack/hosts plus your list of hosts)
+# 4.8. sudo chmod 555 /home/user && sudo chmod 555 /home/user/Desktop
 # 4.9. Disable 'sudo' on an user account on Debian: deluser username sudo
 
 
