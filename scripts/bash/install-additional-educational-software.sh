@@ -62,7 +62,8 @@ sudo apt-get install -y oregano 			# Tool for electronic circuits
 # 6. PREVENT MALICIOUS OS ATTACKS
 
 # 6.1. sudo chmod 555 /home/user && sudo chmod 555 /home/user/Desktop
-# 6.2. Disable 'sudo' on an user account on Debian: deluser username sudo
+# 6.2. sudo rm ~/.bash_history
+# 6.3. Disable 'sudo' on an user account on Debian: deluser username sudo
 
 
 # 7. CLONE WITH CLONEZILLA
