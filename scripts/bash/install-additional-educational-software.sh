@@ -45,11 +45,12 @@ sudo apt-get install -y oregano 			# Tool for electronic circuits
 
 # 4. OTHER
 
-# If you use Xfce, enable autologin: https://wiki.debian.org/LightDM#Enable_autologin
-# If you have enabled autologin, unlock keyring on startup on Chromium:
-#     -> sudo nano /usr/share/applications/chromium.desktop
-#     -> Exec=/usr/bin/chromium --password-store=basic %U
-# Reset the computer, and open Chromium to set once the password.
+# 4.1. If you use Xfce, enable autologin: https://wiki.debian.org/LightDM#Enable_autologin
+# 4.2. If you have enabled autologin, unlock keyring on startup on Chromium:
+#     4.2.1. sudo nano /usr/share/applications/chromium.desktop
+#     4.2.2. Exec=/usr/bin/chromium --password-store=basic %U
+#     4.2.3. Repeat 4.2.1 and 4.2.3 at /home/usuario/.config/xfce4/panel/
+# 4.3. Reset the computer, and test Chromium.
 
 # 5. OPTIONAL SOFTWARE
 
