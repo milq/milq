@@ -67,3 +67,10 @@ sudo apt-get install -y oregano 			# Tool for electronic circuits
 
 
 # 7. CLONE WITH CLONEZILLA
+# 
+# Resolve problems with NTFS:
+# 1. Enter the shell (not Start Clonezilla).
+# 2. sudo ntfsfix /dev/sda2
+# 3. sudo ntfsfix -d /dev/sda2
+# 4. exit
+# 5. Remember to activate fsck
