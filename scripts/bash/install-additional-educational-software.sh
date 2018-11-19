@@ -34,7 +34,7 @@ sudo apt-get install -y oregano 			# Tool for electronic circuits
 
 # 3. CONFIGURE AND SET UP
 
-# 4.1. sudo chmod 555 ~./Desktop
+# 4.1. sudo chmod 555 /home/user && sudo chmod 555 /home/user/Desktop
 # 4.2. Install last version of LibreOffice
 # 4.3. Configure Geany and Gimp as you wish.
 # 4.4. Set Chromium to open PDF files by default.
