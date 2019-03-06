@@ -57,6 +57,7 @@ sudo apt-get install -y oregano 			# Tool for electronic circuits
 
 # 1. Install Oracle VM VirtualBox (use quota disk for user folders).
 # 2. Install CmapTools (install at /opt, create an direct access, and change the 'Save folder' in Preferences).
+# 3. Install OpenShot (install at /opt, create an direct access).
 
 
 # 6. PREVENT MALICIOUS OS ATTACKS
