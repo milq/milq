@@ -10,6 +10,8 @@ sudo apt-get install -y gperiodic           # CHEMISTRY - Periodic table applica
 sudo apt-get install -y scratch             # PROGRAMMING - Programming environment for ages 8 and up
 sudo apt-get install -y octave 				# Numerical computations
 sudo apt-get install -y oregano 			# Tool for electronic circuits
+sudo apt-get install filezilla        # Full-featured graphical FTP/FTPS/SFTP client
+
 # sudo apt-get install -y epoptes-client	# Computer lab management tool
 # sudo apt-get install -y wireshark         # Network traffic analyzer
 
