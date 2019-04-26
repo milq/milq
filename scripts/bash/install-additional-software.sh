@@ -35,5 +35,6 @@ sudo apt-get install -y blender gimp imagemagick inkscape   # GRAPHICS
 sudo apt-get install -y pavucontrol audacity                # SOUND
 sudo apt-get install -y geany                               # TEXT EDITOR
 sudo apt-get install -y pitivi libav-tools vlc              # VIDEO
+sudo apt-get install -y filezilla                           # FTP/FTPS/SFTP CLIENT
 # sudo apt-get install -y texlive-full texmaker             # LATEX (optional, heavy package)
 # sudo apt-get install -y xfce4-whiskermenu-plugin          # XFCE WHISKER MENU (optional)
