@@ -10,10 +10,12 @@ sudo apt-get install -y gperiodic           # CHEMISTRY - Periodic table applica
 sudo apt-get install -y scratch             # PROGRAMMING - Programming environment for ages 8 and up
 sudo apt-get install -y octave 				# Numerical computations
 sudo apt-get install -y oregano 			# Tool for electronic circuits
-sudo apt-get install -y filezilla        # Full-featured graphical FTP/FTPS/SFTP client
+sudo apt-get install -y filezilla           # Full-featured graphical FTP/FTPS/SFTP client
 
 # sudo apt-get install -y epoptes-client	# Computer lab management tool
 # sudo apt-get install -y wireshark         # Network traffic analyzer
+
+
 
 
 # 2. LOCK PANEL, DESKTOP AND APPAREANCE
@@ -60,7 +62,13 @@ sudo apt-get install -y filezilla        # Full-featured graphical FTP/FTPS/SFTP
 # 1. Install Oracle VM VirtualBox (use quota disk for user folders).
 # 2. Install CmapTools (install at /opt, create an direct access, and change the 'Save folder' in Preferences).
 # 3. Install OpenShot (install at /opt, create an direct access).
-
+# 4. Install Robomind (install at /opt, create an direct access) 
+#	  4.1. sudo nano robomind.sh (avoid OpenGL problems) --> java -Dsun.java2d.opengl=False -jar RoboMind.jar
+#     4.2. sudo nano /usr/share/applications/Robomind.desktop (to avoid error "Unable to access jarfile..."):
+			# [Desktop Entry]
+			# Name=RoboMind
+			# Exec=bash robomind.sh
+			# Path=/opt/RoboMind
 
 # 6. PREVENT MALICIOUS OS ATTACKS
 
