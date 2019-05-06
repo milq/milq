@@ -69,6 +69,9 @@ sudo apt-get install -y filezilla           # Full-featured graphical FTP/FTPS/S
 			# Name=RoboMind
 			# Exec=bash robomind.sh
 			# Path=/opt/RoboMind
+			# Icon=/opt/RoboMind/robo.ico
+			# Comment=Simple educational programming environment
+			# Categories=Application;Education;Development;ComputerScience;
 
 # 6. PREVENT MALICIOUS OS ATTACKS
 
