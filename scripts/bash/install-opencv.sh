@@ -6,7 +6,6 @@
 # |------------------------------------------------------|
 # | OS               | OpenCV       | Test | Last test   |
 # |------------------|--------------|------|-------------|
-# | Ubuntu 18.04 LTS | OpenCV 4.1.0 | OK   | 22 Jun 2019 |
 # | Debian 9.9       | OpenCV 4.1.0 | OK   | 22 Jun 2019 |
 # |----------------------------------------------------- |
 # | Ubuntu 18.04 LTS | OpenCV 3.4.2 | OK   | 18 Jul 2018 |
@@ -16,7 +15,7 @@
 # SCRIPT OPTIONS
 
 OPENCV_VERSION='4.1.0'    # Version to be installed
-OPENCV_CONTRIB='NO'       # Install OpenCV's extra modules
+# OPENCV_CONTRIB='NO'       # Install OpenCV's extra modules
 
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
