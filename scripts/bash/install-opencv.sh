@@ -16,7 +16,7 @@
 
 # VERSION TO BE INSTALLED
 
-OPENCV_VERSION='3.4.2'
+OPENCV_VERSION='4.1.0'
 
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
@@ -65,7 +65,7 @@ cd OpenCV
 mkdir build
 cd build
 cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF ..
-make -j($(nproc))
+make -j$(nproc)
 sudo make install
 sudo ldconfig
 
