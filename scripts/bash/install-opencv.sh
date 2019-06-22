@@ -14,9 +14,10 @@
 # | Ubuntu 16.04 LTS | OpenCV 3.2.0 | OK   | 20 May 2017 |
 
 
-# VERSION TO BE INSTALLED
+# SCRIPT OPTIONS
 
-OPENCV_VERSION='4.1.0'
+OPENCV_VERSION='4.1.0'    # Version to be installed
+OPENCV_CONTRIB='NO'       # Install OpenCV's extra modules
 
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
