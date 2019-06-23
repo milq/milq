@@ -1,0 +1,24 @@
+# --------------------
+# Project settings
+PROJECT_NAME            = @PROJECT_NAME@
+INPUT                   = @PROJECT_SOURCE_DIR@/src @PROJECT_SOURCE_DIR@/include/@PROJECT_NAME@
+OUTPUT_DIRECTORY        = @PROJECT_BINARY_DIR@/doc
+
+# --------------------
+# Output DOC types
+GENERATE_HTML           = YES
+GENERATE_LATEX          = YES
+USE_PDFLATEX            = YES
+
+# --------------------
+# INTERNAL
+QUIET                   = YES
+WARNINGS                = NO
+WARN_IF_UNDOCUMENTED    = NO
+PDF_HYPERLINKS          = YES
+OPTIMIZE_OUTPUT_FOR_C   = YES
+EXTRACT_ALL             = YES
+EXTRACT_PRIVATE         = YES
+EXTRACT_STATIC          = YES
+HAVE_DOT                = YES
+UML_LOOK                = YES

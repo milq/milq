@@ -1,0 +1,29 @@
+# ===========================================================================
+# @PROJECT_NAME@ CMake configuration file
+#
+# Usage from an external project:
+# In your CMakeLists.txt, add these lines:
+#
+#   find_package(@PROJECT_NAME@ REQUIRED)
+#   include_directories(${@PROJECT_NAME@_INCLUDE_DIRS})
+#   target_link_libraries(MY_TARGET_NAME ${@PROJECT_NAME@_LIBS})
+#
+# Sometimes you have to add this line before using 'find_package':
+# 
+# set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "/path/to/folder")
+#
+# Change the path "/path/to/folder/" where @PROJECT_NAME@Config.cmake is stored
+# ===========================================================================
+
+include_directories("@CMAKE_INSTALL_PREFIX@/include")
+link_directories("@CMAKE_INSTALL_PREFIX@/lib")
+
+set(@PROJECT_NAME@_INCLUDE_DIRS "@CMAKE_INSTALL_PREFIX@/include")
+set(@PROJECT_NAME@_LIB_DIR "@CMAKE_INSTALL_PREFIX@/lib")
+set(@PROJECT_NAME@_COMPONENTS @LIB_COMPONENTS@)
+set(@PROJECT_NAME@_FOUND "YES")
+set(@PROJECT_NAME@_LIBS @REQUIRED_LIBRARIES@)
+
+foreach(__LIB @LIB_COMPONENTS@)
+  set(@PROJECT_NAME@_LIBS ${@PROJECT_NAME@_LIBS} ${__LIB})
+endforeach(__LIB)
