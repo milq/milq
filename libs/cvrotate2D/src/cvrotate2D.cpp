@@ -1,4 +1,4 @@
-#include "cvrotate2D.hpp"
+#include "cvrotate2D/cvrotate2D.hpp"
 
 namespace cv {
 

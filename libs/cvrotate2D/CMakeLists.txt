@@ -30,16 +30,13 @@ endif()
 # -----------------------------------------------
 # DEPENDENCIES (uncomment what is needed)
 # -----------------------------------------------
-# find_package(OpenCV REQUIRED)
-# find_package(OpenGL REQUIRED)
-# find_package(Qt5Quick REQUIRED)
-# find_package(Qt5Widgets REQUIRED)
+find_package(OpenCV REQUIRED)
 
 # -----------------------------------------------
 # INCLUDE DIRECTORIES (uncomment what is needed)
 # -----------------------------------------------
 include_directories(include)
-# include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(${OpenCV_INCLUDE_DIRS})
 
 # -----------------------------------------------
 # SHARED LIBS
