@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.12)
-project(library)
+project(cvrotate2D)
 
 # -----------------------------------------------
 # USER DEFINED VARIABLES

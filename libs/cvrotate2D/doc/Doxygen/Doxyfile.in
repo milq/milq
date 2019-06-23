@@ -20,5 +20,5 @@ OPTIMIZE_OUTPUT_FOR_C   = YES
 EXTRACT_ALL             = YES
 EXTRACT_PRIVATE         = YES
 EXTRACT_STATIC          = YES
-HAVE_DOT                = YES
+HAVE_DOT                = NO
 UML_LOOK                = YES
