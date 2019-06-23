@@ -4,8 +4,8 @@ int main()
 {
     const double degrees = 45;
 
-    cv::UMat src = cv::imread("frog.png", cv::IMREAD_UNCHANGED);
-    cv::UMat dst;
+    cv::Mat src = cv::imread("frog.png", cv::IMREAD_UNCHANGED);
+    cv::Mat dst;
 
     cv::rotate2D(src, dst, degrees);
 
