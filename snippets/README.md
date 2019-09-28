@@ -21,7 +21,7 @@ int main()
 }
 ```
 
-### OpenCV: Rotate an image without cropping in OpenCV in C++ (by [Lars Schillingmann](https://stackoverflow.com/questions/22041699/rotate-an-image-without-cropping-in-opencv-in-c))
+### OpenCV: Rotate an image without cropping in OpenCV by [Lars Schillingmann](https://stackoverflow.com/questions/22041699/rotate-an-image-without-cropping-in-opencv-in-c) ([↑](#my-snippets))
 
 ```cpp
 #include <opencv2/core/core.hpp>
