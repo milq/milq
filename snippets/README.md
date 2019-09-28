@@ -7,8 +7,9 @@
 
 ## C++
 
+### OpenCV
 
-### Calculate the angle between two vectors ([↑](#my-snippets))
+#### Calculate the angle between two vectors ([↑](#my-snippets))
 
 ```cpp
 #include <opencv2/core/core.hpp>
@@ -54,4 +55,4 @@ int main()
 }
 ```
 
-Snippet created by [Lars Schillingmann](https://stackoverflow.com/questions/22041699/rotate-an-image-without-cropping-in-opencv-in-c).
+Created by [Lars Schillingmann](https://stackoverflow.com/questions/22041699/rotate-an-image-without-cropping-in-opencv-in-c).
