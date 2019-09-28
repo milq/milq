@@ -2,6 +2,13 @@
 # INSTALL OPENCV ON UBUNTU OR DEBIAN #
 ######################################
 
+# -------------------------------------------------------------------- |
+#                       SCRIPT OPTIONS                                 |
+# ---------------------------------------------------------------------|
+OPENCV_VERSION='4.1.1'       # Version to be installed                 |
+OPENCV_CONTRIB='YES'         # Install OpenCV's extra modules (YES/NO) |
+# -------------------------------------------------------------------- |
+
 # |          THIS SCRIPT IS TESTED CORRECTLY ON          |
 # |------------------------------------------------------|
 # | OS               | OpenCV       | Test | Last test   |
@@ -12,11 +19,6 @@
 # | Ubuntu 18.04 LTS | OpenCV 3.4.2 | OK   | 18 Jul 2018 |
 # | Debian 9.5       | OpenCV 3.4.2 | OK   | 18 Jul 2018 |
 
-
-# SCRIPT OPTIONS
-
-OPENCV_VERSION='4.1.0'    # Version to be installed
-# OPENCV_CONTRIB='NO'       # Install OpenCV's extra modules
 
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
@@ -56,16 +58,36 @@ sudo apt-get install -y ant default-jdk
 # Documentation:
 sudo apt-get install -y doxygen
 
+# Other
+sudo apt-get install -y unzip wget
+
 
 # 3. INSTALL THE LIBRARY
 
-sudo apt-get install -y unzip wget
 wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip
 unzip ${OPENCV_VERSION}.zip && rm ${OPENCV_VERSION}.zip
 mv opencv-${OPENCV_VERSION} OpenCV
+
+if [ $OPENCV_CONTRIB = 'YES' ]; then
+  wget https://github.com/opencv/opencv_contrib/archive/${OPENCV_VERSION}.zip
+  unzip ${OPENCV_VERSION}.zip && rm ${OPENCV_VERSION}.zip
+  mv opencv_contrib-${OPENCV_VERSION} opencv_contrib
+  mv opencv_contrib OpenCV
+fi
+
 cd OpenCV && mkdir build && cd build
+
+if [ $OPENCV_CONTRIB = 'NO' ]; then
 cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON \
       -DWITH_XINE=ON -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF ..
+fi
+
+if [ $OPENCV_CONTRIB = 'YES' ]; then
+cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON \
+      -DWITH_XINE=ON -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF \
+      -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules ..
+fi
+
 make -j4
 sudo make install
 sudo ldconfig
