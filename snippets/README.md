@@ -7,9 +7,7 @@
 
 ## C++
 
-### OpenCV
-
-#### Calculate the angle between two vectors ([↑](#my-snippets))
+### Calculate the angle between two vectors ([↑](#my-snippets))
 
 ```cpp
 #include <opencv2/core/core.hpp>
