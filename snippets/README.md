@@ -16,7 +16,7 @@ int main()
    double dot = A.dot(B);
 
    double angle = std::atan2(cross, dot) * 180.0 / M_PI;
-   
+
    return 0;
 }
 ```
