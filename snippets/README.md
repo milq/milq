@@ -2,11 +2,12 @@
 
 * C++:
     * OpenCV:
-        * [Calculate the angle between two vectors](#opencv-calculate-the-angle-between-two-vectors-).
+        * [Calculate the angle between two vectors](#calculate-the-angle-between-two-vectors-).
 
 ## C++
 
-### OpenCV: Calculate the angle between two vectors ([↑](#my-snippets))
+
+### Calculate the angle between two vectors ([↑](#my-snippets))
 
 ```cpp
 #include <opencv2/core/core.hpp>
@@ -25,7 +26,7 @@ int main()
 }
 ```
 
-### OpenCV: Rotate an 2D image without cropping ([↑](#my-snippets))
+### Rotate an 2D image without cropping ([↑](#my-snippets))
 
 ```cpp
 #include <opencv2/core/core.hpp>
