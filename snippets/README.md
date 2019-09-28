@@ -1,6 +1,7 @@
 # My Snippets
 
-* [OpenCV: Calculate the angle between two vectors](#opencv-calculate-the-angle-between-two-vectors-).
+* C++:
+    * [OpenCV: Calculate the angle between two vectors](#opencv-calculate-the-angle-between-two-vectors-).
 
 ## C++
 
