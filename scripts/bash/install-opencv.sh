@@ -58,11 +58,8 @@ sudo apt-get install -y python-dev  python-tk  pylint  python-numpy  \
 # Java:
 sudo apt-get install -y ant default-jdk
 
-# Documentation:
-sudo apt-get install -y doxygen
-
-# Other
-sudo apt-get install -y unzip wget
+# Documentation and other:
+sudo apt-get install -y doxygen unzip wget
 
 
 # 3. INSTALL THE LIBRARY
