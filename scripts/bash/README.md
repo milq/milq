@@ -1,6 +1,9 @@
-## Scripts for Ubuntu/Debian
+# Bash scripts for Ubuntu and Debian
 
-This is a compilation of my scripts in Ubuntu or Debian that I consider useful. Feel free to use and change the scripts as you like.
+| Script                         | Description                                                   |
+|--------------------------------|---------------------------------------------------------------|
+| install-additional-software.sh | Installs additional CLI and GUI software for Ubuntu or Debian |
+| install-opencv.sh              | Installs OpenCV on Ubuntu or Debian                           |
 
 ### 1. Order of execution to set up Ubuntu or Debian once first installed
 
