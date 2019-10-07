@@ -1,5 +1,7 @@
 # Bash scripts for Ubuntu and Debian
 
+This is a compilation of my scripts in Ubuntu or Debian that I consider useful. Feel free to use and change them.
+
 | Script                           | Description                                                    |
 |----------------------------------|----------------------------------------------------------------|
 | _install-additional-software.sh_ | Installs additional CLI and GUI software for Ubuntu or Debian. |
