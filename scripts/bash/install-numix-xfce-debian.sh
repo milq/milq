@@ -22,6 +22,7 @@ sudo apt-get -y autoremove
 cd /usr/local/share/fonts
 
 # 2.1. Open Sans
+sudo apt-get install -y wget
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Bold.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-BoldItalic.ttf
 sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-ExtraBold.ttf
@@ -54,16 +55,7 @@ sudo wget https://github.com/mozilla/fira/raw/master/ttf/FiraMono-Regular.ttf
 
 sudo apt-get install -y numix-gtk-theme
 sudo apt-get install -y numix-icon-theme
-sudo apt-get install -y git
-
-# 3.1. Install Numix Circle Icons
-sudo mkdir -p /usr/local/share/icons
-cd /usr/local/share/icons
-sudo rm -rf numix-icon-theme-circle Numix-Circle
-sudo git clone https://github.com/numixproject/numix-icon-theme-circle.git
-sudo mv numix-icon-theme-circle/Numix-Circle .
-sudo rm -rf numix-icon-theme-circle
-sudo gtk-update-icon-cache /usr/local/share/icons/Numix-Circle
+sudo apt-get install -y numix-icon-theme-circle
 
 
 # 4. DOWNLOAD A DEBIAN DESKTOP BACKGROUND
@@ -94,10 +86,6 @@ xfconf-query -c xsettings -p /Xft/RGBA -s 'rgb'
 
 xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
 
-# xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s '/usr/local/share/images/debian_bg.png'
-# xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-show -s true
-# xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/last-image -s '/usr/local/share/images/debian_bg.png'
-# xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/last-single-image -s '/usr/local/share/images/debian_bg.png'
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/image-style -s 5
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s '/usr/local/share/images/debian_bg.png'
 
