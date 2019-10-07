@@ -34,7 +34,7 @@ sudo apt-get install -y default-jdk                         # JAVA SDK
 sudo apt-get install -y blender gimp imagemagick inkscape   # GRAPHICS
 sudo apt-get install -y pavucontrol audacity                # SOUND
 sudo apt-get install -y geany                               # TEXT EDITOR
-sudo apt-get install -y pitivi libav-tools vlc              # VIDEO
+sudo apt-get install -y pitivi ffmpeg vlc                   # VIDEO
 sudo apt-get install -y filezilla                           # FTP/FTPS/SFTP CLIENT
 # sudo apt-get install -y libreoffice                       # OFFICE (optional, not last stable version)
 # sudo apt-get install -y texlive-full texmaker             # LATEX (optional, heavy package)
