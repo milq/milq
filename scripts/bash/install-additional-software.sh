@@ -35,20 +35,19 @@ sudo apt-get install -y default-jdk                         # JAVA DEVELOPMENT K
 
 sudo apt-get install -y gdebi                               # DEB FILES INSTALLER
 sudo apt-get install -y gparted                             # PARTITION TOOL
-sudo apt-get install -y gtk-theme-config                    # SIMPLE GTK+ THEME EDITOR
 sudo apt-get install -y gvfs-backends                       # USERSPACE VIRTUAL FILESYSTEM
 sudo apt-get install -y xarchiver                           # FILE ARCHIVER FRONTEND
 sudo apt-get install -y network-manager-openvpn-gnome       # NETWORK MANAGER AND OPENVPN FOR GNOME
 sudo apt-get install -y network-manager-openvpn             # NETWORK MANAGER AND OPENVPN
 sudo apt-get install -y transmission-gtk                    # BITTORRENT CLIENT
+sudo apt-get install -y vlc                   	            # VIDEO AND AUDIO PLAYER
+sudo apt-get install -y pavucontrol                         # VOLUME CONTROL
 
-
-sudo apt-get install -y blender gimp imagemagick inkscape   # GRAPHICS
-sudo apt-get install -y pavucontrol audacity                # SOUND
 sudo apt-get install -y geany                               # TEXT EDITOR
-sudo apt-get install -y pitivi vlc                   	    # VIDEO
+sudo apt-get install -y blender gimp imagemagick inkscape   # GRAPHICS EDITORS
+sudo apt-get install -y audacity                            # AUDIO EDITOR
+sudo apt-get install -y openshot                   	        # VIDEO EDITOR
 sudo apt-get install -y filezilla                           # FTP/FTPS/SFTP CLIENT
 # sudo apt-get install -y libreoffice                       # OFFICE (optional, not last version)
 # sudo apt-get install -y texlive-full texmaker             # LATEX (optional, heavy package)
 # sudo apt-get install -y kazam                             # SCREENCAST (optional)
-# sudo apt-get install -y xfce4-whiskermenu-plugin          # XFCE WHISKER MENU (optional)
