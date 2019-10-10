@@ -104,9 +104,14 @@ echo 'ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8
 # 7. INSTALL ADDITIONAL SOFTWARE
 
 sudo apt-get -y install xfce4-whiskermenu-plugin
+sudo apt-get -y install xfce4-battery-plugin
+sudo apt-get -y install xfce4-pulseaudio-plugin
+sudo apt-get -y install xfce4-datetime-plugin
+# sudo apt-get install xfce4-power-manager-plugins
+
 sudo apt-get -y install chromium
 sudo apt-get -y install geany
-
+sudo apt-get -y install vlc
 
 # 8. CONFIG PANEL
 

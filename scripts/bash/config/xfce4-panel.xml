@@ -21,6 +21,7 @@
         <value type='int' value='10'/>
         <value type='int' value='11'/>
         <value type='int' value='12'/>
+        <value type='int' value='13'/>
       </property>
     </property>
   </property>
@@ -53,7 +54,8 @@
       <property name='expand' type='bool' value='true'/>
       <property name='style' type='uint' value='0'/>
     </property>
-    <property name='plugin-8' type='string' value='systray'>
+    <property name='plugin-8' type='string' value='battery' />
+    <property name='plugin-9' type='string' value='systray'>
       <property name='names-visible' type='array'>
         <value type='string' value='vlc'/>
         <value type='string' value='networkmanager applet'/>
@@ -61,9 +63,11 @@
         <value type='string' value='thunar'/>
       </property>
     </property>
-    <property name='plugin-9' type='string' value='power-manager-plugin'/>
     <property name='plugin-10' type='string' value='datetime'/>
-    <property name='plugin-11' type='string' value='thunar-tpa'/>
-    <property name='plugin-12' type='string' value='showdesktop'/>
+    <property name='plugin-11' type='string' value='pulseaudio'>
+      <property name='enable-keyboard-shortcuts' type='bool' value='true'/>
+    </property>
+    <property name='plugin-12' type='string' value='thunar-tpa'/>
+    <property name='plugin-13' type='string' value='showdesktop'/>
   </property>
 </channel>
