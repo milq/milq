@@ -25,6 +25,7 @@ sudo apt-get install -y htop lshw wget locate               # UTILITIES
 sudo apt-get install -y screen                              # TERMINAL MULTIPLEXER
 sudo apt-get install -y nano vim                            # TEXT EDITORS
 sudo apt-get install -y git subversion                      # VCS
+sudo apt-get install -y gdisk                               # PARTITION TOOL
 sudo apt-get install -y pdftk                               # PDF MANIPULATION
 sudo apt-get install -y ffmpeg                              # VIDEO MANIPULATION
 sudo apt-get install -y default-jdk                         # JAVA DEVELOPMENT KIT (JDK)
@@ -40,6 +41,7 @@ sudo apt-get install -y xarchiver                           # FILE ARCHIVER FRON
 sudo apt-get install -y network-manager-openvpn-gnome       # NETWORK MANAGER AND OPENVPN FOR GNOME
 sudo apt-get install -y network-manager-openvpn             # NETWORK MANAGER AND OPENVPN
 sudo apt-get install -y transmission-gtk                    # BITTORRENT CLIENT
+sudo apt-get install -y galculator                          # CALCULATOR
 sudo apt-get install -y vlc                   	            # VIDEO AND AUDIO PLAYER
 sudo apt-get install -y pavucontrol                         # VOLUME CONTROL
 
