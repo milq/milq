@@ -41,7 +41,7 @@ sudo apt-get install -y xarchiver                           # FILE ARCHIVER FRON
 sudo apt-get install -y network-manager-openvpn-gnome       # NETWORK MANAGER AND OPENVPN FOR GNOME
 sudo apt-get install -y network-manager-openvpn             # NETWORK MANAGER AND OPENVPN
 sudo apt-get install -y transmission-gtk                    # BITTORRENT CLIENT
-sudo apt-get install -y galculator                          # CALCULATOR
+sudo apt-get install -y galculator                          # SCIENTIFIC CALCULATOR
 sudo apt-get install -y vlc                   	            # VIDEO AND AUDIO PLAYER
 sudo apt-get install -y pavucontrol                         # VOLUME CONTROL
 
