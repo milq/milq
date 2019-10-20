@@ -112,7 +112,6 @@ sudo apt-get -y install xfce4-datetime-plugin
 
 sudo apt-get -y install chromium
 sudo apt-get -y install geany
-sudo apt-get -y install vlc
 
 # 8. CONFIG PANEL
 
