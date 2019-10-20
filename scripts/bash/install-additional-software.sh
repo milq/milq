@@ -42,13 +42,13 @@ sudo apt-get install -y network-manager-openvpn-gnome       # NETWORK MANAGER AN
 sudo apt-get install -y network-manager-openvpn             # NETWORK MANAGER AND OPENVPN
 sudo apt-get install -y transmission-gtk                    # BITTORRENT CLIENT
 sudo apt-get install -y galculator                          # SCIENTIFIC CALCULATOR
-sudo apt-get install -y vlc                   	            # VIDEO AND AUDIO PLAYER
+sudo apt-get install -y vlc                                 # VIDEO AND AUDIO PLAYER
 sudo apt-get install -y pavucontrol                         # VOLUME CONTROL
 
 sudo apt-get install -y geany                               # TEXT EDITOR
 sudo apt-get install -y blender gimp imagemagick inkscape   # GRAPHICS EDITORS
 sudo apt-get install -y audacity                            # AUDIO EDITOR
-sudo apt-get install -y openshot                   	        # VIDEO EDITOR
+sudo apt-get install -y openshot                            # VIDEO EDITOR
 sudo apt-get install -y filezilla                           # FTP/FTPS/SFTP CLIENT
 # sudo apt-get install -y libreoffice                       # OFFICE (optional, not last version)
 # sudo apt-get install -y texlive-full texmaker             # LATEX (optional, heavy package)

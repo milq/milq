@@ -59,14 +59,13 @@
       <property name='names-visible' type='array'>
         <value type='string' value='vlc'/>
         <value type='string' value='networkmanager applet'/>
-        <value type='string' value='xfce4-power-manager'/>
         <value type='string' value='thunar'/>
       </property>
     </property>
-    <property name='plugin-10' type='string' value='datetime'/>
-    <property name='plugin-11' type='string' value='pulseaudio'>
+    <property name='plugin-10' type='string' value='pulseaudio'>
       <property name='enable-keyboard-shortcuts' type='bool' value='true'/>
     </property>
+    <property name='plugin-11' type='string' value='datetime'/>
     <property name='plugin-12' type='string' value='thunar-tpa'/>
     <property name='plugin-13' type='string' value='showdesktop'/>
   </property>
