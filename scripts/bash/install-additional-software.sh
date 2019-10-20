@@ -34,7 +34,6 @@ sudo apt-get install -y default-jdk                         # JAVA DEVELOPMENT K
 
 # 3. GUI SOFTWARE
 
-sudo apt-get install -y gdebi                               # DEB FILES INSTALLER
 sudo apt-get install -y gparted                             # PARTITION TOOL
 sudo apt-get install -y gvfs-backends                       # USERSPACE VIRTUAL FILESYSTEM
 sudo apt-get install -y xarchiver                           # FILE ARCHIVER FRONTEND
