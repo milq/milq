@@ -2,15 +2,11 @@
 
 This is a compilation of my scripts in Ubuntu or Debian that I consider useful.
 
-| Title                            | Description                                                    | |
+| Script                            | Description                                                    | |
 |----------------------------------|----------------------------------------------------------------|-|
 | [_install-additional-software.sh_](install-additional-software.sh) | Installs additional CLI and GUI software for Ubuntu or Debian. | |
 | _install-opencv.sh_              | Installs OpenCV on Ubuntu or Debian.                           | |
 
-| Title                            | Description                                                    | |
-|----------------------------------|----------------------------------------------------------------|-|
-| Install additional software | Installs additional CLI and GUI software for Ubuntu or Debian. | _install-additional-software.sh_ |
-| Install OpenCV              | Installs OpenCV on Ubuntu or Debian.                           | _install-opencv.sh_ |
 
 ### 1. Order of execution to set up Ubuntu or Debian once first installed
 
