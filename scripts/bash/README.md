@@ -4,7 +4,7 @@ This is a compilation of my scripts in Ubuntu or Debian that I consider useful.
 
 | Script                            | Description                                                    | |
 |----------------------------------|----------------------------------------------------------------|-|
-| [Install Additional Software](install-additional-software.sh) | Installs additional CLI and GUI software for Ubuntu or Debian. | |
+| [Install additional software](install-additional-software.sh) | Installs additional CLI and GUI software for Ubuntu or Debian. | |
 | [Install OpenCV](install-opencv.sh)              | Installs OpenCV on Ubuntu or Debian.                           | |
 
 
