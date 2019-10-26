@@ -1,6 +1,6 @@
 # Bash scripts for Ubuntu and Debian
 
-This is a compilation of my scripts in Ubuntu or Debian that I consider useful. Feel free to use and change them.
+This is a compilation of my scripts in Ubuntu or Debian that I consider useful.
 
 | Script                           | Description                                                    |
 |----------------------------------|----------------------------------------------------------------|
