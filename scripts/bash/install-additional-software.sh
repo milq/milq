@@ -29,12 +29,12 @@ sudo apt-get install -y gdisk                               # PARTITION TOOL
 sudo apt-get install -y pdftk                               # PDF MANIPULATION
 sudo apt-get install -y ffmpeg                              # VIDEO MANIPULATION
 sudo apt-get install -y default-jdk                         # JAVA DEVELOPMENT KIT (JDK)
+sudo apt-get install -y wavemon                             # NET
 # sudo apt-get install -y tesseract-ocr tesseract-ocr-eng   # OCR (optional)
 
 
 # 3. GUI SOFTWARE
 
-sudo apt-get install -y gdebi                               # DEB FILES INSTALLER
 sudo apt-get install -y gparted                             # PARTITION TOOL
 sudo apt-get install -y gvfs-backends                       # USERSPACE VIRTUAL FILESYSTEM
 sudo apt-get install -y xarchiver                           # FILE ARCHIVER FRONTEND
