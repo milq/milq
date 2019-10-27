@@ -10,19 +10,20 @@
   <body>
     <h1>Students</h1>
 
-    <a href='form.php'>Insert a new student</a><br /><br />
+    <p><a href='form_add.html'>Insert a new student</a>.</p>
 
-    <table title='student_table'>
+    <table title='Table of students'>
+      <caption>Students</caption>
       <thead>
         <tr>
-          <th>ID</th>
-          <th>First name</th>
-          <th>Last name</th>
-          <th>Nickname</th>
-          <th>Date of birth</th>
-          <th>Mark</th>
-          <th>Edit</th>
-          <th>Delete</th>
+          <th scope='col'>ID</th>
+          <th scope='col'>First name</th>
+          <th scope='col'>Last name</th>
+          <th scope='col'>Nickname</th>
+          <th scope='col'>Date of birth</th>
+          <th scope='col'>Mark</th>
+          <th scope='col'>Edit</th>
+          <th scope='col'>Delete</th>
         </tr>
       </thead>
       <tbody>
@@ -36,14 +37,14 @@
 
       foreach ($rows as &$row) { ?>
         <tr>
-          <td><?php echo $row['id']; ?></td>
-          <td><?php echo $row['first_name']; ?></td>
-          <td><?php echo $row['last_name']; ?></td>
-          <td><?php echo $row['nickname']; ?></td>
-          <td><?php echo $row['date_of_birth']; ?></td>
-          <td><?php echo $row['mark']; ?></td>
-          <td><a title='edit_<?php echo $row['id']; ?>' href='form.php?id=<?php echo $row['id']; ?>'>Edit</a></td>
-          <td><a title='delete_<?php echo $row['id']; ?>' href='process.php?delete=yes&id=<?php echo $row['id']; ?>'>Delete</a></td>
+          <td><?= $row['id'] ?></td>
+          <td><?= $row['first_name'] ?></td>
+          <td><?= $row['last_name'] ?></td>
+          <td><?= $row['nickname'] ?></td>
+          <td><?= $row['date_of_birth'] ?></td>
+          <td><?= $row['mark']; ?></td>
+          <td><a title='edit_<?= $row['id']; ?>' href='form_edit.php?id=<?= $row['id'] ?>'>Edit</a></td>
+          <td><a title='delete_<?= $row['id']; ?>' href='delete.php?id=<?= $row['id'] ?>'>Delete</a></td>
         </tr>
       <?php } ?>
       </tbody>

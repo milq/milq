@@ -1,1 +1,10 @@
 /* CSS3 code here */
+
+body {
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration:none;
+  color:blue;
+}
