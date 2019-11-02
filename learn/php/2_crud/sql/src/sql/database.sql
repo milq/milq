@@ -1,19 +1,13 @@
-DROP DATABASE IF EXISTS db_example;
-
-CREATE DATABASE db_example;
-
-USE db_example;
-
 DROP TABLE IF EXISTS students;
 
 CREATE TABLE students (
-  id SERIAL,
+  studentID SERIAL,
   first_name VARCHAR(100) NOT NULL,
   last_name VARCHAR(100) NOT NULL,
   nickname VARCHAR(100) NOT NULL,
   date_of_birth DATE NOT NULL,
   mark INT NOT NULL,
-  PRIMARY KEY (id)
+  CONSTRAINT PK_students PRIMARY KEY (studentID)
 );
 
 INSERT INTO students(first_name,last_name,nickname,date_of_birth,mark) values ('Matthias','Jones','Matty','1990-10-27',7);
