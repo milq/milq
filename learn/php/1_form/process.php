@@ -18,12 +18,12 @@
     ?>
 
     <p>Your name is <?php echo $name; ?>.</p>
-    <p>You are <?php echo $age; ?> years old.</p>
+    <p>You are <?= $age ?> years old.</p>
     <p>Your gender is <?php echo $gender; ?>.</p>
     <p>Your hobbies are:</p>
     <ul>
     <?php for($i = 0; $i < count($hobbies_array); $i++) { ?>
-      <li><?php echo $hobbies_array[$i]; ?></li>
+      <li><?= $hobbies_array[$i] ?></li>
     <?php } ?>
     </ul>
 

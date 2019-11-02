@@ -6,23 +6,20 @@
     <link rel='stylesheet' type='text/css' href='src/css/style.css' />
     <script type='text/javascript' src='src/js/app.js'></script>
   </head>
-
+  <?php session_start(); ?>
   <body>
-
-    <?php
-        session_start();
-    ?>
 
     <h1>Log in and sign up template</h1>
 
-    <?php
-        if (isset($_SESSION['username'])) {
-            echo '<p>Welcome, ' . $_SESSION['username'] . "! <a href='log_out.php'>Log out</a>.</p>";
-        }
-        else {
-            echo '<p>Welcome, guest. Please log in or sign up.</p>';
-        }
-    ?>
+    <?php if (isset($_SESSION['username']) === false) { ?>
+
+    <p>Welcome, guest. Please log in or sign up.</p>
+
+    <?php } else { ?>
+
+    <p>Welcome, <?= $_SESSION['username'] ?>! <a href='log_out.php'>Log out</a>.</p>
+
+    <?php } ?>
 
     <p><a href='web_admin.php'>Example of an admin web page.</a></p>
     <p><a href='web_user.php'>Example of an user web page.</a></p>

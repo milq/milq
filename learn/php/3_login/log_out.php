@@ -8,18 +8,17 @@
   </head>
 
   <body>
-	  
+
   <h1>Log in</h1>
 
   <?php
-  
-    session_start();
-    
-    session_destroy();
 
-	echo '<p>You have successfully logged out.</p>';
-	
+  session_start();
+  session_destroy();
+
   ?>
+
+  <p>You have successfully logged out.</p>
 
   <a href='index.php'>Back to index.</a>
 
