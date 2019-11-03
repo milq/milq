@@ -1,13 +1,13 @@
 DROP TABLE IF EXISTS students;
 
 CREATE TABLE students (
-  studentID SERIAL,
+  id SERIAL,
   first_name VARCHAR(100) NOT NULL,
   last_name VARCHAR(100) NOT NULL,
   nickname VARCHAR(100) NOT NULL,
   date_of_birth DATE NOT NULL,
   mark INT NOT NULL,
-  CONSTRAINT PK_students PRIMARY KEY (studentID)
+  CONSTRAINT PK_students PRIMARY KEY (id)
 );
 
 INSERT INTO students(first_name,last_name,nickname,date_of_birth,mark) values ('Matthias','Jones','Matty','1990-10-27',7);
