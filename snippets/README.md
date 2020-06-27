@@ -14,15 +14,15 @@
 
 int main()
 {
-   cv::Point3d A(0.0, 1.0, 0.0);
-   cv::Point3d B(1.0, 0.0, 0.0);
+    cv::Point3d A(0.0, 1.0, 0.0);
+    cv::Point3d B(1.0, 0.0, 0.0);
 
-   double cross = cv::norm(A.cross(B));
-   double dot = A.dot(B);
+    double cross = cv::norm(A.cross(B));
+    double dot = A.dot(B);
 
-   double angle = std::atan2(cross, dot) * 180.0 / M_PI;
+    double angle = std::atan2(cross, dot) * 180.0 / M_PI;
 
-   return 0;
+    return 0;
 }
 ```
 
