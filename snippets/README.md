@@ -1,9 +1,36 @@
 # My Snippets
 
+* C:
+    * [Calculate the angle between two 3D vectors](#calculate-the-angle-between-two-3d-vectors-).
 * C++:
     * OpenCV:
         * [Calculate the angle between two 3D vectors](#calculate-the-angle-between-two-3d-vectors-).
         * [Rotate an 2D image without cropping](#rotate-an-2d-image-without-cropping-).
+
+
+## C
+
+### Calculate the angle between two 3D vectors ([↑](#my-snippets))
+
+```c
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    double ax = 0.0, ay = 1.0, az = 0.0;
+    double bx = 1.0, by = 0.0, bz = 0.0;
+
+    double cross = sqrt(ax * ax + ay * ay + az * az);
+    double dot = ax * bx + ay * by + az * bz;
+
+    double angle = atan2(cross, dot) * 180.0 / M_PI;
+
+    printf("%lf\n", angle);
+
+    return 0;
+}
+```
 
 ## C++
 
