@@ -51,6 +51,6 @@ sudo apt-get install -y blender gimp imagemagick inkscape   # GRAPHICS EDITORS
 sudo apt-get install -y audacity                            # AUDIO EDITOR
 sudo apt-get install -y openshot                            # VIDEO EDITOR
 sudo apt-get install -y filezilla                           # FTP/FTPS/SFTP CLIENT
+sudo apt-get install -y kazam                             # SCREENCAST (optional)
 # sudo apt-get install -y libreoffice                       # OFFICE (optional, not last version)
 # sudo apt-get install -y texlive-full texmaker             # LATEX (optional, heavy package)
-# sudo apt-get install -y kazam                             # SCREENCAST (optional)
