@@ -44,7 +44,7 @@
     </property>
     <property name='plugin-5' type='string' value='launcher'>
       <property name='items' type='array'>
-        <value type='string' value='Thunar.desktop'/>
+        <value type='string' value='thunar.desktop'/>
       </property>
     </property>
     <property name='plugin-6' type='string' value='tasklist'>
