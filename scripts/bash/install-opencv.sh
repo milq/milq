@@ -21,13 +21,6 @@ OPENCV_CONTRIB='NO'          # Install OpenCV's extra modules (YES/NO)
 # |----------------------------------------------------- |
 # | Debian 10.1      | OpenCV 4.1.1 | OK   | 28 Sep 2019 |
 # |----------------------------------------------------- |
-# | Ubuntu 18.04 LTS | OpenCV 4.1.0 | OK   | 22 Jun 2019 |
-# | Debian 9.9       | OpenCV 4.1.0 | OK   | 22 Jun 2019 |
-# |----------------------------------------------------- |
-# | Ubuntu 18.04 LTS | OpenCV 3.4.2 | OK   | 18 Jul 2018 |
-# | Debian 9.5       | OpenCV 3.4.2 | OK   | 18 Jul 2018 |
-
-
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
 
