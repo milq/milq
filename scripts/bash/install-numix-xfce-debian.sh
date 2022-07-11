@@ -25,12 +25,14 @@ cd /usr/local/share/fonts
 sudo apt-get install -y wget subversion
 
 # 2.1. Open Sans
+sudo rm -rf OpenSans
 sudo mkdir OpenSans
 cd OpenSans
 sudo svn export https://github.com/googlefonts/opensans.git/trunk/fonts/ttf/
 cd ..
 
 # 2.2. Arimo
+sudo rm -rf Arimo
 sudo mkdir Arimo
 cd Arimo
 sudo svn export https://github.com/googlefonts/Arimo.git/trunk/fonts/ttf/
@@ -38,12 +40,14 @@ cd ..
 
 
 # 2.3. Cousine
+sudo rm -rf Cousine
 sudo mkdir Cousine
 cd Cousine
 sudo svn export https://github.com/googlefonts/cousine.git/trunk/fonts/ttf/
 cd ..
 
 # 2.4. Fira
+sudo rm -rf Fira
 sudo mkdir Fira
 cd Fira
 sudo svn export https://github.com/mozilla/Fira.git/trunk/ttf/
