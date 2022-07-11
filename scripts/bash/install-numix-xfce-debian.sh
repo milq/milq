@@ -21,42 +21,32 @@ sudo apt-get -y autoremove
 # 2. DOWNLOAD FONTS
 
 cd /usr/local/share/fonts
+sudo apt-get install -y wget subversion
 
 # 2.1. Open Sans
-sudo apt-get install -y wget
-# sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Bold.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-BoldItalic.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-ExtraBold.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-ExtraBoldItalic.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Italic.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Light.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-LightItalic.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-Regular.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-SemiBold.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/opensans/OpenSans-SemiBoldItalic.ttf
-
-sudo wget https://github.com/google/fonts/raw/main/apache/opensans/OpenSans%5Bwdth%2Cwght%5D.ttf
-sudo wget https://github.com/google/fonts/raw/main/apache/opensans/OpenSans-Italic%5Bwdth%2Cwght%5D.ttf
+sudo mkdir OpenSans
+cd OpenSans
+sudo svn export https://github.com/googlefonts/opensans.git/trunk/fonts/ttf/
+cd ..
 
 # 2.2. Arimo
-# sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Bold.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-BoldItalic.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Italic.ttf
-# sudo wget https://github.com/google/fonts/raw/master/apache/arimo/Arimo-Regular.ttf
+sudo mkdir Arimo
+cd Arimo
+sudo svn export https://github.com/googlefonts/Arimo.git/trunk/fonts/ttf/
+cd ..
 
-sudo wget https://github.com/google/fonts/raw/main/apache/arimo/Arimo%5Bwght%5D.ttf
-sudo wget https://github.com/google/fonts/raw/main/apache/arimo/Arimo-Italic%5Bwght%5D.ttf
 
 # 2.3. Cousine
-sudo wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-Bold.ttf
-sudo wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-BoldItalic.ttf
-sudo wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-Italic.ttf
-sudo wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-Regular.ttf
+sudo mkdir Cousine
+cd Cousine
+sudo svn export https://github.com/googlefonts/cousine.git/trunk/fonts/ttf/
+cd ..
 
-# 2.4. Fira Mono Regular
-sudo wget https://github.com/mozilla/fira/raw/master/ttf/FiraMono-Bold.ttf
-sudo wget https://github.com/mozilla/fira/raw/master/ttf/FiraMono-Medium.ttf
-sudo wget https://github.com/mozilla/fira/raw/master/ttf/FiraMono-Regular.ttf
+# 2.4. Fira
+sudo mkdir Fira
+cd Fira
+sudo svn export https://github.com/mozilla/Fira.git/trunk/ttf/
+cd ..
 
 # 3. INSTALL NUMIX THEME AND NUMIX ICONS
 
