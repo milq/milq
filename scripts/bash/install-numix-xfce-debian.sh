@@ -2,12 +2,13 @@
 # SET UP NUMIX ON DEBIAN WITH XFCE #
 ####################################
 
-# | THIS SCRIPT IS TESTED CORRECTLY ON |
-# |------------------------------------|
-# | OS             | Test | Last test  |
-# |----------------|------|------------|
-# | Debian 11.0    | OK   | 8 Oct 2021 |
-# | Debian 10.1    | OK   | 7 Oct 2019 |
+# | THIS SCRIPT IS TESTED CORRECTLY ON  |
+# |-------------------------------------|
+# | OS             | Test | Last test   |
+# |----------------|------|-------------|
+# | Debian 11.3    | OK   | 11 Jul 2022 |
+# | Debian 11.0    | OK   | 8 Oct 2021  |
+# | Debian 10.1    | OK   | 7 Oct 2019  |
 
 
 # 1. KEEP DEBIAN UP TO DATE
