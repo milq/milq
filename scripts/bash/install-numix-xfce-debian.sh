@@ -133,7 +133,81 @@ time_format=%H:%M
 EOL
 
 rm -f ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
-wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/xfce4-panel.xml -P ~/.config/xfce4/xfconf/xfce-perchannel-xml
+
+# Write the content to the file
+cat > "${HOME}/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml" <<EOL
+<?xml version='1.0' encoding='UTF-8'?>
+<channel name='xfce4-panel' version='1.0'>
+  <property name='configver' type='int' value='2'/>
+  <property name='panels' type='array'>
+    <value type='int' value='1'/>
+    <property name='panel-1' type='empty'>
+      <property name='position' type='string' value='p=8;x=0;y=0'/>
+      <property name='length' type='uint' value='100'/>
+      <property name='position-locked' type='bool' value='true'/>
+      <property name='size' type='uint' value='32'/>
+      <property name='plugin-ids' type='array'>
+        <value type='int' value='1'/>
+        <value type='int' value='2'/>
+        <value type='int' value='3'/>
+        <value type='int' value='4'/>
+        <value type='int' value='5'/>
+        <value type='int' value='6'/>
+        <value type='int' value='7'/>
+        <value type='int' value='8'/>
+        <value type='int' value='9'/>
+        <value type='int' value='10'/>
+        <value type='int' value='11'/>
+        <value type='int' value='12'/>
+        <value type='int' value='13'/>
+      </property>
+    </property>
+  </property>
+  <property name='plugins' type='empty'>
+    <property name='plugin-1' type='string' value='whiskermenu' />
+    <property name='plugin-2' type='string' value='launcher'>
+      <property name='items' type='array'>
+        <value type='string' value='chromium.desktop'/>
+      </property>
+    </property>
+    <property name='plugin-3' type='string' value='launcher'>
+      <property name='items' type='array'>
+        <value type='string' value='geany.desktop'/>
+      </property>
+    </property>
+    <property name='plugin-4' type='string' value='launcher'>
+      <property name='items' type='array'>
+        <value type='string' value='xfce4-terminal.desktop'/>
+      </property>
+    </property>
+    <property name='plugin-5' type='string' value='launcher'>
+      <property name='items' type='array'>
+        <value type='string' value='xfce4-file-manager.desktop'/>      
+      </property>
+    </property>
+    <property name='plugin-6' type='string' value='tasklist'>
+      <property name='sort-order' type='uint' value='4'/>
+    </property>
+    <property name='plugin-7' type='string' value='separator'>
+      <property name='expand' type='bool' value='true'/>
+      <property name='style' type='uint' value='0'/>
+    </property>
+    <property name='plugin-8' type='string' value='battery' />
+    <property name='plugin-9' type='string' value='systray'>
+      <property name='names-visible' type='array'>
+        <value type='string' value='networkmanager applet'/>
+        <value type='string' value='thunar'/>
+      </property>
+    </property>
+    <property name='plugin-10' type='string' value='pulseaudio'>
+      <property name='enable-keyboard-shortcuts' type='bool' value='true'/>
+    </property>
+    <property name='plugin-11' type='string' value='datetime'/>
+    <property name='plugin-12' type='string' value='thunar-tpa'/>
+    <property name='plugin-13' type='string' value='showdesktop'/>
+  </property>
+</channel>
+EOL
 
 killall xfconfd
 xfce4-panel -r
