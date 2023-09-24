@@ -47,7 +47,7 @@ cd ..
 sudo rm -rf Lato
 sudo mkdir Lato
 cd Lato
-sudo svn export https://github.com/googlefonts/lato.git/trunk/fonts/ttf/
+sudo svn export https://github.com/googlefonts/LatoGFVersion.git/trunk/fonts/
 cd ..
 
 # 2.5. Open Sans
@@ -59,7 +59,8 @@ cd ..
 
 # 2. INSTALL FONTS (version B)
 
-# Uncomment below section to download additional fonts directly from Debian repositories.
+# Uncomment the section below to install the fonts directly from Debian repositories.
+# However, personally, I prefer the ones from Google Fonts, which have slight variations.
 
 # sudo apt-get install -y fonts-firacode
 # sudo apt-get install -y fonts-lato
