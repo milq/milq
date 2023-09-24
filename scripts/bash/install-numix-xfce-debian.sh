@@ -92,7 +92,7 @@ xfconf-query -c xfwm4 -p /general/button_layout -s 'O|HMC'
 xfconf-query -c xfwm4 -p /general/title_font -s 'Open Sans Semi-Bold 12'
 xfconf-query -c xfwm4 -p /general/workspace_count -s 1
 
-xfconf-query -c xsettings -p /Gtk/FontName -s 'Open Sans 12'
+xfconf-query -c xsettings -p /Gtk/FontName -s 'Open Sans Regular 12'
 
 xfconf-query -n -c xsettings -p /Gtk/ColorScheme -t string -s 'selected_bg_color:#204a87;selected_fg_color:#eeeeee;'
 
