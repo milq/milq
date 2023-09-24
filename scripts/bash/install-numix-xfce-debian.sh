@@ -63,6 +63,8 @@ sudo apt-get install -y numix-icon-theme-circle
 
 sudo mkdir -p /usr/local/share/images
 cd /usr/local/share/images
+
+sudo apt-get install -y wget
 sudo wget http://wallpapercave.com/wp/uB1CL6W.png -O debian_bg.png
 
 
