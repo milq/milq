@@ -2,13 +2,12 @@
 # INSTALL ADDITIONAL CLI AND GUI SOFTWARE ON UBUNTU OR DEBIAN #
 ###############################################################
 
-# | THIS SCRIPT IS TESTED CORRECTLY ON |
-# |------------------------------------|
-# | OS             | Test | Last test  |
-# |----------------|------|------------|
-# | Debian 11.3    | OK   | 9 Jul 2022 |
-# | Debian 11.0    | OK   | 8 Oct 2021 |
-# | Debian 10.1    | OK   | 7 Oct 2019 |
+# | THIS SCRIPT IS TESTED CORRECTLY ON  |
+# |-------------------------------------|
+# | OS             | Test | Last test   |
+# |----------------|------|-------------|
+# | Debian 12.1    | OK   | 24 Sep 2023 |
+# | Debian 11.3    | OK   | 9 Jul 2022  |
 
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
