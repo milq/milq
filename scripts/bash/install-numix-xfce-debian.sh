@@ -18,39 +18,39 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 
 
+# 2. INSTALL FONTS
+
+sudo apt-get -y fonts-open-sans
+sudo apt-get -y fonts-lato
+sudo apt-get -y fonts-firacode
+sudo apt-get -y fonts-liberation
+
 # 2. DOWNLOAD FONTS
 
-cd /usr/local/share/fonts
-sudo apt-get install -y wget subversion
+# cd /usr/local/share/fonts
+# sudo apt-get install -y wget subversion
 
-# 2.1. Open Sans
-sudo rm -rf OpenSans
-sudo mkdir OpenSans
-cd OpenSans
-sudo svn export https://github.com/googlefonts/opensans.git/trunk/fonts/ttf/
-cd ..
-
-# 2.2. Arimo
-sudo rm -rf Arimo
-sudo mkdir Arimo
-cd Arimo
-sudo svn export https://github.com/googlefonts/Arimo.git/trunk/fonts/ttf/
-cd ..
+# 2.1. Arimo
+# sudo rm -rf Arimo
+# sudo mkdir Arimo
+# cd Arimo
+# sudo svn export https://github.com/googlefonts/Arimo.git/trunk/fonts/ttf/
+# cd ..
 
 
-# 2.3. Cousine
-sudo rm -rf Cousine
-sudo mkdir Cousine
-cd Cousine
-sudo svn export https://github.com/googlefonts/cousine.git/trunk/fonts/ttf/
-cd ..
+# 2.2. Cousine
+# sudo rm -rf Cousine
+# sudo mkdir Cousine
+# cd Cousine
+# sudo svn export https://github.com/googlefonts/cousine.git/trunk/fonts/ttf/
+# cd ..
 
-# 2.4. Fira
-sudo rm -rf Fira
-sudo mkdir Fira
-cd Fira
-sudo svn export https://github.com/mozilla/Fira.git/trunk/ttf/
-cd ..
+# 2.3. Fira
+# sudo rm -rf Fira
+# sudo mkdir Fira
+# cd Fira
+# sudo svn export https://github.com/mozilla/Fira.git/trunk/ttf/
+# cd ..
 
 # 3. INSTALL NUMIX THEME AND NUMIX ICONS
 
