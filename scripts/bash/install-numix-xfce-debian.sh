@@ -105,12 +105,12 @@ xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitoreDP-1/workspace0/image-style -s 5
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitoreDP-1/workspace0/last-image -s '/usr/local/share/images/debian_bg.png'
 
-xfconf-query -c thunar -p /misc-exec-shell-scripts-by-default --create --type bool --set true
+xfconf-query -c thunar -p /misc-exec-shell-scripts-by-default -n -t bool -s true
 
-xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-filesystem -s false
-xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-home -s false
-xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-removable -s false
-xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-trash -s false
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-filesystem -n -t bool -s false
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-home -n -t bool -s false
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-removable -n -t bool -s false
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-trash -n -t bool -s false
 
 # 6. CONFIG TERMINAL APPEARANCE
 
