@@ -124,7 +124,13 @@ sudo apt-get -y install psmisc
 rm -rf ~/.config/xfce4/panel
 mkdir ~/.config/xfce4/panel
 
-wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/panel/datetime-10.rc -P ~/.config/xfce4/panel
+cat > ~/.config/xfce4/panel/datetime-10.rc <<EOL
+layout=3
+date_font=Open Sans 12
+time_font=Open Sans 12
+date_format=%Y-%m-%d
+time_format=%H:%M
+EOL
 
 rm -f ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 wget https://raw.githubusercontent.com/milq/milq/master/scripts/bash/config/xfce4-panel.xml -P ~/.config/xfce4/xfconf/xfce-perchannel-xml
