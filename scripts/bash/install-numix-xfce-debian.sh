@@ -18,14 +18,17 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 
 
-# 2. INSTALL FONTS
+# 2. INSTALL FONTS (version A)
 
-sudo apt-get -y fonts-open-sans
-sudo apt-get -y fonts-lato
 sudo apt-get -y fonts-firacode
+sudo apt-get -y fonts-lato
 sudo apt-get -y fonts-liberation
+sudo apt-get -y fonts-open-sans
 
-# 2. DOWNLOAD FONTS
+# 2. INSTALL FONTS (version B)
+
+# Uncomment below section to download additional fonts directly from repositories.
+# The rm command ensures that old versions of the directories are removed before downloading new ones.
 
 # cd /usr/local/share/fonts
 # sudo apt-get install -y wget subversion
