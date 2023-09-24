@@ -58,7 +58,6 @@ sudo apt-get install -y fonts-open-sans
 # 3. INSTALL NUMIX THEME AND NUMIX ICONS
 
 sudo apt-get install -y numix-gtk-theme
-sudo apt-get install -y numix-icon-theme
 sudo apt-get install -y numix-icon-theme-circle
 
 
@@ -99,14 +98,18 @@ xfconf-query --channel thunar --property /misc-exec-shell-scripts-by-default --c
 
 # 6. CONFIG TERMINAL APPEARANCE
 
-echo '[Configuration]' > ~/.config/xfce4/terminal/terminalrc
-echo 'FontName=Fira Mono Regular 12' >> ~/.config/xfce4/terminal/terminalrc
-echo 'ColorBackground=#002b36' >> ~/.config/xfce4/terminal/terminalrc
-echo 'ColorForeground=#d4e1e2' >> ~/.config/xfce4/terminal/terminalrc
-echo 'ColorCursor=#93a1a1' >> ~/.config/xfce4/terminal/terminalrc
-echo 'TabActivityColor=#dc322f' >> ~/.config/xfce4/terminal/terminalrc
-echo 'ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8d5;#002b36;#cb4b16;#586e75;#657b83;#5e858b;#6c71c4;#93a1a1;#fdf6e3' >> ~/.config/xfce4/terminal/terminalrc
+rm -rf ~/.config/xfce4/terminal
+mkdir ~/.config/xfce4/terminal
 
+cat > ~/.config/xfce4/terminal/terminalrc <<EOF
+[Configuration]
+FontName=Fira Code Regular 12
+ColorBackground=#002b36
+ColorForeground=#d4e1e2
+ColorCursor=#93a1a1
+TabActivityColor=#dc322f
+ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8d5;#002b36;#cb4b16;#586e75;#657b83;#5e858b;#6c71c4;#93a1a1;#fdf6e3
+EOF
 
 # 7. INSTALL ADDITIONAL SOFTWARE
 
@@ -135,10 +138,7 @@ date_format=%Y-%m-%d
 time_format=%H:%M
 EOL
 
-rm -f ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
-
-# Write the content to the file
-cat > "${HOME}/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml" <<EOL
+cat > ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml <<EOL
 <?xml version='1.0' encoding='UTF-8'?>
 <channel name='xfce4-panel' version='1.0'>
   <property name='configver' type='int' value='2'/>
