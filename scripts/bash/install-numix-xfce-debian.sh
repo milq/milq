@@ -20,10 +20,10 @@ sudo apt-get -y autoremove
 
 # 2. INSTALL FONTS (version A)
 
-sudo apt-get -y fonts-firacode
-sudo apt-get -y fonts-lato
-sudo apt-get -y fonts-liberation
-sudo apt-get -y fonts-open-sans
+sudo apt-get install -y fonts-firacode
+sudo apt-get install -y fonts-lato
+sudo apt-get install -y fonts-liberation
+sudo apt-get install -y fonts-open-sans
 
 # 2. INSTALL FONTS (version B)
 
