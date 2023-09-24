@@ -94,7 +94,12 @@ xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/image-style -s 5
 xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s '/usr/local/share/images/debian_bg.png'
 
-xfconf-query --channel thunar --property /misc-exec-shell-scripts-by-default --create --type bool --set true
+xfconf-query -c thunar -p /misc-exec-shell-scripts-by-default --create --type bool --set true
+
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-filesystem -s false
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-home -s false
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-removable -s false
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-trash -s false
 
 # 6. CONFIG TERMINAL APPEARANCE
 
