@@ -19,40 +19,46 @@ sudo apt-get -y autoremove
 
 # 2. INSTALL FONTS (version A)
 
-sudo apt-get install -y fonts-firacode
-sudo apt-get install -y fonts-lato
-sudo apt-get install -y fonts-liberation
-sudo apt-get install -y fonts-open-sans
+cd /usr/local/share/fonts
+sudo apt-get install -y wget subversion
+
+# 2.1. Arimo
+sudo rm -rf Arimo
+sudo mkdir Arimo
+cd Arimo
+sudo svn export https://github.com/googlefonts/Arimo.git/trunk/fonts/ttf/
+cd ..
+
+# 2.2. Cousine
+sudo rm -rf Cousine
+sudo mkdir Cousine
+cd Cousine
+sudo svn export https://github.com/googlefonts/cousine.git/trunk/fonts/ttf/
+cd ..
+
+# 2.3. Fira
+sudo rm -rf Fira
+sudo mkdir Fira
+cd Fira
+sudo svn export https://github.com/mozilla/Fira.git/trunk/ttf/
+cd ..
+
+# 2.4. Open Sans
+sudo rm -rf Fira
+sudo mkdir Fira
+cd Fira
+sudo svn export https://github.com/mozilla/Fira.git/trunk/ttf/
+cd ..
 
 # 2. INSTALL FONTS (version B)
 
-# Uncomment below section to download additional fonts directly from repositories.
-# The rm command ensures that old versions of the directories are removed before downloading new ones.
+# Uncomment below section to download additional fonts directly from Debian repositories.
 
-# cd /usr/local/share/fonts
-# sudo apt-get install -y wget subversion
+# sudo apt-get install -y fonts-firacode
+# sudo apt-get install -y fonts-lato
+# sudo apt-get install -y fonts-liberation
+# sudo apt-get install -y fonts-open-sans
 
-# 2.1. Arimo
-# sudo rm -rf Arimo
-# sudo mkdir Arimo
-# cd Arimo
-# sudo svn export https://github.com/googlefonts/Arimo.git/trunk/fonts/ttf/
-# cd ..
-
-
-# 2.2. Cousine
-# sudo rm -rf Cousine
-# sudo mkdir Cousine
-# cd Cousine
-# sudo svn export https://github.com/googlefonts/cousine.git/trunk/fonts/ttf/
-# cd ..
-
-# 2.3. Fira
-# sudo rm -rf Fira
-# sudo mkdir Fira
-# cd Fira
-# sudo svn export https://github.com/mozilla/Fira.git/trunk/ttf/
-# cd ..
 
 # 3. INSTALL NUMIX THEME AND NUMIX ICONS
 
@@ -90,8 +96,8 @@ xfconf-query -c xsettings -p /Xft/RGBA -s 'rgb'
 
 xfconf-query -n -c xsettings -p /Xft/DPI -t int -s -1
 
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/image-style -s 5
-xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s '/usr/local/share/images/debian_bg.png'
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitoreDP-1/workspace0/image-style -s 5
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitoreDP-1/workspace0/last-image -s '/usr/local/share/images/debian_bg.png'
 
 xfconf-query -c thunar -p /misc-exec-shell-scripts-by-default --create --type bool --set true
 
