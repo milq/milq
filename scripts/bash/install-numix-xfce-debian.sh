@@ -43,11 +43,18 @@ cd Fira
 sudo svn export https://github.com/mozilla/Fira.git/trunk/ttf/
 cd ..
 
-# 2.4. Open Sans
-sudo rm -rf Fira
-sudo mkdir Fira
-cd Fira
-sudo svn export https://github.com/mozilla/Fira.git/trunk/ttf/
+# 2.4. Lato
+sudo rm -rf Lato
+sudo mkdir Lato
+cd Lato
+sudo svn export https://github.com/googlefonts/lato.git/trunk/fonts/ttf/
+cd ..
+
+# 2.5. Open Sans
+sudo rm -rf OpenSans
+sudo mkdir OpenSans
+cd OpenSans
+sudo svn export https://github.com/googlefonts/opensans.git/trunk/fonts/ttf/
 cd ..
 
 # 2. INSTALL FONTS (version B)
@@ -56,7 +63,6 @@ cd ..
 
 # sudo apt-get install -y fonts-firacode
 # sudo apt-get install -y fonts-lato
-# sudo apt-get install -y fonts-liberation
 # sudo apt-get install -y fonts-open-sans
 
 
@@ -113,7 +119,7 @@ mkdir ~/.config/xfce4/terminal
 
 cat > ~/.config/xfce4/terminal/terminalrc <<EOF
 [Configuration]
-FontName=Fira Code Regular 12
+FontName=Fira Mono Regular 12
 ColorBackground=#002b36
 ColorForeground=#d4e1e2
 ColorCursor=#93a1a1
