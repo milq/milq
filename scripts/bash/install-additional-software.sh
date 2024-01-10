@@ -6,8 +6,8 @@
 # |-------------------------------------|
 # | OS             | Test | Last test   |
 # |----------------|------|-------------|
-# | Debian 12.1    | OK   | 24 Sep 2023 |
-# | Debian 11.3    | OK   | 9 Jul 2022  |
+# | Debian 12.4    | OK   | 10 Jan 2024 |
+# | Debian 12.1    | OK   | 24 Sep 2023  |
 
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
@@ -23,21 +23,21 @@ sudo apt-get -y autoremove
 sudo apt-get install -y build-essential cmake               # DEVELOPMENT TOOLS
 sudo apt-get install -y p7zip p7zip-full unrar-free unzip   # FILE ARCHIVERS
 sudo apt-get install -y htop lshw wget locate               # UTILITIES
-sudo apt-get install -y screen                              # TERMINAL MULTIPLEXER
 sudo apt-get install -y nano vim                            # TEXT EDITORS
 sudo apt-get install -y git                                 # VCS
 sudo apt-get install -y gdisk                               # PARTITION TOOL
 sudo apt-get install -y pdftk                               # PDF MANIPULATION
-sudo apt-get install -y ffmpeg                              # VIDEO MANIPULATION
-sudo apt-get install -y wavemon                             # WIRELESS DEVICE MONITORING
 
 # sudo apt-get install -y default-jre                       # JAVA RUNTIME ENVIRONMENT
 # sudo apt-get install -y default-jdk                       # JAVA DEVELOPMENT KIT (optional)
 # sudo apt-get install -y tesseract-ocr tesseract-ocr-eng   # OCR (optional)
-
+# sudo apt-get install -y screen                            # TERMINAL MULTIPLEXER
+# sudo apt-get install -y ffmpeg                            # VIDEO MANIPULATION
+# sudo apt-get install -y wavemon                           # WIRELESS DEVICE MONITORING
 
 # 3. GUI SOFTWARE
 
+sudo apt-get install -y chromium                            # BROWSER
 sudo apt-get install -y gparted                             # PARTITION TOOL
 sudo apt-get install -y gvfs-backends                       # USERSPACE VIRTUAL FILESYSTEM
 sudo apt-get install -y xarchiver                           # FILE ARCHIVER FRONTEND
