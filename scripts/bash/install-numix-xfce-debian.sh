@@ -20,52 +20,50 @@ sudo apt-get -y autoremove
 
 # 2. INSTALL FONTS (version A)
 
-cd /usr/local/share/fonts
 sudo apt-get install -y wget
 
-# 2.1. Arimo
-sudo rm -rf Arimo
-sudo mkdir Arimo
-cd Arimo
+# Create temporary directory to download fonts
+cd ~
+rm -rf tmp_fonts
+mkdir tmp_fonts
+cd tmp_fonts
+
+# Download Arimo fonts
 wget https://github.com/google/fonts/raw/main/apache/arimo/Arimo%5Bwght%5D.ttf
 wget https://github.com/google/fonts/raw/main/apache/arimo/Arimo-Italic%5Bwght%5D.ttf
-cd ..
 
-# 2.2. Cousine
-sudo rm -rf Cousine
-sudo mkdir Cousine
-cd Cousine
+# Download Open Sans fonts
+wget https://github.com/google/fonts/raw/main/ofl/opensans/OpenSans%5Bwdth,wght%5D.ttf
+wget https://github.com/google/fonts/raw/main/ofl/opensans/OpenSans-Italic%5Bwdth,wght%5D.ttf
+
+# Download Lato fonts
+wget https://github.com/google/fonts/raw/main/ofl/lato/Lato-Regular.ttf
+wget https://github.com/google/fonts/raw/main/ofl/lato/Lato-Bold.ttf
+wget https://github.com/google/fonts/raw/main/ofl/lato/Lato-Italic.ttf
+
+# Download Cousine fonts
 wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-Regular.ttf
 wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-Italic.ttf
 wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-Bold.ttf
 wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-BoldItalic.ttf
-cd ..
 
-# 2.3. Fira
-sudo rm -rf Fira
-sudo mkdir Fira
-cd Fira
+# Download Fira fonts
 wget https://github.com/mozilla/Fira/raw/master/ttf/FiraMono-Regular.ttf
 wget https://github.com/mozilla/Fira/raw/master/ttf/FiraMono-Medium.ttf
 wget https://github.com/mozilla/Fira/raw/master/ttf/FiraMono-Bold.ttf
-cd ..
 
-# 2.4. Lato
-sudo rm -rf Lato
-sudo mkdir Lato
-cd Lato
-wget https://github.com/google/fonts/raw/main/ofl/lato/Lato-Regular.ttf
-wget https://github.com/google/fonts/raw/main/ofl/lato/Lato-Bold.ttf
-wget https://github.com/google/fonts/raw/main/ofl/lato/Lato-Italic.ttf
-cd ..
+# Move to fonts directory and organize fonts into subdirectories
+cd /usr/local/share/fonts
+sudo mkdir -p Arimo Cousine Fira Lato OpenSans
 
-# 2.5. Open Sans
-sudo rm -rf OpenSans
-sudo mkdir OpenSans
-cd OpenSans
-wget https://github.com/google/fonts/raw/main/ofl/opensans/OpenSans%5Bwdth,wght%5D.ttf
-wget https://github.com/google/fonts/raw/main/ofl/opensans/OpenSans-Italic%5Bwdth,wght%5D.ttf
-cd ..
+# Move fonts to their respective directories
+sudo mv ~/tmp_fonts/Arimo*.ttf Arimo/
+sudo mv ~/tmp_fonts/Cousine*.ttf Cousine/
+sudo mv ~/tmp_fonts/FiraMono*.ttf Fira/
+sudo mv ~/tmp_fonts/Lato*.ttf Lato/
+sudo mv ~/tmp_fonts/OpenSans*.ttf OpenSans/
+
+rm -rf ~/tmp_fonts
 
 # 2. INSTALL FONTS (version B)
 
