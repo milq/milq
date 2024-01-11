@@ -6,6 +6,7 @@
 # |----------------------------------------------|
 # | OS & Desktop Environment | Test | Last test   |
 # |--------------------------|------|-------------|
+# | Debian 12.4 & Xfce 4.18  | OK   | 11 Jan 2024 |
 # | Debian 12.1 & Xfce 4.18  | OK   | 24 Sep 2023 |
 
 
@@ -20,41 +21,50 @@ sudo apt-get -y autoremove
 # 2. INSTALL FONTS (version A)
 
 cd /usr/local/share/fonts
-sudo apt-get install -y wget subversion
+sudo apt-get install -y wget
 
 # 2.1. Arimo
 sudo rm -rf Arimo
 sudo mkdir Arimo
 cd Arimo
-sudo svn export https://github.com/googlefonts/Arimo.git/trunk/fonts/ttf/
+wget https://github.com/google/fonts/raw/main/apache/arimo/Arimo%5Bwght%5D.ttf
+wget https://github.com/google/fonts/raw/main/apache/arimo/Arimo-Italic%5Bwght%5D.ttf
 cd ..
 
 # 2.2. Cousine
 sudo rm -rf Cousine
 sudo mkdir Cousine
 cd Cousine
-sudo svn export https://github.com/googlefonts/cousine.git/trunk/fonts/ttf/
+wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-Regular.ttf
+wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-Italic.ttf
+wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-Bold.ttf
+wget https://github.com/google/fonts/raw/main/apache/cousine/Cousine-BoldItalic.ttf
 cd ..
 
 # 2.3. Fira
 sudo rm -rf Fira
 sudo mkdir Fira
 cd Fira
-sudo svn export https://github.com/mozilla/Fira.git/trunk/ttf/
+wget https://github.com/mozilla/Fira/raw/master/ttf/FiraMono-Regular.ttf
+wget https://github.com/mozilla/Fira/raw/master/ttf/FiraMono-Medium.ttf
+wget https://github.com/mozilla/Fira/raw/master/ttf/FiraMono-Bold.ttf
 cd ..
 
 # 2.4. Lato
 sudo rm -rf Lato
 sudo mkdir Lato
 cd Lato
-sudo svn export https://github.com/googlefonts/LatoGFVersion.git/trunk/fonts/
+wget https://github.com/google/fonts/raw/main/ofl/lato/Lato-Regular.ttf
+wget https://github.com/google/fonts/raw/main/ofl/lato/Lato-Bold.ttf
+wget https://github.com/google/fonts/raw/main/ofl/lato/Lato-Italic.ttf
 cd ..
 
 # 2.5. Open Sans
 sudo rm -rf OpenSans
 sudo mkdir OpenSans
 cd OpenSans
-sudo svn export https://github.com/googlefonts/opensans.git/trunk/fonts/ttf/
+wget https://github.com/google/fonts/raw/main/ofl/opensans/OpenSans%5Bwdth,wght%5D.ttf
+wget https://github.com/google/fonts/raw/main/ofl/opensans/OpenSans-Italic%5Bwdth,wght%5D.ttf
 cd ..
 
 # 2. INSTALL FONTS (version B)
