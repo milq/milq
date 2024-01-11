@@ -54,7 +54,9 @@ wget https://github.com/mozilla/Fira/raw/master/ttf/FiraMono-Bold.ttf
 
 # Move to fonts directory and organize fonts into subdirectories
 cd /usr/local/share/fonts
-sudo mkdir -p Arimo Cousine Fira Lato OpenSans
+
+sudo rm -rf Arimo Cousine Fira Lato OpenSans
+sudo mkdir Arimo Cousine Fira Lato OpenSans
 
 # Move fonts to their respective directories
 sudo mv ~/tmp_fonts/Arimo*.ttf Arimo/
