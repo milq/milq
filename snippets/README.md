@@ -81,3 +81,18 @@ int main()
 ```
 
 Created by [Lars Schillingmann](https://stackoverflow.com/questions/22041699/rotate-an-image-without-cropping-in-opencv-in-c).
+
+## Python
+
+### Create a virtual environment ([↑](#my-snippets))
+
+```sh
+#!/bin/bash
+
+sudo apt update
+sudo apt install python3 python3-venv
+
+python3 -m venv myenv
+
+source myenv/bin/activate
+```
