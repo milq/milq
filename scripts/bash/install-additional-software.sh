@@ -57,4 +57,4 @@ sudo apt-get install -y kazam                               # SCREENCAST
 # sudo apt-get install -y libreoffice                       # OFFICE (optional, not last version)
 # sudo apt-get install -y texlive-full texmaker             # LATEX (optional, heavy package)
 # sudo apt-get install -y imagemagick                       # IMAGE MANIPULATION PROGRAM (optional)
-# sudo apt-get install -y gdisk                             # PARTITION TOOL
+# sudo apt-get install -y gdisk                             # GPT PARTITION TOOL
