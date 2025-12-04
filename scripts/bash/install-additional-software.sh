@@ -6,6 +6,7 @@
 # |-------------------------------------|
 # | OS             | Test | Last test   |
 # |----------------|------|-------------|
+# | Debian 13.2    | OK   |  4 Dec 2025 |
 # | Debian 12.4    | OK   | 10 Jan 2024 |
 # | Debian 12.1    | OK   | 24 Sep 2023  |
 
@@ -22,10 +23,9 @@ sudo apt-get -y autoremove
 
 sudo apt-get install -y build-essential cmake               # DEVELOPMENT TOOLS
 sudo apt-get install -y p7zip p7zip-full unrar-free unzip   # FILE ARCHIVERS
-sudo apt-get install -y htop lshw wget locate               # UTILITIES
+sudo apt-get install -y curl htop locate lshw wget          # UTILITIES
 sudo apt-get install -y nano vim                            # TEXT EDITORS
 sudo apt-get install -y git                                 # VCS
-sudo apt-get install -y gdisk                               # PARTITION TOOL
 sudo apt-get install -y pdftk                               # PDF MANIPULATION
 
 # sudo apt-get install -y default-jre                       # JAVA RUNTIME ENVIRONMENT
@@ -57,3 +57,4 @@ sudo apt-get install -y kazam                               # SCREENCAST
 # sudo apt-get install -y libreoffice                       # OFFICE (optional, not last version)
 # sudo apt-get install -y texlive-full texmaker             # LATEX (optional, heavy package)
 # sudo apt-get install -y imagemagick                       # IMAGE MANIPULATION PROGRAM (optional)
+# sudo apt-get install -y gdisk                             # PARTITION TOOL
