@@ -6,6 +6,7 @@
 # |----------------------------------------------|
 # | OS & Desktop Environment | Test | Last test   |
 # |--------------------------|------|-------------|
+# | Debian 13.2 & Xfce 4.20  | OK   |  4 Dec 2025 |
 # | Debian 12.4 & Xfce 4.18  | OK   | 11 Jan 2024 |
 # | Debian 12.1 & Xfce 4.18  | OK   | 24 Sep 2023 |
 
