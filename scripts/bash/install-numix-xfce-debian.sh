@@ -89,7 +89,7 @@ sudo mkdir -p /usr/local/share/images
 cd /usr/local/share/images
 
 sudo apt-get install -y wget
-sudo wget http://wallpapercave.com/wp/uB1CL6W.png -O debian_bg.png
+sudo wget https://wallpapercave.com/wp/uB1CL6W.png -O debian_bg.png
 
 
 # 5. CONFIG NUMIX'S THEME, WM, AND ICONS IN XFCE
