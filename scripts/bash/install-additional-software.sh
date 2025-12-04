@@ -53,6 +53,8 @@ sudo apt-get install -y audacity                            # AUDIO EDITOR
 sudo apt-get install -y filezilla                           # FTP/FTPS/SFTP CLIENT
 sudo apt-get install -y kazam                               # SCREENCAST
 
+# 4. TOOLS I PREFER TO INSTALL MANUALLY OR FROM THE WEBSITE
+
 # sudo apt-get install -y blender                           # 3D COMPUTER GRAPHICS SOFTWARE
 # sudo apt-get install -y libreoffice                       # OFFICE (optional, not last version)
 # sudo apt-get install -y texlive-full texmaker             # LATEX (optional, heavy package)
