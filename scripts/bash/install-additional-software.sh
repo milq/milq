@@ -48,7 +48,7 @@ sudo apt-get install -y galculator                          # SCIENTIFIC CALCULA
 sudo apt-get install -y vlc                                 # VIDEO AND AUDIO PLAYER
 sudo apt-get install -y pavucontrol                         # VOLUME CONTROL
 sudo apt-get install -y geany                               # TEXT EDITOR
-sudo apt-get install -y gimp inkscape                       # GRAPHICS EDITORS
+sudo apt-get install -y inkscape                            # VECTOR GRAPHIC EDITOR
 sudo apt-get install -y audacity                            # AUDIO EDITOR
 sudo apt-get install -y filezilla                           # FTP/FTPS/SFTP CLIENT
 sudo apt-get install -y kazam                               # SCREENCAST
@@ -56,7 +56,8 @@ sudo apt-get install -y kazam                               # SCREENCAST
 # 4. TOOLS I PREFER TO INSTALL MANUALLY OR FROM THE WEBSITE
 
 # sudo apt-get install -y blender                           # 3D COMPUTER GRAPHICS SOFTWARE
+# sudo apt-get install -y gdisk                             # GPT PARTITION TOOL
+# sudo apt-get install -y gimp                              # RASTER GRAPHIC EDITOR
 # sudo apt-get install -y libreoffice                       # OFFICE (optional, not last version)
 # sudo apt-get install -y texlive-full texmaker             # LATEX (optional, heavy package)
 # sudo apt-get install -y imagemagick                       # IMAGE MANIPULATION PROGRAM (optional)
-# sudo apt-get install -y gdisk                             # GPT PARTITION TOOL
