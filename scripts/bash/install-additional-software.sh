@@ -22,7 +22,7 @@ sudo apt-get -y autoremove
 # 2. CLI SOFTWARE
 
 sudo apt-get install -y build-essential cmake               # DEVELOPMENT TOOLS
-sudo apt-get install -y p7zip p7zip-full unrar-free unzip   # FILE ARCHIVERS
+sudo apt-get install -y p7zip p7zip-full unzip zip          # FILE ARCHIVERS
 sudo apt-get install -y curl htop locate lshw wget          # UTILITIES
 sudo apt-get install -y nano vim                            # TEXT EDITORS
 sudo apt-get install -y git                                 # VCS
