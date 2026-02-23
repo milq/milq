@@ -24,12 +24,12 @@ sudo apt-get -y autoremove
 sudo apt-get install -y build-essential cmake               # DEVELOPMENT TOOLS
 sudo apt-get install -y p7zip p7zip-full unzip zip          # FILE ARCHIVERS
 sudo apt-get install -y curl htop locate lshw wget          # UTILITIES
+sudo apt-get install -y tmux                                # TERMINAL MULTIPLEXER
 sudo apt-get install -y nano vim                            # TEXT EDITORS
 sudo apt-get install -y git                                 # VCS
 sudo apt-get install -y pdftk                               # PDF MANIPULATION
 sudo apt-get install -y imagemagick                         # IMAGE MANIPULATION PROGRAM
 sudo apt-get install -y ffmpeg                              # VIDEO MANIPULATION
-# sudo apt-get install -y tmux                              # TERMINAL MULTIPLEXER
 
 # sudo apt-get install -y default-jre                       # JAVA RUNTIME ENVIRONMENT
 # sudo apt-get install -y default-jdk                       # JAVA DEVELOPMENT KIT (optional)
