@@ -29,11 +29,11 @@ sudo apt-get install -y git                                 # VCS
 sudo apt-get install -y pdftk                               # PDF MANIPULATION
 sudo apt-get install -y imagemagick                         # IMAGE MANIPULATION PROGRAM
 sudo apt-get install -y ffmpeg                              # VIDEO MANIPULATION
+# sudo apt-get install -y tmux                              # TERMINAL MULTIPLEXER
 
 # sudo apt-get install -y default-jre                       # JAVA RUNTIME ENVIRONMENT
 # sudo apt-get install -y default-jdk                       # JAVA DEVELOPMENT KIT (optional)
 # sudo apt-get install -y tesseract-ocr tesseract-ocr-eng   # OCR (optional)
-# sudo apt-get install -y screen                            # TERMINAL MULTIPLEXER
 # sudo apt-get install -y wavemon                           # WIRELESS DEVICE MONITORING
 
 # 3. GUI SOFTWARE
